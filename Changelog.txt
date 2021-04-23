@@ -1,0 +1,61 @@
+Changelog for PUIR DoD v1
+
+All Pop needs have been replaced with PUIR pop needs, Serfs got some changes to try to match up with PUIR Ratios.
+
+Serf Needs Changes (to roughly match PUIR's ratios, I am working with the assumption that Serf needs are a hybrid between farmer and labourer needs (as they resemble it)): 
+-25% Life Need for Cattle (1 to 0.75/day)
+-30% Everyday Need for Fertilizer (0.5 to 0.35)
++40% Everyday Need for Explosive (0.25 to 0.35)
++50% Luxury Need for Regular Clothes (2 to 3)
+Removed Luxury Need for Wine (1 to 0)
+-85% Luxury Need for Coffee (3 to 0.45)
+-69% Luxury Need for Tobacco (3 to 0.95)
+Added Luxury Need for Explosives (0.35)
+Added Luxury Need for Fertilizer (0.35)
+
+Combined DoD's Colonial National Focuses with PUIR's changes to the regular National Focuses and it's Assimilation NF.
+
+All the below nations have been given scripted goldmines if they are players:
+-Muscovy
+-DualMonarchy
+-Spain
+-Burgundy
+-Bohemia
+-Austria
+-Bavaria
+-Savoy
+-Venice
+-Etruria
+-Hungary
+-Polish-Lithuanian Commonwealth
+-Ottoman Empire
+-Muscovy
+-Egypt
+-Ethiopia
+-Leeuwin
+-Iraq
+-Teheran
+-Qing Empire
+-Plantagenia
+-Belgian Confederacy
+-Vinland
+-Tawantinsuyu
+-Amazonie
+-Lotharingia
+
+(More will be added later, but seeing as this is V1 and I'm not even sure if this is worth the hassle, this is what you'll get)
+
+
+Added an event which automaticly gives the inherent immigration bonus from PUIR to newly civilized nations in the Americas, or Australia/New Zealand (Hello Zhourao, the Maori nation, and the Incas, this might not necessarily grant immigration to these countries due to continental settings)
+
+Removed the Chinese Gold Province Protection Event as it was causing issues with the change of all Precious Goods to Precious Metals (Macao and the other consessions in the future, might try to put back if it's necessary)
+
+Made it so the random province chosen by the RGO Change (mine) decision cannot be Precious Metals (to protect the aforementioned precious metals province)
+
+For modders: Automated the addition of the "new_world_nation" country flag for every country in North America, South America and Australia-NewZealand which is civilized at the start of the game via an event (in-case something is forgotten), additionally, this event also gives recently-civilized countries in those areas the same flag, allowing them to gain the immigration bonus given by it.
+
+Anything else that was changed, economy-wise, assume to be the same as Igor PUIR's.
+
+IF YOU FIND ANY BUGS, ISSUES AND OR CRASHES, REPORT THEM TO MULTIDAVID
+
+------------------------------------------------------------------------------------------------------------------------------------------------
