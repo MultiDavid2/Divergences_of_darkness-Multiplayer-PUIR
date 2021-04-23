@@ -1520,7 +1520,7 @@ pandemic_influenza = {
 	icon = 18
 }
 
-pandemic_influenza_immunity = {
+immunity_from_influenza = {
 	icon = 17
 }
 
