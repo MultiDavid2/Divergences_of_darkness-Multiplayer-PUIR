@@ -58,4 +58,6 @@ Anything else that was changed, economy-wise, assume to be the same as Igor PUIR
 
 IF YOU FIND ANY BUGS, ISSUES AND OR CRASHES, REPORT THEM TO MULTIDAVID
 
+Checksum RQIE
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
