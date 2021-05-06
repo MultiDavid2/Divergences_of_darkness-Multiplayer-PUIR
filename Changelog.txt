@@ -1,0 +1,63 @@
+Changelog for PUIR DoD v1
+
+All Pop needs have been replaced with PUIR pop needs, Serfs got some changes to try to match up with PUIR Ratios.
+
+Serf Needs Changes (to roughly match PUIR's ratios, I am working with the assumption that Serf needs are a hybrid between farmer and labourer needs (as they resemble it)): 
+-25% Life Need for Cattle (1 to 0.75/day)
+-30% Everyday Need for Fertilizer (0.5 to 0.35)
++40% Everyday Need for Explosive (0.25 to 0.35)
++50% Luxury Need for Regular Clothes (2 to 3)
+Removed Luxury Need for Wine (1 to 0)
+-85% Luxury Need for Coffee (3 to 0.45)
+-69% Luxury Need for Tobacco (3 to 0.95)
+Added Luxury Need for Explosives (0.35)
+Added Luxury Need for Fertilizer (0.35)
+
+Ditched DoD's National Foci for PUIR's
+
+Removed all the Healthcare reform bonuses (at max level, healthcare only grants you 0.02% pop growth, this is WIP as I will be copying the way Victoria Universalis handles Healthcare in a later update)
+
+All the below nations have been given scripted goldmines if they are players:
+-Muscovy
+-DualMonarchy
+-Spain
+-Burgundy
+-Bohemia
+-Austria
+-Bavaria
+-Savoy
+-Venice
+-Etruria
+-Hungary
+-Polish-Lithuanian Commonwealth
+-Ottoman Empire
+-Muscovy
+-Egypt
+-Ethiopia
+-Leeuwin
+-Iraq
+-Teheran
+-Qing Empire
+-Plantagenia
+-Belgian Confederacy
+-Vinland
+-Tawantinsuyu
+-Amazonie
+-Lotharingia
+
+(More will be added later, but seeing as this is V1 and I'm not even sure if this is worth the hassle, this is what you'll get)
+
+Added an event which automaticly gives the inherent immigration bonus from PUIR/vanilla to newly civilized nations in the Americas, or Australia/New Zealand (the Maori nation, the Incas, and the Rhonst, that nation between Arcadia and QingQiu, this also makes Zhourao a proper immigrant nation, even though the liferatings haven't been changed to support this)
+
+Added an event which automaticly grants Uncivilized Nations techs based on their starting reforms (bugfix from PUIR's unciv reforms)
+
+Anything else that was changed, economy-wise, assume to be the same as Igor PUIR's (Reno).
+
+Bugfixes: 
+
+-Made it so the "RGO Spawn Events" (stuff such as Oil, Precious Metals, Rubber) only apply once. (if you tried to replace an event-gold mine via the RGO Change decision, the province would flip back immediately to gold)
+
+
+IF YOU FIND ANY BUGS, ISSUES AND OR CRASHES, REPORT THEM TO MULTIDAVID
+
+------------------------------------------------------------------------------------------------------------------------------------------------
