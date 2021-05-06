@@ -53,6 +53,10 @@ Added an event which automaticly grants Uncivilized Nations techs based on their
 
 Anything else that was changed, economy-wise, assume to be the same as Igor PUIR's (Reno).
 
+###Geopolitical Changes### (Terrain, Decisions, everything related to the countries which might alter the way players play their country)
+
+-Removed Dual Monarchy's two decisions which, after conquest, grant it cores on two of Burgundy's states (Pas-de-Calais and Bourgogne)
+
 Bugfixes: 
 
 -Made it so the "RGO Spawn Events" (stuff such as Oil, Precious Metals, Rubber) only apply once. (if you tried to replace an event-gold mine via the RGO Change decision, the province would flip back immediately to gold)
