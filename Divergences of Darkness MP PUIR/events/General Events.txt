@@ -5,7 +5,7 @@ country_event = {
 	allow_multiple_instances = yes
 	trigger = {
 		ai = no
-		has_leader = "John Cena"
+		NOT = { has_leader = "John Cena" }
 	}
 	mean_time_to_happen = {
 		days = 1
