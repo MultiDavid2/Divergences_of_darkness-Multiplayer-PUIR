@@ -65,3 +65,23 @@ Bugfixes:
 IF YOU FIND ANY BUGS, ISSUES AND OR CRASHES, REPORT THEM TO MULTIDAVID
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+v1.2
+
+-Fixed the "John Cena" event.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+v2.0 - Liferatings
+
+-Fixed life-rating in Natal (Lusitania, prov 138).
+-Fixed Temuco (Incas, prov 2329) not being colonial.
+
+###Geopolitical Changes###
+
+-Made every province that I could in North, South America AND in Austrialia/New Zealand at least 37 Life-Rating. (the ones that do not have this change, are the crappy canadian provinces at the top of America).
+-Made as many provinces I could find with more than 40 life-rating, go down to 40 life-rating, since there was no difference from 40 or 40+ life-rating, this has no actual effect in-game.
+-Altered every decision, and event (that I could find), which changed Life-Ratings to function with the altered life-ratings from the above changes. (means you won't see 40+ life-rating provinces when this is meaningless, all events and decisions now make the provinces they target, at most, 40 life-rating)
+
+A good bit of DoD's American, be it North or South, provinces were less than 35 life-rating (the default on most provinces), a lot of them even being below 30 life-rating (when you get population to actually grow). I have changed them all to be at least 37 life-rating, you should see a TREMENDOUS boost in natural population growth in the Americas, and a drastic increase in relevance in provinces with great RGOs that had shit life-rating (looking at you Qingqu, Incas).
+Including Austrialia/New Zealand in the life-rating changes is part of my attempt to add Zhourao as an Immigrant nation, a nation you can actually play and might have an impact in the world.
