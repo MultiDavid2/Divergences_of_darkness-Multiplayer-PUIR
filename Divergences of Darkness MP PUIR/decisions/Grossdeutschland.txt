@@ -149,7 +149,6 @@ political_decisions = {
 		capital = 564
 		prestige = 50 
 		564 = {
-				life_rating = 5
 			}
 		}
 	
