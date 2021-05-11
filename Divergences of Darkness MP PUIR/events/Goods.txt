@@ -114,8 +114,8 @@ province_event = {
 		trade_goods = precious_metal
 		set_province_flag = event_good_swap
 		# life_rating = 5
-		owner = { random_owned = { limit = { province_id = 104 NOT = { life_rating = 39 } } life_rating = 10 } }
-		owner = { random_owned = { limit = { province_id = 89 NOT = { life_rating = 39 } } life_rating = 10 } }
+		owner = { random_owned = { limit = { province_id = 104 NOT = { life_rating = 39 } }} }
+		owner = { random_owned = { limit = { province_id = 89 NOT = { life_rating = 39 } } life_rating = 5 } }
 		owner = { random_owned = { limit = { province_id = 84 NOT = { life_rating = 39 } } life_rating = 5 } }
 		owner = { random_owned = { limit = { province_id = 87 NOT = { life_rating = 39 } } life_rating = 5 } }
 		add_province_modifier = { name = gold_rush duration = 730 }
@@ -769,7 +769,7 @@ province_event = {
 		name = "EVTOPTA1109"
 		set_province_flag = event_good_swap
 		trade_goods = oil
-		life_rating = 5
+		life_rating = 3
 	}
 }
 
@@ -942,7 +942,7 @@ province_event = {
 		name = "EVTOPTA1109"
 		set_province_flag = event_good_swap
 		trade_goods = oil
-		life_rating = 5
+		life_rating = 3
 	}
 }
 
