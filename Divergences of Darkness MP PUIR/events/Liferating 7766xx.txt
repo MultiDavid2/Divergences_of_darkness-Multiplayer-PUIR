@@ -1,4 +1,4 @@
-#Americas buff
+#Americas buff   GAN ZHOURAO
 country_event = {
 	id = 776603
 	title = "EVTNAME776603"
@@ -16,98 +16,57 @@ country_event = {
 	option = {
 		name = "EVT776603OPTA" 
 			any_country = {
-				any_owned = {
+				capital_scope = {
 					limit = {
 						OR = {
-						owned_by = MEX
-						owned_by = CLM
-						owned_by = ENG
-						owned_by = ARG
-						owned_by = BRZ
-						owned_by = CHL
-						owned_by = ECU	
-						owned_by = DOM
-						owned_by = UCA
-						owned_by = VNZ
-						owned_by = URU
-						owned_by = PRG
-						owned_by = BOL
-						owned_by = PEU
-						owned_by = RPL
-						owned_by = HAI
-						owned_by = SPA
-						owned_by = BRZ
+							continent = north_america
+							continent = south_america
 						}
-					life_rating = 35
-					NOT = { life_rating = 36 }
-					OR = {
-						continent = north_america
-						continent = south_america
+						life_rating = 35
+						NOT = { life_rating = 36 }
 					}
+					owner = {
+						any_owned = {
+							life_rating = 2
+						}
 					}
-					life_rating = 2				
-					}
+				}			
 			}
 			any_country = {
-				any_owned = {
+				capital_scope = {
 					limit = {
 						OR = {
-						owned_by = MEX
-						owned_by = CLM
-						owned_by = ENG
-						owned_by = ARG
-						owned_by = BRZ
-						owned_by = CHL
-						owned_by = ECU	
-						owned_by = DOM
-						owned_by = UCA
-						owned_by = VNZ
-						owned_by = URU
-						owned_by = PRG
-						owned_by = BOL
-						owned_by = PEU
-						owned_by = RPL
+							continent = north_america
+							continent = south_america
 						}
-					life_rating = 30
-					NOT = { life_rating = 31 }
-					OR = {
-						continent = north_america
-						continent = south_america
+						life_rating = 31
+						NOT = { life_rating = 32 }
 					}
+					owner = {
+						any_owned = {
+							life_rating = 6
+						}
 					}
-					life_rating = 7				
-					}
+				}			
 			}
 			any_country = {
-				any_owned = {
+				capital_scope = {
 					limit = {
 						OR = {
-						owned_by = MEX
-						owned_by = CLM
-						owned_by = ENG
-						owned_by = ARG
-						owned_by = BRZ
-						owned_by = CHL
-						owned_by = ECU	
-						owned_by = DOM
-						owned_by = UCA
-						owned_by = VNZ
-						owned_by = URU
-						owned_by = PRG
-						owned_by = BOL
-						owned_by = PEU
-						owned_by = RPL
+							continent = north_america
+							continent = south_america
 						}
-					life_rating = 25
-					NOT = { life_rating = 26 }
-					OR = {
-						continent = north_america
-						continent = south_america
+						life_rating = 30
+						NOT = { life_rating = 31 }
 					}
+					owner = {
+						any_owned = {
+							life_rating = 7
+						}
 					}
-					life_rating = 12				
-					}
+				}			
 			}
+			
 	}
 }
 
