@@ -95,3 +95,9 @@ A good bit of DoD's American, be it North or South, provinces were less than 35 
 Including Austrialia/New Zealand in the life-rating changes is part of my attempt to add Zhourao as an Immigrant nation, a nation you can actually play and might have an impact in the world.
 
 The German/Burgundian changes are massive, Burgundy inherited a lot of bad life-rating provinces it had no business getting from Vanilla/HFM, and German high-liferating now properly includes the Austrians and the Swiss. I did however, keep this massive buff away from Bohemia, as I had explained before, as I feel their position in the world stage is too strong, and they are either incredibly powerful or immediately partitioned.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+v2.1 
+
+-Fixed the event which grants uncivs their techs at the start of the game.
