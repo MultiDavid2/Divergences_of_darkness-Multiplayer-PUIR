@@ -79,9 +79,18 @@ v2.0 - Liferatings
 
 ###Geopolitical Changes###
 
+#North America, South America, Australia:
 -Made every province that I could in North, South America AND in Austrialia/New Zealand at least 37 Life-Rating. (the ones that do not have this change, are the crappy canadian provinces at the top of America).
 -Made as many provinces I could find with more than 40 life-rating, go down to 40 life-rating, since there was no difference from 40 or 40+ life-rating, this has no actual effect in-game.
 -Altered every decision, and event (that I could find), which changed Life-Ratings to function with the altered life-ratings from the above changes. (means you won't see 40+ life-rating provinces when this is meaningless, all events and decisions now make the provinces they target, at most, 40 life-rating)
 
+#Burgundy, Germany, Savoy:
+-Made all provinces which are cores of the German Empire have 40 life-rating. (The austrian bits of Germany kept the old life-rating from vanilla of 35, this also includes DoD Switzerland)
+-Made all core provinces of Burgundy, which are not German, have 35 life-rating. (Burgundy holds French, German and Swiss provinces, of which they had their own different life-ratings due to balance, perhaps from HFM, or Vanilla. I kept the Germans (with the exception of Alsace) at 40 life-rating, and made everything else 35 life-rating to keep it uniform)
+-Made all provinces in the region of Savoy (which is shared by Burgundy and Savoy) have 35 life-rating (yet again making life-ratings uniform and removing the unnecessary vanilla nerfs that were kept by DoD)
+
+
 A good bit of DoD's American, be it North or South, provinces were less than 35 life-rating (the default on most provinces), a lot of them even being below 30 life-rating (when you get population to actually grow). I have changed them all to be at least 37 life-rating, you should see a TREMENDOUS boost in natural population growth in the Americas, and a drastic increase in relevance in provinces with great RGOs that had shit life-rating (looking at you Qingqu, Incas).
 Including Austrialia/New Zealand in the life-rating changes is part of my attempt to add Zhourao as an Immigrant nation, a nation you can actually play and might have an impact in the world.
+
+The German/Burgundian changes are massive, Burgundy inherited a lot of bad life-rating provinces it had no business getting from Vanilla/HFM, and German high-liferating now properly includes the Austrians and the Swiss. I did however, keep this massive buff away from Bohemia, as I had explained before, as I feel their position in the world stage is too strong, and they are either incredibly powerful or immediately partitioned.
