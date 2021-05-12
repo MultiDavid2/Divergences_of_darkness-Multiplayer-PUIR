@@ -10,8 +10,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			land_reform = yes_land_reform
-			land_reform = land_reform_two
+			has_country_flag = landr_flag
+			has_country_flag = landr2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech }
 	}
@@ -27,10 +27,10 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = landr2_flag }
+			}
 			owner = {
-				limit = {
-					land_reform = land_reform_two
-				}
 				activate_technology = freedom_of_trade
 				activate_technology = high_pressure_steam_engine 
 				activate_technology = mechanized_mining
@@ -38,10 +38,10 @@ country_event = {
 			}
 		}
 		random_owned = {
-			owner = {
-				limit = {
-					land_reform = yes_land_reform
-				}
+			limit = {
+				owner = { has_country_flag = landr_flag }
+			}
+			owner = { 
 				activate_technology = mechanized_mining
 				activate_technology = piston_steam_engine_power
 			}
@@ -60,8 +60,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			admin_reform = yes_admin_reform
-			admin_reform = admin_reform_two
+			has_country_flag = adm_flag
+			has_country_flag = adm2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech2 }
 	}
@@ -77,19 +77,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = adm2_flag }
+			}
 			owner = {
-				limit = {
-					admin_reform = admin_reform_two
-				}
 				activate_technology = ad_hoc_money_bill_printing
 				activate_technology = no_standard
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = adm_flag }
+			}
 			owner = {
-				limit = {
-					admin_reform = yes_admin_reform
-				}
 				activate_technology = no_standard
 			}
 		}
@@ -107,8 +107,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			finance_reform = yes_finance_reform
-			finance_reform = finance_reform_two
+			has_country_flag = fref_flag
+			has_country_flag = fref2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech3 }
 	}
@@ -124,20 +124,20 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
-			owner = {
-				limit = {
-					finance_reform = finance_reform_two
-				}
+			limit = {
+				owner = { has_country_flag = fref2_flag }
+			}
+			owner = { 
 				activate_technology = stock_exchange
 				activate_technology = early_classical_theory_and_critique
 				activate_technology = private_banks
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = fref_flag }
+			}
 			owner = {
-				limit = {
-					finance_reform = yes_finance_reform
-				}
 				activate_technology = private_banks
 			}
 		}
@@ -155,8 +155,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			education_reform = yes_education_reform
-			education_reform = education_reform_two
+			has_country_flag = edu_flag
+			has_country_flag = edu2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech4 }
 	}
@@ -172,22 +172,20 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = edu2_flag }
+			}
 			owner = {
-				limit = {
-					education_reform = education_reform_two
-				}
 				activate_technology = positivism
 				activate_technology = enlightenment_thought
 				activate_technology = malthusian_thought
 			}
 		}
 		random_owned = {
-			owner = {
-				limit = {
-					education_reform = yes_education_reform
-				}
-				activate_technology = malthusian_thought
+			limit = {
+				owner = { has_country_flag = edu_flag }
 			}
+			owner = { activate_technology = malthusian_thought }
 		}
 	}
 	
@@ -203,8 +201,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			transport_improv = yes_transport_improv
-			transport_improv = transport_improv_two
+			has_country_flag = tran_flag
+			has_country_flag = tran2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech5 }
 	}
@@ -220,19 +218,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = tran2_flag }
+			}
 			owner = {
-				limit = {
-					transport_improv = transport_improv_two
-				}
 				activate_technology = early_railroad
 				activate_technology = experimental_railroad
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = tran_flag }
+			}
 			owner = {
-				limit = {
-					transport_improv = yes_transport_improv
-				}
 				activate_technology = experimental_railroad
 			}
 		}
@@ -250,8 +248,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			pre_indust = yes_pre_indust
-			pre_indust = yes_industrial_construction
+			has_country_flag = earlyid_flag
+			has_country_flag = earlyid2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech6 }
 	}
@@ -267,19 +265,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = earlyid2_flag }
+			}
 			owner = {
-				limit = {
-					pre_indust = yes_industrial_construction
-				}
 				activate_technology = organized_factories
 				activate_technology = guild_based_production
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = earlyid_flag }
+			}
 			owner = {
-				limit = {
-					pre_indust = yes_pre_indust
-				}
 				activate_technology = guild_based_production
 			}
 		}
@@ -297,8 +295,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			industrial_construction = yes_western_science
-			industrial_construction = western_science_two
+			has_country_flag = indc_flag
+			has_country_flag = indc2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech7 }
 	}
@@ -314,20 +312,20 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
-			owner = {
-				limit = {
-					industrial_construction = western_science_two
-				}
+			limit = {
+				owner = { has_country_flag = indc2_flag }
+			}
+			owner = { 
 				activate_technology = medicine
 				activate_technology = late_enlightenment_philosophy
 				activate_technology = basic_chemistry
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = indc_flag }
+			}
 			owner = {
-				limit = {
-					industrial_construction = yes_western_science
-				}
 				activate_technology = late_enlightenment_philosophy
 				activate_technology = basic_chemistry
 			}
@@ -350,8 +348,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			foreign_training = yes_foreign_training			
-			foreign_training = foreign_training_two
+			has_country_flag = foreign_tactics_flag		
+			has_country_flag = foreign_tactics2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech8 }
 	}
@@ -367,21 +365,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = foreign_tactics2_flag }
+			}
 			owner = {
-				limit = {
-					foreign_training = foreign_training_two
-				}
 				activate_technology = strategic_mobility
 				activate_technology = post_napoleonic_thought
 			}
 		}
 		random_owned = {
-			owner = {
-				limit = {
-					foreign_training = yes_foreign_training
-				}
-				activate_technology = post_napoleonic_thought
+			limit = {
+				owner = { has_country_flag = foreign_tactics_flag }
 			}
+			owner = { activate_technology = post_napoleonic_thought }
 		}
 	}
 	
@@ -397,8 +393,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			foreign_weapons = yes_foreign_weapons
-			foreign_weapons = foreign_weapons_two
+			has_country_flag = foreign_weapons_flag	
+			has_country_flag = foreign_weapons2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech9 }
 	}
@@ -414,21 +410,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
-			owner = {
-				limit = {
-					foreign_weapons = foreign_weapons_two
-				}
+			limit = {
+				owner = { has_country_flag = foreign_weapons2_flag }
+			}
+			owner = { 
 				activate_technology = muzzle_loaded_rifles
 				activate_technology = flintlock_rifles
 			}
 		}
 		random_owned = {
-			owner = {
-				limit = {
-					foreign_weapons = yes_foreign_weapons
-				}
-				activate_technology = flintlock_rifles
+			limit = {
+				owner = { has_country_flag = foreign_weapons_flag }
 			}
+			owner = { activate_technology = flintlock_rifles }
 		}
 	}
 	
@@ -444,8 +438,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			military_constructions = yes_military_constructions
-			military_constructions = military_constructions_two
+			has_country_flag = mil_con_flag	
+			has_country_flag = mil_con2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech10 }
 	}
@@ -461,19 +455,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = mil_con2_flag }
+			}
 			owner = {
-				limit = {
-					military_constructions = military_constructions_two
-				}
 				activate_technology = iron_muzzle_loaded_artillery
 				activate_technology = bronze_muzzle_loaded_artillery
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = mil_con_flag }
+			}
 			owner = {
-				limit = {
-					military_constructions = yes_military_constructions
-				}
 				activate_technology = bronze_muzzle_loaded_artillery
 			}
 		}
@@ -491,8 +485,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			foreign_officers = yes_foreign_officers 
-			foreign_officers = foreign_officers_two
+			has_country_flag = fo_flag
+			has_country_flag = fo2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech11 }
 	}
@@ -508,19 +502,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = fo2_flag }
+			}
 			owner = {
-				limit = {
-					foreign_officers = foreign_officers_two
-				}
 				activate_technology = army_command_principle
 				activate_technology = army_professionalism
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = fo_flag }
+			}
 			owner = {
-				limit = {
-					foreign_officers = yes_foreign_officers 
-				}
 				activate_technology = army_command_principle
 			}
 		}
@@ -538,8 +532,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			army_schools = yes_army_schools
-			army_schools = army_schools_two
+			has_country_flag = at_flag
+			has_country_flag = at2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech12 }
 	}
@@ -555,19 +549,19 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = at2_flag }
+			}
 			owner = {
-				limit = {
-					army_schools = army_schools_two
-				}
 				activate_technology = military_plans
 				activate_technology = military_staff_system
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = at_flag }
+			}
 			owner = {
-				limit = {
-					army_schools = yes_army_schools
-				}
 				activate_technology = military_staff_system
 			}
 		}
@@ -585,8 +579,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			foreign_naval_officers = yes_foreign_naval_officers
-			foreign_naval_officers = foreign_naval_officers_two
+			has_country_flag = no_flag
+			has_country_flag = no2_flag
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech13 }
 	}
@@ -602,20 +596,20 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = no2_flag }
+			}
 			owner = {
-				limit = {
-					foreign_naval_officers = foreign_naval_officers_two
-				}
 				activate_technology = battleship_column_doctrine
 				activate_technology = post_nelsonian_thought
 				activate_technology = alphabetic_flag_signaling
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = no_flag }
+			}
 			owner = {
-				limit = {
-					foreign_naval_officers = yes_foreign_naval_officers
-				}
 				activate_technology = post_nelsonian_thought
 				activate_technology = alphabetic_flag_signaling
 			}
@@ -634,8 +628,8 @@ country_event = {
 	trigger = {
 		civilized = no
 		OR = {
-			foreign_navies = yes_foreign_navies
-			foreign_navies = western_science_two
+			has_country_flag = nu_flag 
+			has_country_flag = nu2_flag 
 		}
 		NOT = { has_country_flag = dodpuir_unciv_tech14 }
 	}
@@ -651,20 +645,20 @@ country_event = {
 	option = {
 		name = "Have fun."
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = nu2_flag }
+			}
 			owner = {
-				limit = {
-					foreign_navies = western_science_two
-				}
 				activate_technology = steamers
 				activate_technology = naval_design_bureaus
 				activate_technology = clipper_design
 			}
 		}
 		random_owned = {
+			limit = {
+				owner = { has_country_flag = nu_flag }
+			}
 			owner = {
-				limit = {
-					foreign_navies = yes_foreign_navies
-				}
 				activate_technology = naval_design_bureaus
 				activate_technology = clipper_design
 			}
@@ -682,7 +676,7 @@ country_event = {
 	
 	trigger = {
 		civilized = no
-		naval_schools = naval_schools_two
+		has_country_flag = nsch_flag
 		NOT = { has_country_flag = dodpuir_unciv_tech15 }
 	}
 	
