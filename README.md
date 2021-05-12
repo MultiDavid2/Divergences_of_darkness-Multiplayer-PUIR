@@ -5,4 +5,4 @@ The goal is to have DoD's immense flavor, combined with Igor PUIR's stable and f
 
 The mod itself is a merge between DoD Multiplayer 1.9 and Igor PUIR (whatever version Reno has it up to right now)
 
-Current Checksum is HGWQ
+Current Checksum is DJIG
