@@ -76,6 +76,7 @@ v2.0 - Liferatings
 
 -Fixed life-rating in Natal (Lusitania, prov 138).
 -Fixed Temuco (Incas, prov 2329) not being colonial.
+-Removed all of Austria's Vanilla Decisions (Austria-Hungary, and the Architecture thingy)
 
 ###Geopolitical Changes###
 
