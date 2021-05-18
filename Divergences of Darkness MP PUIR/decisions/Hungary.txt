@@ -74,51 +74,22 @@ political_decisions = {
 		potential = {
 			tag = HUN
 			ROM = {
-				limit = {
-					exists = no 
-				}
+				exists = no 
 			}
 			NOT = { accepted_culture = romanian }
 		}
 		allow = {
-			nationalism_n_imperialism = 1
-			WAL = {
-				limit = {
-					OR = {
-						exists = no
-						vassal_of = HUN
-						in_sphere = THIS
-					}
-				}
-			}
-			MOL = {
-				limit = {
-					OR = {
-						exists = no
-						vassal_of = HUN
-						in_sphere = THIS
-					}
-				}
-			}
-			SIE = {
-				limit = {
-					OR = {
-						exists = no
-						vassal_of = HUN
-						in_sphere = THIS
-					}
-				}
-			}
+			revolution_n_counterrevolution = 1
+			war = no
+			
 			ROM = {
 				all_core = {
-					limit = {
-						OR = {
-							owned_by = HUN
-							owner = {
-								OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
+					OR = {
+						owned_by = THIS
+						owner = { 
+							OR = { 
+								vassal_of = THIS 
+								in_sphere = THIS
 							}
 						}
 					}
@@ -128,16 +99,32 @@ political_decisions = {
 		
 		effect = {
 			add_accepted_culture = romanian
-			inherit = WAL
-			inherit = MOL
-			inherit = SIE
+			WAL = {
+				limit = {
+					exists = yes
+				}
+				HUN = { inherit = PREV }
+			}
+			SIE = {
+				limit = {
+					exists = yes
+				}
+				HUN = { inherit = PREV }
+			}
+			MOL = {
+				limit = {
+					exists = yes
+				}
+				HUN = { inherit = PREV }
+			}
 			ROM = {
 				all_core = {
-					remove_core = WAL
-					remove_core = MOL
-					remove_core = SIE
 					add_core = HUN
 				}
+			}
+			all_core = {
+				remove_core = ROM
+				remove_core = SIE
 			}
 		}		
 	}
