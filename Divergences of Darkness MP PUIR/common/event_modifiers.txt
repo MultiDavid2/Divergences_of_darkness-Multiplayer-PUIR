@@ -397,10 +397,10 @@ treaty_port = {
 
 drained_marsh = {
 	farm_rgo_size = 0.25
-	farm_rgo_eff = 0.2
+	farm_rgo_eff = 0.5
 	mine_rgo_size = 0.25
-	mine_rgo_eff = 0.2
-	movement_cost = -0.2
+	mine_rgo_eff = 0.3
+	movement_cost = -0.4
 	icon = 19
 }
 

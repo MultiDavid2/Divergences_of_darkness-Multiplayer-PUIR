@@ -1,0 +1,51 @@
+#NEW PLC decisions will be here, if they exist.
+
+political_decisions = {
+	
+	drain_ruthenian_marshes = {
+		potential = {
+			OR = { 
+				owns = 941
+				owns = 942
+				owns = 959
+			}
+			NOT = { 959 = { has_province_flag = marshes_cleared }}
+		}
+		
+		allow = {
+			money = 100000
+			war = no
+			steam_turbine = 1
+			pneumatic_and_hydraulics = 1
+		}
+		
+		effect = {
+			treasury = -100000
+			941 = { 
+				life_rating = 25
+				add_province_modifier = { 
+					name = drained_marsh
+					duration = -1 
+				}
+			}
+			942 = { 
+				life_rating = 25
+				add_province_modifier = { 
+					name = drained_marsh
+					duration = -1 
+				}
+			}
+			959 = { 
+				life_rating = 25
+				add_province_modifier = { 
+					name = drained_marsh
+					duration = -1 
+				}
+				set_province_flag = marshes_cleared 
+			}
+		}
+	}
+	
+	
+}
+	
