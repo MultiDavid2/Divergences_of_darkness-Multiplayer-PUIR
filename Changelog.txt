@@ -101,3 +101,24 @@ The German/Burgundian changes are massive, Burgundy inherited a lot of bad life-
 v2.1 
 
 -Fixed the event which grants uncivs their techs at the start of the game.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+v3.0 Polish-Lithuanian Ironwealth, Romanians in Hungary 
+
+#PLC Changes
+-Made Krakow 35 life-rating down from 40 (PLC's capital is in Warsaw)
+-Made Rostov (110k Coal province) now produce Iron instead of Coal, in an attempt to aid PLC in it's Iron Shortage.
+-Added a decision to drain the Ruthenian Marshes, this will increase the life-rating of Slutsk, Mozyr and Korosten from 15 to 40, and add a Modifier to them which negates the Marsh Terrain Maluses, and even adds +20% Farming Efficiency.
+This decision makes those provinces more useful in general, and is acquired once you've unlocked Steam Turbine, Pneumatics and Hydraulics, and have 100k to waste
+NOTE: This decision can be taken by ANYONE who owns all 3 provinces.
+
+#Crimea Changes (mostly PLC-Muscovy Changes)
+-Exchanged one Coal province in the left-most state to Iron, making it a Coal/Iron state.
+-Exchanged one Coal province in the right-most state to Iron, making it also a Coal/Iron state.
+The two above changes mean that the whole of Crimea, all 3 states, are now Coal/Iron states, making them that much more valuable to both the PLC and Muscovy.
+
+#Hungary Changes
+-Gave Hungary a decision to integrate all the romanian minors, gain Romanian as Accepted AND remove both Siebenburger and Romanian cores from their provinces (this does allow Wallachia and Moldavia to be released again), if Hungary has unlocked Revolution and CounterRevolution, and owns all Romanian Core States.
+There was only one nation in the game that accepted Romanian, and that was Romania, which might or might not form. As such, Hungary has now been given a chance to supplant Romania as the country which accepts Romanians, and if executed, gives Hungary a fat power boost for the mid and late game.
+
