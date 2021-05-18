@@ -9,16 +9,17 @@ political_decisions = {
 				owns = 942
 				owns = 959
 			}
-			NOT = { 959 = { has_province_flag = marshes_cleared }}
+			959 = { NOT = { has_province_flag = marshes_cleared }}
 		}
-		
 		allow = {
+			owns = 941
+			owns = 942
+			owns = 959
 			money = 100000
 			war = no
 			steam_turbine = 1
 			pneumatic_and_hydraulics = 1
 		}
-		
 		effect = {
 			treasury = -100000
 			941 = { 
@@ -43,6 +44,9 @@ political_decisions = {
 				}
 				set_province_flag = marshes_cleared 
 			}
+		}
+		ai_will_do = {
+			factor = 1 
 		}
 	}
 	
