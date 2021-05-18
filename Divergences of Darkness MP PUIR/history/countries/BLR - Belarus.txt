@@ -1,5 +1,6 @@
 capital = 718
 primary_culture = ruthenian
+culture = ashkenazi
 religion = orthodox
 government = democracy
 plurality = 0.0

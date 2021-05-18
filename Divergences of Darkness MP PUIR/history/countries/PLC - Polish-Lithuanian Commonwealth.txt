@@ -1,4 +1,4 @@
-capital = 706 #Krakow
+capital = 706 #Warsaw
 primary_culture = polish
 culture = lithuanian
 culture = ashkenazi
