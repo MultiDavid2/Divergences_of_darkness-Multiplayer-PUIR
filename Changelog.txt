@@ -122,3 +122,39 @@ The two above changes mean that the whole of Crimea, all 3 states, are now Coal/
 -Gave Hungary a decision to integrate all the romanian minors, gain Romanian as Accepted AND remove both Siebenburger and Romanian cores from their provinces (this does allow Wallachia and Moldavia to be released again), if Hungary has unlocked Revolution and CounterRevolution, and owns all Romanian Core States.
 There was only one nation in the game that accepted Romanian, and that was Romania, which might or might not form. As such, Hungary has now been given a chance to supplant Romania as the country which accepts Romanians, and if executed, gives Hungary a fat power boost for the mid and late game.
 
+v4.0 State Consolidation, Dagestani/Bosniak rights, Life-rating bugfixes and changes
+
+#State Changes
+-Took Salzburg from the Bavaria state and put it in the Tyrol state. (small pop boost to the Tyrol state)
+-Consolidated Liguria into Piedmont (clean-up on the italian border)
+-Consolidated Memel into Lietuva (Lithuania is a single state, pop boost to the overall state)
+-Consolidated Western Finland into Southern Finland (2 random provinces in a different state, not anymore)
+-Consolidated Naryan-Mara into Arkhangelsk (low-pop, no strategic value state unification)
+-Consolidated Thessalia into Central Greece (might be meaningful strategically, consolidates greek pops into a bigger state)
+-Consolidated Manzandaran into Irakajemi and Khorasan (meaningless state)
+-Consolidated a few small russian siberian states into the "Sibir" State (forgot the name, meaningless strategic value so best to have a bigger state)
+-Consolidated Luxembourg into Wallonie (this is now a very, VERY good state, strategic value remains the same)
+-Consolidated Constantinople into Eastern Thrace and Bithnynia (constatinople was a 2-province state, and with too much of a strategic value, splitting it up is easier on National Focuses and makes it less of a liability if taken)
+
+#Life-rating Changes
+-Fixed the Northern Hokkaido provinces having 10 life-rating instead of 35
+-Lowered Cairo from 45 life-rating to 40. (doesn't change pop growth)
+
+Capital life-rating changes: (a lot of countries's capitals weren't 40 life-rating, and a few old capitals were, fixed a bunch of these and added a few "releaseable" nations's capital bonuses)
+-Edo 40-35 | Tokyo 35-40
+-Edinburgh 35-40
+-Dublin 35-40
+-Barcelona 35-40
+-Sevastopol 35-40
+-Amazonie Capital 35-40 (forgot name)
+-Copenhagen 35-40 | Stockholm 40-35 | Christiania 40-35
+-Helsinki 35-40
+-Qingquo Capital 35-40 (forgot name)
+-MexicoCity 35-40
+-Burgundy Capital 35-40 (forgot name)
+-Athens 35-40
+
+#Accepted Culture Changes
+-Gave Illyria Bosniak as Accepted Culture
+-Gave all iterations of Transcaucasia, and the Safavids, Dagestani Accepted
+
