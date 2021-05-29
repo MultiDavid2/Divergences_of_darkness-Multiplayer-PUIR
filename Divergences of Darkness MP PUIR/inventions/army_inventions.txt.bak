@@ -473,23 +473,25 @@ stormtrooper_training = {
 	}
 }
 tank_experiments = {
-	limit = {
-		infiltration = 1
-	}
+	limit = { infiltration = 1 }
 	chance = {
-		base = 1
+		base = 5
 		modifier = {
 			factor = 2
 			invention = elastic_defense_system
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			war = yes
 			war_countries = { invention = tank_experiments }
 		}
 		modifier = {
 			factor = -5
-			not = { combustion_engine = 1 }
+			NOT = { combustion_engine = 1 }
+		}
+		modifier = {
+			factor = -10
+			not = { invention = lombard_and_holts_continuous_track }
 		}
 	}
 	effect = {
@@ -589,6 +591,7 @@ grand_battle_plan_vs_superior_firepower = {
 	effect = {
 		army_base = {
 			default_organisation = 10
+			supply_consumption = 0.05
 		} 
 		morale = 0.5
 	}
@@ -655,7 +658,7 @@ flintlock_rifle_armament = {
 			invention = small_arms_production
 		}
 		modifier = {
-			factor = 2
+			factor = 7
 			war = yes
 			war_countries = { invention = flintlock_rifle_armament }
 		}
