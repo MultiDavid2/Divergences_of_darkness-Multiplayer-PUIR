@@ -924,7 +924,7 @@ political_decisions = {
 		prestige = 15 
 		set_global_flag = camelot_NAN
 		2348 = {
-				life_rating = 5
+				life_rating = 3
 			}
 		}
 	}
