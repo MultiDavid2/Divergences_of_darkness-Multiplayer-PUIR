@@ -122,6 +122,8 @@ The two above changes mean that the whole of Crimea, all 3 states, are now Coal/
 -Gave Hungary a decision to integrate all the romanian minors, gain Romanian as Accepted AND remove both Siebenburger and Romanian cores from their provinces (this does allow Wallachia and Moldavia to be released again), if Hungary has unlocked Revolution and CounterRevolution, and owns all Romanian Core States.
 There was only one nation in the game that accepted Romanian, and that was Romania, which might or might not form. As such, Hungary has now been given a chance to supplant Romania as the country which accepts Romanians, and if executed, gives Hungary a fat power boost for the mid and late game.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 v4.0 State Consolidation, Dagestani/Bosniak rights, Life-rating bugfixes and changes
 
 #State Changes
@@ -158,3 +160,17 @@ Capital life-rating changes: (a lot of countries's capitals weren't 40 life-rati
 -Gave Illyria Bosniak as Accepted Culture
 -Gave all iterations of Transcaucasia, and the Safavids, Dagestani Accepted
 
+v4.1 Spherelord-to-Sphereling Monthly Grants, Return to DoD Military
+
+#Goods/Factory Changes
+-Fixed Capitalist-produced Canned Goods requiring Iron instead of Wool, made that Wool input be 2.3 instead of the factory's 1.8.
+-Reduced Fish requirement for Canned Goods Factories from 2.5 to 2.
+-Made it so Canned Goods Factories gain a 5% state bonus from Wool instead of Iron.
+
+#Grant Changes
+-Added Spherelord-to-Sphereling Monthly Grants, these Grants allow Spherelings to ask their Spherelord for a certain amount of cash every month.
+
+#Military Changes
+-Ditched PUIR's military system, went back to DoD 1.9 MP's.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------

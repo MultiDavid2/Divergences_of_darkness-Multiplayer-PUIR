@@ -3,3 +3,8 @@ drain_ruthenian_marshes_title;Drain the Ruthenian Marshes;;;;;;;;;;;;;x
 drain_ruthenian_marshes_desc;With new advances in technology we can finally drain the Ruthenian Marshes.;;;;;;;;;;;;;x
 romanian_compromise_title;Romanian Subjugation;;;;;;;;;;;;;x
 romanian_compromise_desc;The Romanian people have been fully pacified, any dreams of a united Romania have been destroyed, we may now integrate them into our country as equals, as the true country which will house romanians.;;;;;;;;;;;;;x
+;;;;;;;;;;;;x;;;
+will_receive_spherelord_title;Request a Monthly Grant from your Spherelord.;;;;;;;;;;;;x;;;
+will_receive_spherelord_desc;This will request a Monthly Grant (paid every 30 days) from your Spherelord, only available if they have giving grants enabled.;;;;;;;;;;;;x;;;
+clear_monthly_grants_title;Clear any Monthly Grants.;;;;;;;;;;;;x;;;
+clear_monthly_grants_desc;This decision will allow you, as a sphereling, to cancel any monthly grants from your spherelord, or, if this decision is utilized by the spherelord, will cancel ALL current Monthly Grants to spherelings.;;;;;;;;;;;;x;;;

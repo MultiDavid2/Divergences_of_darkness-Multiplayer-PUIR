@@ -680,7 +680,7 @@ canned_food_factory = {
 		wool = 1.8 		#1.8
 		cattle = 3.5 		#7
 		grain = 3.5 		#7.7
-		fish = 2.5 		#3.75	total input+maint = 24.2
+		fish = 2 		#3.75	total input+maint = 24.2
 	}
 	output_goods = canned_food 
 	value = 3.4			#34
@@ -698,7 +698,7 @@ canned_food_factory = {
 		value = 0.1
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { trade_goods_in_state = wool }
 		value = 0.05
 	}
 } 
@@ -1434,7 +1434,7 @@ artisan_ammunition = {
 
 artisan_canned_food = {       
 	input_goods = { 
-		iron = 1 		#3.5
+		wool = 2.4		#3.5
 		cattle = 4.5		#9
 		grain = 4.5		#9.9
 		fish = 2.5		#3.75	total input+maint = 26.15
