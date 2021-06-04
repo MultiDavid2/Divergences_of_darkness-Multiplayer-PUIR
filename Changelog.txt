@@ -174,3 +174,17 @@ v4.1 Spherelord-to-Sphereling Monthly Grants, Return to DoD Military
 -Ditched PUIR's military system, went back to DoD 1.9 MP's.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+v4.2 Amerigan Coal and Iron, The Return of Beornia, African Life-Rating
+
+#RGO Changes
+-Added two Iron provinces to Amazonie (11k pop, Semi-Desert - 3k pop, Grassland)
+-Added two Iron, and two Coal provinces to Lotharingia (16k pop, Grassland - 33k pop, Hills) (28k pop, Forest - 23k pop, Grassland)
+-Added a Coal province in southern Gran Colombia (Venezuela) (23k pop, Grassland)
+-Added two Coal provinces in southern, unciv, Beornia (1k pop, Steppe)
+
+#POP Changes
+-Quadrupled Beornia's pop to 950k (intended to make them more self-sufficient, less reliant on immigration, also increases the total pop of Ameriga, the formable, to 3 million, similar to 1836 Arcadia)
+
+#Life-rating Changes
+-Every African province that is someone's core (vast majority), isn't a Desert, and isn't 35 life-rating or above, has been set to 35 life-rating. (This fixes a lot of DoD problems with colonial provinces which have 1, 10, 15, 20 liferating unnecessarily)
