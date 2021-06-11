@@ -33,7 +33,6 @@ political_decisions = {
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
 			add_accepted_culture = rheinish 
-			add_accepted_culture = pomeranian
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -145,7 +144,6 @@ political_decisions = {
 		add_accepted_culture = czech 
 		add_accepted_culture = north_german 
 		add_accepted_culture = south_german 
-		add_accepted_culture = pomeranian
 		capital = 564
 		prestige = 50 
 		564 = {
@@ -383,7 +381,6 @@ political_decisions = {
 			}
 		change_tag = CAE
 		add_accepted_culture = north_german
-		add_accepted_culture = pomeranian
 		}
 	ai_will_do = { 
 	factor = 1 
