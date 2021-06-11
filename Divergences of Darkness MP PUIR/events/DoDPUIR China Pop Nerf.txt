@@ -11,7 +11,6 @@ country_event = {
 		any_owned_province = {
 			is_core = CHI	
 		}
-		ai = no
 	}
 	
 	mean_time_to_happen = {
