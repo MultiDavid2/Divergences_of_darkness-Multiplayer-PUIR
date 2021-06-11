@@ -188,3 +188,7 @@ v4.2 Amerigan Coal and Iron, The Return of Beornia, African Life-Rating
 
 #Life-rating Changes
 -Every African province that is someone's core (vast majority), isn't a Desert, and isn't 35 life-rating or above, has been set to 35 life-rating. (This fixes a lot of DoD problems with colonial provinces which have 1, 10, 15, 20 liferating unnecessarily)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+v4.3 Chinese Population Decrease, Chinese State Reorganization
