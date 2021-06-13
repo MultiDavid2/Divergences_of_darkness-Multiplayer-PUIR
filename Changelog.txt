@@ -193,3 +193,27 @@ v4.2 Amerigan Coal and Iron, The Return of Beornia, African Life-Rating
 
 v4.3 Changes to China, Goodbye Pomeranian
 
+#State Changes
+
+China:
+-Deleted the Nanjing Region, moved one province to Southern Anhui and the other two to Hangzhou
+-Merged the Suzhou Region into Shanghai (-1 ports in China)
+-Gave Hunan Region a province from Western Hubei, and merged the rest of Western Hubei into Chongqing
+-Merged Fenzhou into Shanxi
+-Merged Southern Zhili and Northern Zhili Regions into a new one, Zhili.
+
+Italy:
+-Merged Emilia Region into Emilia-Romagna
+
+#POP Changes
+-Lowered the pop of the entirety of China (including states in China owned by non-chinese) by 70%.
+
+#Culture Changes
+-Removed Pomeranian as a culture, exchanged all references of it (events, decisions) into Elbian.
+
+#RGO Changes
+PLC:
+-Changed Lublin (130k) from Coal to Iron. (should be my last Iron change to the PLC, this makes sure that when utilizing the RGO Swap decision, you won't get fucked by RNG and told to exchange your one Iron province to Sulphur, also doubles PLC's Iron)
+
+Taiping Heavenly Kingdom:
+-Changed Chongqing (300k post-nerf) from Tea to Wool, in order to make sure that both Major Chinese Candidates (Qing and Taiping) have Wool to supply their irregulars and cavalry.
