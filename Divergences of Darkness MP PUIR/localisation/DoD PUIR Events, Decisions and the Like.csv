@@ -8,7 +8,7 @@ will_receive_spherelord_title;Request a Monthly Grant from your Spherelord.;;;;;
 will_receive_spherelord_desc;This will request a Monthly Grant (paid every 30 days) from your Spherelord, only available if they have giving grants enabled.;;;;;;;;;;;;x;;;
 clear_monthly_grants_title;Clear any Monthly Grants.;;;;;;;;;;;;x;;;
 clear_monthly_grants_desc;This decision will allow you, as a sphereling, to cancel any monthly grants from your spherelord, or, if this decision is utilized by the spherelord, will cancel ALL current Monthly Grants to spherelings.;;;;;;;;;;;;x;;;
-
 EVTNAME776611;Colonial life-rating event.;;;;;;;;;;;;x;;;
 EVTDESC776611;YEE SHALL BE COLONIALIZED.;;;;;;;;;;;;x;;;
 EVT776611OPTA;What Option ?.;;;;;;;;;;;;x;;;
+;;;;;;;;;;;;x;;;
