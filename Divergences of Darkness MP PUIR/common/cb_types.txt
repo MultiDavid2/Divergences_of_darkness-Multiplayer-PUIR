@@ -196,6 +196,9 @@ acquire_core_state = {
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
 		}
+		NOT = {
+			tag = SIK
+		}
 	}
 	
 	allowed_states = {
@@ -270,6 +273,9 @@ acquire_all_cores = {
 			NOT = { has_country_flag = dismantle_declared }
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
+		}
+		NOT = {
+			tag = SIK
 		}
 	}
 	
@@ -375,6 +381,9 @@ colonial_reconquest_cb = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
+		NOT = {
+			tag = SIK
+		}
 	}
 	
 	po_annex = yes
@@ -415,6 +424,9 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = PRU }
 		NOT = { tag = NGF }
@@ -496,6 +508,9 @@ civil_war = {
 	crisis = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -551,6 +566,9 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -619,6 +637,9 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = { is_core = THIS }
 		NOT = {
@@ -676,6 +697,9 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { total_pops = 11000000 }
 		THIS = { is_greater_power = yes }
@@ -744,6 +768,9 @@ unification_humiliate_cb = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -804,6 +831,9 @@ unification_GP_humiliate = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		culture_has_union_tag = yes
 		is_culture_group = THIS
@@ -873,6 +903,9 @@ unification_release_puppet_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -942,6 +975,9 @@ unification_add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -998,6 +1034,9 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = { is_greater_power = yes }
 		is_greater_power = yes
@@ -1086,6 +1125,9 @@ free_peoples = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
@@ -1440,6 +1482,9 @@ liberate_country = {
 	
 	can_use = {
 		NOT = {
+			tag = SIK
+		}
+		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
 		}
@@ -1706,6 +1751,9 @@ free_allied_cores = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -1803,6 +1851,9 @@ free_balkans = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2
 		tag = TUR
@@ -1941,6 +1992,9 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
@@ -2007,6 +2061,9 @@ release_puppet_AI = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		OR = {
@@ -2088,6 +2145,9 @@ gunboat = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			has_country_modifier = in_bankrupcy
@@ -2149,6 +2209,9 @@ cut_down_to_size = {
 	war_name = CUT_DOWN_TO_SIZE_WAR_NAME
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
@@ -2262,6 +2325,9 @@ humiliate = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		has_recently_lost_war = no
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -2356,6 +2422,9 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = { is_colonial = yes }
 		THIS = {
@@ -2447,6 +2516,9 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { 
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
@@ -2648,6 +2720,9 @@ china_acquire_state = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		year = 1840
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2
@@ -2724,6 +2799,9 @@ china_conquest = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		year = 1840
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS
@@ -2786,6 +2864,9 @@ china_acquire_state_2 = {
 	
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		year = 1840
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS        
@@ -2862,6 +2943,9 @@ sahel_jihad_cb = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		civilized = no
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
@@ -2937,6 +3021,9 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -3086,6 +3173,9 @@ demand_concession_NI_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -3219,6 +3309,9 @@ demand_concession_BC_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -3348,6 +3441,9 @@ rude_boy = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
 		is_disarmed = no
@@ -3384,6 +3480,9 @@ conquest = {
 	crisis = no
 		
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			THIS = { civilized = no }
@@ -3590,6 +3689,9 @@ annex_africa = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { has_country_flag = congo_master }
 		OR = {
 			AND = { 
@@ -3685,6 +3787,9 @@ annex_africa_full = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { has_country_flag = congo_master }
 		OR = {
 			AND = { 
@@ -3775,6 +3880,9 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		civilized = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
@@ -3905,6 +4013,9 @@ establish_protectorate_NI_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -4016,6 +4127,9 @@ establish_protectorate_BC_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -4110,6 +4224,9 @@ status_quo = {
 	constructing_cb = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -4146,6 +4263,9 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		tag = QNG
 		civilized = no
 		has_country_flag = boxers_appeared
@@ -4208,6 +4328,9 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
@@ -4274,6 +4397,9 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		is_our_vassal = THIS
 		THIS = { is_substate = no }
 	}
@@ -4328,6 +4454,9 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			is_greater_power = yes
 			government = proletarian_dictatorship
@@ -4402,6 +4531,9 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = { NOT = { ruling_party_ideology = communist } }
 		government = proletarian_dictatorship
 		is_vassal = no
@@ -4454,6 +4586,9 @@ great_war_install_democracy = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -4514,6 +4649,9 @@ great_war_install_fascism = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -4568,6 +4706,9 @@ great_war_install_communism = {
 	always = yes
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -4622,6 +4763,9 @@ install_democracy = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			is_greater_power = yes
@@ -4701,6 +4845,9 @@ install_fascism = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			government = fascist_dictatorship
@@ -4775,6 +4922,9 @@ install_communism = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			government = proletarian_dictatorship
@@ -4853,6 +5003,9 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_substates = 1 # if has any substate
 		THIS = { ai = no }
@@ -4945,6 +5098,9 @@ dismantle_forts = {
 	
 	can_use = {
 		NOT = {
+			tag = SIK
+		}
+		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
 		}
@@ -5026,6 +5182,9 @@ call_allies_cb = {
 	good_relation_militancy_factor = 0
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		THIS = { ai = yes }
 		always = no
 	}
@@ -5046,6 +5205,9 @@ conquest_any = {
 	crisis = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		always = no
@@ -5120,6 +5282,9 @@ treaty_port_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			num_of_ports = 1
@@ -5247,6 +5412,9 @@ install_fascism_make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
@@ -5288,6 +5456,9 @@ install_communism_make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
@@ -5329,6 +5500,9 @@ install_democracy_make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
@@ -5371,6 +5545,9 @@ colonial_conquest = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			NOT = { has_country_modifier = no_more_war }
@@ -5490,6 +5667,9 @@ war_reparations = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		war_with = THIS
 		NOT = {
 			is_our_vassal = THIS
@@ -5538,7 +5718,10 @@ hre_unification = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
-		THIS ={
+		NOT = {
+			tag = SIK
+		}
+		THIS = {
 			tag = BOH 
 			is_greater_power = yes
 			NOT = { has_global_flag = liberal_revolutions_should_now_fire }
@@ -5596,7 +5779,10 @@ hre_unification2 = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
-		THIS ={
+		NOT = {
+			tag = SIK
+		}
+		THIS = {
 			tag = BOH 
 			is_greater_power = yes
 			NOT = { has_global_flag = liberal_revolutions_should_now_fire }
@@ -5658,6 +5844,9 @@ annex_india_AI = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2
 		THIS = {
@@ -5772,6 +5961,9 @@ annex_india_full_AI = {
 	always = yes
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { number_of_states = 2 }
 		THIS = {			
@@ -5881,6 +6073,9 @@ negotiated_transfer = {
 	construction_speed = 2.0
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		number_of_states = 2 # annex if you want their last state
 		is_independant = yes
 		ai = no
@@ -5922,6 +6117,9 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
@@ -5999,6 +6197,9 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -6072,6 +6273,9 @@ demand_concession_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			tag = SIK
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {

@@ -797,115 +797,135 @@ country_event = {
 	}
 }
 
-#Quarterly (every 3-months) event to update colonial life-ratings for those 4 continents
+#Yearly event to update colonial life-ratings
 country_event = {
 	id = 776611
 	title = "EVTNAME776611"
 	desc = "EVTDESC776611"
 	picture = "rome_buildings"
 	
-	allow_multiple_instances = yes 
+	fire_only_once = yes
 	
-	trigger = {
-		colonial_nation = yes 
-		NOT = { has_country_flag = liferatings }
-		capital_scope = { 	
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = africa
-				continent = australia_new_zealand
-			}
+	trigger = { 
+		tag = SIK
+		SIK = {
+			NOT = { has_country_flag = liferatings }
 		}
 	}
 	
-		option = {
-			name = "EVT776611OPTA"
+	mean_time_to_happen = {
+		days = 1 
+	}
+	
+	option = {
+		name = "EVT776611OPTA"
 			set_country_flag = liferatings
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 35
-					NOT = { life_rating = 36 }
-					empty = no
+			SIK = {
+				country_event = {
+					id = 776611
+					days = 365
 				}
-				life_rating = 2
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 31
-					NOT = { life_rating = 32 }
-					empty = no
-				}
-				life_rating = 6
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 30
-					NOT = { life_rating = 31 }
-					empty = no
-				}
-				life_rating = 7
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 25
-					NOT = { life_rating = 26 }
-					empty = no
-				}
-				life_rating = 12
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 20
-					NOT = { life_rating = 21 }
-					empty = no
-				}
-				life_rating = 17
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 15
-					NOT = { life_rating = 16 }
-					empty = no
-				}
-				life_rating = 22
-			}			
-			any_owned = {
-				limit = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					life_rating = 10
-					NOT = { life_rating = 11 }
-					empty = no
-				}
-				life_rating = 27
 			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 35
+						NOT = { life_rating = 36 }
+						empty = no
+					}
+					life_rating = 2
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 31
+						NOT = { life_rating = 32 }
+						empty = no
+					}
+					life_rating = 6
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 30
+						NOT = { life_rating = 31 }
+						empty = no
+					}
+					life_rating = 7
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 25
+						NOT = { life_rating = 26 }
+						empty = no
+					}
+					life_rating = 12
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 20
+						NOT = { life_rating = 21 }
+						empty = no
+					}
+					life_rating = 17
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 15
+						NOT = { life_rating = 16 }
+						empty = no
+					}
+					life_rating = 22
+				}			
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 10
+						NOT = { life_rating = 11 }
+						empty = no
+					}
+					life_rating = 27
+				}			
+			}
+			#AUSTRALIA
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -915,6 +935,8 @@ country_event = {
 					}
 					life_rating = 2
 				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -924,6 +946,8 @@ country_event = {
 					}
 					life_rating = 6
 				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -932,7 +956,9 @@ country_event = {
 						empty = no
 					}
 					life_rating = 7
-				}						
+				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -941,7 +967,9 @@ country_event = {
 						empty = no
 					}
 					life_rating = 12
-				}						
+				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -950,7 +978,9 @@ country_event = {
 						empty = no
 					}
 					life_rating = 17
-				}								
+				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -960,6 +990,8 @@ country_event = {
 					}
 					life_rating = 22
 				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = australia_new_zealand
@@ -968,7 +1000,9 @@ country_event = {
 						empty = no
 					}
 					life_rating = 27
-				}
+				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -979,6 +1013,8 @@ country_event = {
 					}
 					life_rating = 1
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -989,6 +1025,8 @@ country_event = {
 					}
 					life_rating = 2
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -999,6 +1037,8 @@ country_event = {
 					}
 					life_rating = 3
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1009,6 +1049,8 @@ country_event = {
 					}
 					life_rating = 4
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1019,6 +1061,8 @@ country_event = {
 					}
 					life_rating = 5
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1029,6 +1073,8 @@ country_event = {
 					}
 					life_rating = 10
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1039,6 +1085,8 @@ country_event = {
 					}
 					life_rating = 15
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1049,6 +1097,8 @@ country_event = {
 					}
 					life_rating = 20
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1059,6 +1109,8 @@ country_event = {
 					}
 					life_rating = 25
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1069,6 +1121,8 @@ country_event = {
 					}
 					life_rating = 30
 				}
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						continent = africa
@@ -1079,6 +1133,7 @@ country_event = {
 					}
 					life_rating = 34
 				}
-		}
+			}
+	}
 		
 }			
