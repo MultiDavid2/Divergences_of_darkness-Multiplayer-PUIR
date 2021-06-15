@@ -797,6 +797,7 @@ country_event = {
 	}
 }
 
+#Quarterly (every 3-months) event to update colonial life-ratings for those 4 continents
 country_event = {
 	id = 776611
 	title = "EVTNAME776611"
