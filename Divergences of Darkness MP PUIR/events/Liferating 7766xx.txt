@@ -856,6 +856,20 @@ country_event = {
 				}			
 			}
 			any_country = {
+				all_core = {
+					limit = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						life_rating = 32
+						NOT = { life_rating = 33 }
+						empty = no
+					}
+					life_rating = 5
+				}			
+			}
+			any_country = {
 				any_owned = {
 					limit = {
 						OR = {
