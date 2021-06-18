@@ -217,3 +217,11 @@ PLC:
 
 Taiping Heavenly Kingdom:
 -Changed Chongqing (300k post-nerf) from Tea to Wool, in order to make sure that both Major Chinese Candidates (Qing and Taiping) have Wool to supply their irregulars and cavalry.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+v4.4 Colonial Life-Rating Bugfixing
+
+#Colonial Life-Rating Changes
+-Reset non-colonized provinces to Vanilla DoD Life-ratings, in order to not enable early-game colonisation that should not occur.
+-Added an yearly event that updates recently-colonized provinces to their intended life-rating.
