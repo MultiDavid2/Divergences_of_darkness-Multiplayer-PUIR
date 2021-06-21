@@ -1,5 +1,6 @@
 capital = 65
 primary_culture = vinlander
+culture = afro_germanic
 religion = protestant
 government = democracy
 plurality = 0.3
