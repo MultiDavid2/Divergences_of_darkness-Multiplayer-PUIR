@@ -75,8 +75,8 @@ political_decisions = {
 				PLA = { all_core = { add_core = ARC	} }
 				NBG = { all_core = { add_core = ARC	} }
 				VIN = { all_core = { remove_core = VIN	} }
-        
-        change_tag = ARC
+			add_accepted_culture = afro_frankish
+			change_tag = ARC
 			  any_country = {
 				limit = {
 					OR = {
