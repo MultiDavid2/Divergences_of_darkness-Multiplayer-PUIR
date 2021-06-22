@@ -1050,7 +1050,7 @@ assimilation_chance = {
 				culture = afro_frankish
 				culture = afro_germanic
 			}
-			country = { slavery = yes }
+			country = { slavery = yes_slavery }
 		}
 	}
 		
