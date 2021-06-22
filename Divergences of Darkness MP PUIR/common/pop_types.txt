@@ -1042,6 +1042,19 @@ assimilation_chance = {
 		state_scope = { is_colonial = yes }
 	}
 	
+	modifier = {
+		factor = -10000
+		AND = {
+			OR = {
+				culture = afro_latino
+				culture = afro_frankish
+				culture = afro_germanic
+			}
+			country = { slavery = yes }
+		}
+	}
+		
+	
 	group = {
 		modifier = {
 			factor = 0.5
