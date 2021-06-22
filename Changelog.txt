@@ -220,8 +220,23 @@ Taiping Heavenly Kingdom:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-v4.4 Colonial Life-Rating Bugfixing
+v4.4 Colonial Life-Ratings, Small Changes
 
 #Colonial Life-Rating Changes
 -Reset non-colonized provinces to Vanilla DoD Life-ratings, in order to not enable early-game colonisation that should not occur.
 -Added an yearly event that updates recently-colonized provinces to their intended life-rating.
+
+#Life-Rating Changes
+-Added 32 life-rating provinces to the American Life-rating events (so 32 life-rating provinces go up to 37)
+-Increased Corsica's life-rating from 34 to 35.
+
+#Country Changes
+-Added Afro-Germanic as an accepted culture to Vinland, as flavor over their abolition of slavery and as a small boost to their accepted pops.
+
+#Culture Changes
+-Made it so all slavery-based cultures (Afro-Frankish, Afro-Germanic, Afro-Latino) are unable to be Assimilated if the country they are living in has Slavery.
+
+#State Changes
+-Moved a province from the Yunnan Region to Guanchi.
+
+
