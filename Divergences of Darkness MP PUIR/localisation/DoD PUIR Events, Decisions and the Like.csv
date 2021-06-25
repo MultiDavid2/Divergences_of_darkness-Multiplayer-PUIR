@@ -3,12 +3,18 @@ drain_ruthenian_marshes_title;Drain the Ruthenian Marshes;;;;;;;;;;;;;x
 drain_ruthenian_marshes_desc;With new advances in technology we can finally drain the Ruthenian Marshes.;;;;;;;;;;;;;x
 romanian_compromise_title;Romanian Subjugation;;;;;;;;;;;;;x
 romanian_compromise_desc;The Romanian people have been fully pacified, any dreams of a united Romania have been destroyed, we may now integrate them into our country as equals, as the true country which will house romanians.;;;;;;;;;;;;;x
-;;;;;;;;;;;;x;;;
 will_receive_spherelord_title;Request a Monthly Grant from your Spherelord.;;;;;;;;;;;;x;;;
 will_receive_spherelord_desc;This will request a Monthly Grant (paid every 30 days) from your Spherelord, only available if they have giving grants enabled.;;;;;;;;;;;;x;;;
 clear_monthly_grants_title;Clear any Monthly Grants.;;;;;;;;;;;;x;;;
 clear_monthly_grants_desc;This decision will allow you, as a sphereling, to cancel any monthly grants from your spherelord, or, if this decision is utilized by the spherelord, will cancel ALL current Monthly Grants to spherelings.;;;;;;;;;;;;x;;;
+india_iron_rgo1_title;The Exploitation of Indian Iron Deposits.;;;;;;;;;;;;x;;;
+india_iron_rgo2_title;The Exploitation of Indian Iron Deposits.;;;;;;;;;;;;x;;;
+india_iron_rgo3_title;The Exploitation of Indian Iron Deposits.;;;;;;;;;;;;x;;;
+india_iron_rgo1_desc;The Indian Subcontinent is full of bountiful resources, nearly everything we need with the exception of Iron. Prospectors have located three potential locations for the exploration of Iron, and with our newly acquired technological prowess, you may now invest into the exploration of Iron in these locations.;;;;;;;;;;;;x;;;
+india_iron_rgo2_desc;The Indian Subcontinent is full of bountiful resources, nearly everything we need with the exception of Iron. Prospectors have located three potential locations for the exploration of Iron, and with our newly acquired technological prowess, you may now invest into the exploration of Iron in these locations.;;;;;;;;;;;;x;;;
+india_iron_rgo3_desc;The Indian Subcontinent is full of bountiful resources, nearly everything we need with the exception of Iron. Prospectors have located three potential locations for the exploration of Iron, and with our newly acquired technological prowess, you may now invest into the exploration of Iron in these locations.;;;;;;;;;;;;x;;;
+;;;;;;;;;;;;x;;;
 EVTNAME776611;Colonial life-rating event.;;;;;;;;;;;;x;;;
-EVTDESC776611;YEE SHALL BE COLONIALIZED.;;;;;;;;;;;;x;;;
+EVTDESC776611;YEE SHALL BE COLONIZED.;;;;;;;;;;;;x;;;
 EVT776611OPTA;What Option ?.;;;;;;;;;;;;x;;;
 ;;;;;;;;;;;;x;;;

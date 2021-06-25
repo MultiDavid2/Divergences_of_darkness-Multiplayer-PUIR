@@ -1,1 +1,80 @@
 #Indian RGO decision, for post-civilization in order to allow Indian nations (mostly the mughals here) to have an industry.
+
+political_decisions = {
+
+	india_iron_rgo1 = { 
+		potential = {
+			OR = {
+				owns = 1279
+				owns = 1277 
+				owns = 1313 
+			}
+			OR = {
+				is_culture_group = dravidian
+				is_culture_group = south_asian
+			}
+			1279 = { NOT = { trade_goods = iron }}
+		}
+		allow = {
+			owns = 1279
+			civilized = yes 
+			mechanized_mining = 1
+			money = 50000
+		}
+		effect = {
+			treasury = -50000
+			1279 = { trade_goods = iron }
+		}
+	}
+	
+	india_iron_rgo2 = { 
+		potential = {
+			OR = {
+				owns = 1279
+				owns = 1277 
+				owns = 1313 
+			}
+			OR = {
+				is_culture_group = dravidian
+				is_culture_group = south_asian
+			}
+			1277 = { NOT = { trade_goods = iron }}
+		}
+		allow = {
+			owns = 1277
+			civilized = yes 
+			mechanized_mining = 1
+			money = 50000
+		}
+		effect = {
+			treasury = -50000
+			1277 = { trade_goods = iron }
+		}
+	}
+	
+	india_iron_rgo3 = { 
+		potential = {
+			OR = {
+				owns = 1279
+				owns = 1277 
+				owns = 1313 
+			}
+			OR = {
+				is_culture_group = dravidian
+				is_culture_group = south_asian
+			}
+			1313 = { NOT = { trade_goods = iron }}
+		}
+		allow = {
+			owns = 1313
+			civilized = yes 
+			mechanized_mining = 1
+			money = 50000
+		}
+		effect = {
+			treasury = -50000
+			1313 = { trade_goods = iron }
+		}
+	}
+	
+}
