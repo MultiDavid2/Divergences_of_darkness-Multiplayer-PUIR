@@ -241,7 +241,7 @@ v4.4 Colonial Life-Ratings, Small Changes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-v4.5 Indian Iron
+v4.5 Indian Iron, Massive Factory Changes, Life-rating Changes to Indonesia
 
 #Decision Changes/Additions
 -Added three decisions that a Civilized Indian Nation, with Mechanized Mining, can take, that allow it to convert the provinces of Nagpur, Jagdalpur and Bangalore to Iron, in order to aid the industrialization of a civilized India.
