@@ -248,6 +248,7 @@ v4.5 Indian Iron
 
 #Life-Rating Changes
 -Upped the life-rating of Kharswari, India, from 28 to 32, to match the rest of the Sub-Continent.
+-Changed the Indonesian life-ratings for Borneo. Everything went up to at least 30 life-rating, with all non-mountains or jungles going up to a standard 35.
 
 #Culture Changes
 -Made French culture a very light blue so it's distinguishable from Anglois, taken from Rileyo's submod.
