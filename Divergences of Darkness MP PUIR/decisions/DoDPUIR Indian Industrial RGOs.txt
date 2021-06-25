@@ -24,6 +24,9 @@ political_decisions = {
 			treasury = -50000
 			1279 = { trade_goods = iron }
 		}
+		ai_will_do = { 
+			factor = 1 
+		}
 	}
 	
 	india_iron_rgo2 = { 
@@ -48,6 +51,9 @@ political_decisions = {
 			treasury = -50000
 			1277 = { trade_goods = iron }
 		}
+		ai_will_do = { 
+			factor = 1 
+		}
 	}
 	
 	india_iron_rgo3 = { 
@@ -71,6 +77,9 @@ political_decisions = {
 		effect = {
 			treasury = -50000
 			1313 = { trade_goods = iron }
+		}
+		ai_will_do = { 
+			factor = 1 
 		}
 	}
 	
