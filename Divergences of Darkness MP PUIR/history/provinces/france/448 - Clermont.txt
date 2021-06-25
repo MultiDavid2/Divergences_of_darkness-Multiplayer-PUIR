@@ -6,12 +6,12 @@ trade_goods = coal
 life_rating = 31
 1861.1.1 = {
 	state_building = {
-		level = 1
+		level = 2
 		building = winery
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
+		level = 2
 		building = lumber_mill
 		upgrade = yes
 	}

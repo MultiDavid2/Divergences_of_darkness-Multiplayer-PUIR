@@ -6,7 +6,7 @@ life_rating = 40
 railroad = 1
 naval_base = 2
 state_building = {
-	level = 2
+	level = 4
 	building = fabric_factory
 	upgrade = yes
 }
@@ -16,12 +16,12 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 4
 	building = cement_factory
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 4
 	building = furniture_factory
 	upgrade = yes
 }

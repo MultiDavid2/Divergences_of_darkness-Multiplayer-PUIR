@@ -8,17 +8,17 @@ life_rating = 40
 naval_base = 1
 
 state_building = {
-	level = 2 
+	level = 4 
 	building = clipper_shipyard
 	upgrade = yes
 }
 state_building = {
-	level = 2 
+	level = 4 
 	building = furniture_factory
 	upgrade = yes
 }
 state_building = {
-	level = 2 
+	level = 4 
 	building = paper_mill
 	upgrade = yes
 }
@@ -26,7 +26,7 @@ state_building = {
 1861.1.1 = { railroad = 3 }
 1861.1.1 = {
 	state_building = {
-		level = 1
+		level = 2
 		building = steamer_shipyard
 		upgrade = yes
 	}

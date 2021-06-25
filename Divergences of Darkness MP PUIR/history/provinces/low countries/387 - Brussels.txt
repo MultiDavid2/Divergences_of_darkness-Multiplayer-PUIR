@@ -6,17 +6,17 @@ life_rating = 35
 railroad = 1
 1861.1.1 = {
 	state_building = {
-		level = 2
+		level = 4
 		building = fabric_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 4
 		building = canned_food_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 4
 		building = cement_factory
 		upgrade = yes
 	}
