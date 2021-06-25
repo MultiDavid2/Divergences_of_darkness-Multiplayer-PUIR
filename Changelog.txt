@@ -242,3 +242,12 @@ v4.4 Colonial Life-Ratings, Small Changes
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 v4.5 Indian Iron
+
+#Decision Changes/Additions
+-Added three decisions that a Civilized Indian Nation, with Mechanized Mining, can take, that allow it to convert the provinces of Nagpur, Jagdalpur and Bangalore to Iron, in order to aid the industrialization of a civilized India.
+
+#Life-Rating Changes
+-Upped the life-rating of Kharswari, India, from 28 to 32, to match the rest of the Sub-Continent.
+
+#Bugfixes
+-Unfucked a syntax error with Leewin's tag, on the Player GoldMines event, that somehow broke the entire event file, it works just fine now.
