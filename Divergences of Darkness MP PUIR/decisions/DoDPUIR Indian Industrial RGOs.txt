@@ -3,6 +3,7 @@
 political_decisions = {
 
 	india_iron_rgo1 = { 
+		picture = "mining"
 		potential = {
 			OR = {
 				owns = 1279
@@ -28,6 +29,7 @@ political_decisions = {
 	}
 	
 	india_iron_rgo2 = { 
+		picture = "mining"
 		potential = {
 			OR = {
 				owns = 1279
@@ -53,6 +55,7 @@ political_decisions = {
 	}
 	
 	india_iron_rgo3 = { 
+		picture = "mining"
 		potential = {
 			OR = {
 				owns = 1279
