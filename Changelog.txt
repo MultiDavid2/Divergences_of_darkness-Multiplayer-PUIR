@@ -241,7 +241,7 @@ v4.4 Colonial Life-Ratings, Small Changes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-v4.5 Indian Iron, Massive Factory Changes, Life-rating Changes to Indonesia
+v4.5 Indian Iron Decisions, Factory Changes, Hetmanate Cores, Muscovy Nerf
 
 #Decision Changes/Additions
 -Added three decisions that a Civilized Indian Nation, with Mechanized Mining, can take, that allow it to convert the provinces of Nagpur, Jagdalpur and Bangalore to Iron, in order to aid the industrialization of a civilized India.
@@ -254,6 +254,9 @@ This change was done to make the building of factories more acessible, by them b
 #Core Changes
 -Added Hetmanate cores to all of Hetmanate's provinces at the start of the game.
 
+#Country Changes
+-Set Muscovy's starting Draft at "Two-Year Draft", to prevent PUIR Revanchism from making it too strong.
+
 #Life-Rating Changes
 -Upped the life-rating of Kharswari, India, from 28 to 32, to match the rest of the Sub-Continent.
 -Changed the Indonesian life-ratings for Borneo. Everything went up to at least 30 life-rating, with all non-mountains or jungles going up to a standard 35.
@@ -262,5 +265,5 @@ This change was done to make the building of factories more acessible, by them b
 -Made French culture a very light blue so it's distinguishable from Anglois, taken from Rileyo's submod.
 
 #Bugfixes
--Unfucked a syntax error with Leewin's tag, on the Player GoldMines event, that somehow broke the entire event file, it works just fine now.
+-Unfucked a syntax error with Leewin's tag, on the Player GoldMines event, that somehow broke the entire event file.
 
