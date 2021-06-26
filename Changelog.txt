@@ -251,6 +251,9 @@ v4.5 Indian Iron, Massive Factory Changes, Life-rating Changes to Indonesia
 This change was done to make the building of factories more acessible, by them being cheaper, employment more flexible, with them opening up less employment slots and allowing you to more efficiently funnel your Craftsmen and Clerks, and also leads to less extreme cases of lack of goods at the start of the game.
 -The number of factories at the start of the game has been doubled to match the old employment and early-game production.
 
+#Core Changes
+-Added Hetmanate cores to all of Hetmanate's provinces at the start of the game.
+
 #Life-Rating Changes
 -Upped the life-rating of Kharswari, India, from 28 to 32, to match the rest of the Sub-Continent.
 -Changed the Indonesian life-ratings for Borneo. Everything went up to at least 30 life-rating, with all non-mountains or jungles going up to a standard 35.
