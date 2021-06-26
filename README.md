@@ -5,7 +5,7 @@ The goal is to have DoD's immense flavor, combined with Igor PUIR's stable and f
 
 The mod itself is a merge between DoD Multiplayer 1.9 and Igor PUIR (whatever version Reno has it up to right now) and contains a great deal of changes to DoD to try to make it more enjoyable and balanced.
 
-I am not the best at organizing a global list of changes, but some of the more relevant ones, as of now, include:
+I am not the best at organizing a global list of changes, but some of them, as of now, are:
 
 -An attempt at a functional Beornia.
 
@@ -29,4 +29,4 @@ I am not the best at organizing a global list of changes, but some of the more r
 
 And a fair bit of other minor and major changes which you'll be able to find on the Changelog.
 
-Current Checksum is JXMN
+Current Checksum is YJFT
