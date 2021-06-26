@@ -241,7 +241,7 @@ v4.4 Colonial Life-Ratings, Small Changes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-v4.5 Indian Iron Decisions, Factory Changes, Hetmanate Cores, Muscovy Nerf
+v5 Indian Iron Decisions, Factory Changes, Hetmanate Cores, Muscovy Nerf
 
 #Decision Changes/Additions
 -Added three decisions that a Civilized Indian Nation, with Mechanized Mining, can take, that allow it to convert the provinces of Nagpur, Jagdalpur and Bangalore to Iron, in order to aid the industrialization of a civilized India.
