@@ -6,6 +6,7 @@ The goal is to have DoD's immense flavor, combined with Igor PUIR's stable and f
 The mod itself is a merge between DoD Multiplayer 1.9 and Igor PUIR (whatever version Reno has it up to right now) and contains a great deal of changes to DoD to try to make it more enjoyable and balanced.
 
 I am not the best at organizing a global list of changes, but some of the more relevant ones, as of now, include:
+
 -An attempt at a functional Beornia.
 -RGO Changes to make certain nations more viable (PLC and Ameriga)
 -RGO Decisions to aid a Civilized Indian Nation (viable Mughals, or whatever other Indian country takes over)
