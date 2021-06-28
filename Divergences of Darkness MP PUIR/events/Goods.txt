@@ -1089,7 +1089,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap }
+		set_province_flag = event_good_swap 
 		trade_goods = oil
 		# life_rate = 5
 	}

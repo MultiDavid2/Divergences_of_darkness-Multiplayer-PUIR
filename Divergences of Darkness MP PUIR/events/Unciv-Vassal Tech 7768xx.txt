@@ -11,8 +11,8 @@ country_event = {
 			is_vassal = yes
 			is_substate = yes
 		}
-		NOT = { water_wheel_power = 1 }
-		overlord = { water_wheel_power = 1 }
+		NOT = { piston_steam_engine = 1 }
+		overlord = { piston_steam_engine = 1 }
 	}
 	
 	mean_time_to_happen = {
@@ -21,7 +21,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA776801"
-		activate_technology = water_wheel_power
+		activate_technology = piston_steam_engine
 	}
 }
 
@@ -38,8 +38,8 @@ country_event = {
 			is_vassal = yes
 			is_substate = yes
 		}
-		NOT = { practical_steam_engine = 1 }
-		overlord = { practical_steam_engine = 1 }
+		NOT = { high_pressure_steam_engine = 1 }
+		overlord = { high_pressure_steam_engine = 1 }
 	}
 	
 	mean_time_to_happen = {
@@ -48,7 +48,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA776801"
-		activate_technology = practical_steam_engine
+		activate_technology = high_pressure_steam_engine
 	}
 }
 
@@ -65,8 +65,8 @@ country_event = {
 			is_vassal = yes
 			is_substate = yes
 		}
-		NOT = { high_n_low_pressure_steam_engines = 1 }
-		overlord = { high_n_low_pressure_steam_engines = 1 }
+		NOT = { compound_steam_engines = 1 }
+		overlord = { compound_steam_engines = 1 }
 	}
 	
 	mean_time_to_happen = {
@@ -75,7 +75,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA776801"
-		activate_technology = high_n_low_pressure_steam_engines
+		activate_technology = compound_steam_engines
 	}
 }
 
