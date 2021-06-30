@@ -109,7 +109,6 @@ the_british_raj = {
 			government = prussian_constitutionalism
 			government = hms_government
 		}
-		NOT = { is_culture_group = indo_iranian }
 		NOT = { is_culture_group = south_asian }
 		1227 = {
 			is_colonial = yes

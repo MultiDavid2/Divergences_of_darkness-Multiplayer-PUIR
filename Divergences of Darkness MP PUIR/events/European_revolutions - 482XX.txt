@@ -515,12 +515,6 @@ country_event = {
 	option = { 
 	name = "36720.A"
 	
-	744 = {
-			add_province_modifier = {
-					name = liberal_stronghold
-					duration = -1
-			}
-		}
 	any_pop = { 
 		ideology = {
 				value = liberal
