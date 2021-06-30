@@ -6,7 +6,7 @@ country_event = {
 	
 	trigger = {
 		year = 1836
-		TAG = HAW
+		TAG = SIK
 		NOT = { has_global_flag = money_injected }
 	}
 	

@@ -3307,7 +3307,6 @@ country_event = { #Anglois failure -1855
 	
 	trigger = { 
 	tag = DUA
-    year = 1936	
 	has_country_flag = dual_integration 
 	OR = { exists = OCC 
 	exists = FRA 
@@ -3356,7 +3355,6 @@ country_event = { #Anglois failure -1860
 	
 	trigger = { 
 	tag = DUA 
-	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -3453,7 +3451,6 @@ country_event = { #Anglois failure -1865
 	
 	trigger = { 
 	tag = DUA 
-	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -3501,7 +3498,6 @@ country_event = { #Anglois failure -1870
 	
 	trigger = { 
 	tag = DUA 
-	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -4402,7 +4398,7 @@ country_event = {  # Give England cores if DUA has suceeded and someone else own
 				province_id = 304		
 			}
 			owned_by = THIS
-			NOT = { is_ core = ENL }		
+			NOT = { is_core = ENL }		
 		}
 	
 	add_core = ENL
@@ -4507,7 +4503,7 @@ country_event = {  # Remove England cores if DUA owns it and has suceeded
 				province_id = 304		
 			}
 			owned_by = THIS
-			is_ core = ENL		
+			is_core = ENL		
 		}
 	
 	remove_core = ENL
@@ -4626,7 +4622,7 @@ country_event = {  # Give France cores if DUA has suceeded and someone else owns
 				province_id = 2570		
 			}
 			owned_by = THIS
-			NOT = { is_ core = FRA }		
+			NOT = { is_core = FRA }		
 		}
 	
 	add_core = FRA
@@ -4745,7 +4741,7 @@ country_event = {  # Remove France cores if DUA has suceeded and owns it
 				province_id = 2570		
 			}
 			owned_by = THIS
-			is_ core = FRA		
+			is_core = FRA		
 		}
 	
 	remove_core = FRA

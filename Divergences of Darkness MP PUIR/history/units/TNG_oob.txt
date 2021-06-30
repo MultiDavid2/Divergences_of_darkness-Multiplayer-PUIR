@@ -1,5 +1,5 @@
 TAI = {
-   value = -20
+   value = -150
    truce_until = "1840.1.1"
 }
 
@@ -175,10 +175,6 @@ navy = {
 
 }
 
-
-TAI = {
-	value = -150		#relation
-}
 
 MIG = { 
 	value = -150 		#relation

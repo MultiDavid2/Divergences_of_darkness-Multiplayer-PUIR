@@ -242,7 +242,7 @@ political_decisions = {
 			clr_country_flag = grant700000
 			clr_country_flag = grant800000
 			clr_country_flag = grant900000
-			all_country = {
+			any_country = {
 				limit = {
 					in_sphere = THIS
 				}

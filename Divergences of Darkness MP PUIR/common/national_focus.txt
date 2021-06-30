@@ -29,7 +29,7 @@ immigration_focus = {
 	
 	assimilation_focus =
 	{
-		assimilation_rate = 5.0
+		assimilation_rate = 5.0 
 		icon = 8
 		limit = { 
 			nationalvalue = nv_equality 

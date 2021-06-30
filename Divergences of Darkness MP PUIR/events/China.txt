@@ -9,7 +9,7 @@ country_event = {
 	
 	option = { 
 	name = "44201.A"
-	relation = { who = FROM value = -200 }
+	relation = { who = SPA value = -200 }
 	SPA = { country_event = 44202 }
 	ai_chance = { 
 	factor = 5 
@@ -943,6 +943,7 @@ country_event = {
 	
 	trigger = { 
 	tag = CHG
+	NOT = { tag = CHG }
 	civilized = no 
 	has_country_flag = modernization_CHG
 	}
@@ -980,7 +981,7 @@ country_event = {
 	set_country_flag = script_question
 	money = -1000000
 	any_pop = { literacy = 0.1  }
-	random_owned = { limit = { owner = { education_reform = yes_education_reform } } owner = { economic_reform = advanced_education_reform activate_technology = positivism  }  }
+	random_owned = { limit = { owner = { education_reform = yes_education_reform } } owner = { economic_reform = education_reform_two activate_technology = positivism  }  }
 	random_owned = { limit = { owner = { education_reform = no_education_reform } } owner = { economic_reform = yes_education_reform activate_technology = malthusian_thought }  }
 	random_owned = { limit = { owner = { academic_institutions = universities  } } owner = { research_points = 8000 }  }
 	random_owned = { limit = { owner = { academic_institutions = madrasahs } } owner = { economic_reform = universities  activate_technology = idealism }  }

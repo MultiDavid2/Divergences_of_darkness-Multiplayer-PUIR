@@ -444,7 +444,7 @@ political_decisions = {
 		}
 		
 		allow = { 
-		invention = steamer_shipyard_construction
+			steamers = 1
 		}
 		
 		effect = { 

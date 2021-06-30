@@ -1506,10 +1506,6 @@ early_interwar_fighters = {
 	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
-		modifier = {
-			factor = -2
-			not = { invention = interruptor_gears }
-		}
 	}
 	effect = {
 		plane = {

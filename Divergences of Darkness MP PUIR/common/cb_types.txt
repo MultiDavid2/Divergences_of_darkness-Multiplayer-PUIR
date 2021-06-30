@@ -42,9 +42,6 @@ peace_order = {
 treaty_port_casus_belli
 war_reparations
 become_independent
-dismantle_cb
-dismantle_cb_add
-dismantle_cb_add_new
 colonial_competition
 acquire_all_cores
 acquire_core_state
@@ -86,7 +83,6 @@ china_acquire_state
 china_acquire_state_2
 china_conquest
 acquire_state
-acquire_any_state
 acquire_substate_region
 take_capital
 colonial_conquest
@@ -1392,7 +1388,6 @@ free_peoples = {
 					OR = {
 						region = PRU_701
 						region = RUS_706
-						region = RUS_715
 						region = AUS_702
 					}
 				}

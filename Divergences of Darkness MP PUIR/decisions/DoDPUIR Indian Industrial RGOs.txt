@@ -5,9 +5,7 @@ political_decisions = {
 	india_iron_rgo1 = { 
 		picture = diamond_extraction
 		potential = {
-			OR = {
-				owns = 1279
-			}
+			owns = 1279
 			OR = {
 				is_culture_group = dravidian
 				is_culture_group = south_asian
@@ -32,9 +30,7 @@ political_decisions = {
 	india_iron_rgo2 = { 
 		picture = diamond_extraction
 		potential = {
-			OR = {
-				owns = 1277 
-			}
+			owns = 1277 
 			OR = {
 				is_culture_group = dravidian
 				is_culture_group = south_asian
@@ -59,9 +55,7 @@ political_decisions = {
 	india_iron_rgo3 = { 
 		picture = diamond_extraction
 		potential = {
-			OR = {
-				owns = 1313 
-			}
+			owns = 1313 
 			OR = {
 				is_culture_group = dravidian
 				is_culture_group = south_asian

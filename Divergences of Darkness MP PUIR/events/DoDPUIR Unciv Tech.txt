@@ -34,7 +34,7 @@ country_event = {
 				activate_technology = freedom_of_trade
 				activate_technology = high_pressure_steam_engine 
 				activate_technology = mechanized_mining
-				activate_technology = piston_steam_engine_power
+				activate_technology = piston_steam_engine
 			}
 		}
 		random_owned = {
@@ -43,7 +43,7 @@ country_event = {
 			}
 			owner = { 
 				activate_technology = mechanized_mining
-				activate_technology = piston_steam_engine_power
+				activate_technology = piston_steam_engine
 			}
 		}
 	}

@@ -705,10 +705,6 @@ darwinism = {
 			impressionism = 1
 		}
 		modifier = {
-			factor = 2
-			invention = genetics:_heredity
-		}
-		modifier = {
 			factor = 1
 			invention = philosophy_of_language
 		}
