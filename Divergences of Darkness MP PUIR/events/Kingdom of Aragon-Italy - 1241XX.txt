@@ -79,6 +79,7 @@ country_event = {
 	desc = "ARI.1.D"
 	picture = "ARA_TUN"
 	
+	
 	trigger = { 
 	OR = { 
 	tag = ARA 

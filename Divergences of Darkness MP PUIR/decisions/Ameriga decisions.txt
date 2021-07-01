@@ -859,7 +859,7 @@ political_decisions = {
 		allow = { 
 		NOT = { AMA = { is_greater_power = yes } } 
 		war = no 
-		year = 1860 
+		year = 1860
 		}
 		
 		effect = { 

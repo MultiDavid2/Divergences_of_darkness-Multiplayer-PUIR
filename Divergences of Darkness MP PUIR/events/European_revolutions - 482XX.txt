@@ -156,6 +156,7 @@ country_event = { ##Creation of the Irish Brotherhood -possible negotiation
 	
 	picture = "IRE_IB"
 	
+	
 	trigger = { 
 	tag = DUA 
 	IRE = { exists = no }

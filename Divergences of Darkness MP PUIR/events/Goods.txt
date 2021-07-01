@@ -157,6 +157,7 @@ province_event = {
 	}
 	
 	fire_only_once = yes
+	#is_triggered_only = yes #REMOVE
 
 	mean_time_to_happen =  {
 		months = 12

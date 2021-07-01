@@ -321,7 +321,7 @@ socialist_group = {
 	communist = {
 		uncivilized = no
 		color = { 150 10 10 }
-		date = 1860.1.1
+		date = 1860.1.1  #1860
 		
 		add_political_reform = {
 			base = 0

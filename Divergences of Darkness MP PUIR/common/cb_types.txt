@@ -5565,7 +5565,6 @@ colonial_conquest = {
 			OR = {
 				region = POR_2060
 				region = POR_2053
-				region = POR_2054
 				region = POR_2049
 			}
 		}
@@ -5586,8 +5585,6 @@ colonial_conquest = {
 					OR = {
 						region = POR_2060
 						region = POR_2053
-						region = POR_2054
-						region = POR_2049
 					}
 				}
 			}
@@ -5624,7 +5621,6 @@ colonial_conquest = {
 							OR = {
 								region = POR_2060
 								region = POR_2053
-								region = POR_2054
 								region = POR_2049
 							}
 						}

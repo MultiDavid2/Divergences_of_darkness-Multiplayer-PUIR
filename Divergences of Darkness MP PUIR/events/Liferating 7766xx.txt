@@ -819,28 +819,18 @@ country_event = {
 	desc = "EVTDESC776611"
 	picture = "rome_buildings"
 	
-	fire_only_once = yes
+	
 	
 	trigger = { 
 		tag = SIK
-		SIK = {
-			NOT = { has_country_flag = liferatings }
-		}
 	}
 	
 	mean_time_to_happen = {
-		days = 1 
+		days = 365
 	}
 	
 	option = {
 		name = "EVT776611OPTA"
-			set_country_flag = liferatings
-			SIK = {
-				country_event = {
-					id = 776611
-					days = 365
-				}
-			}
 			any_country = {
 				any_owned = {
 					limit = {

@@ -658,6 +658,7 @@ country_event = {
 	desc = "DZG7.D"
 	picture = "central_asia"
 	
+	
 	trigger = { 
 	tag = CHG
 	civilized = no 
