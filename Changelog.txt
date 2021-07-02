@@ -276,5 +276,8 @@ v6 Validator Fixes, 1860 Crash Fix, Slave-culture/Native American Flavor.
 
 #Event Bugfixes
 -Colonial Life-rating event (Sikkim), was causing crashes in the 1860s due to repeating itself, have turned it into a MTTH event in order to avoid this, first tests look promissing.
-#-Changed the Anglois Event Chain from being calculated in Rapa Nui (a nation you can declare on, wtf DoD devs) to Sikkim (DoDPUIR's event nation).
+-Changed the Anglois Event Chain from being calculated in Rapa Nui (a nation you can declare on, wtf DoD devs) to Sikkim (DoDPUIR's event nation).
+
+#Flavor
+-Made it so Native American pops don't convert, unless the country they are converting from is Rohnnst.
 
