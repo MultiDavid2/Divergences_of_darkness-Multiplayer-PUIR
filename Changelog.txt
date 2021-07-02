@@ -267,3 +267,14 @@ This change was done to make the building of factories more acessible, by them b
 #Bugfixes
 -Unfucked a syntax error with Leewin's tag, on the Player GoldMines event, that somehow broke the entire event file.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+v6 Validator Fixes, 1860 Crash Fix, Slave-culture/Native American Flavor.
+
+#Validator-based Fixes
+-Cleaned up a good portion of the code, which included a few odd issues from old HPM DoD.
+
+#Event Bugfixes
+-Colonial Life-rating event (Sikkim), was causing crashes in the 1860s due to repeating itself, have turned it into a MTTH event in order to avoid this, first tests look promissing.
+#-Changed the Anglois Event Chain from being calculated in Rapa Nui (a nation you can declare on, wtf DoD devs) to Sikkim (DoDPUIR's event nation).
+
