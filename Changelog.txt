@@ -281,3 +281,4 @@ v6 Validator Fixes, 1860 Crash Fix, Slave-culture/Native American Flavor.
 #Flavor
 -Made it so Native American pops don't convert, unless the country they are converting from is Rohnnst.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
