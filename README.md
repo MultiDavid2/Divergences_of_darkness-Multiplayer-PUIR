@@ -29,4 +29,4 @@ I am not the best at organizing a global list of changes, but some of them, as o
 
 And a fair bit of other minor and major changes which you'll be able to find on the Changelog.
 
-Current Checksum is YJFT
+Current Checksum is ---- (am doing testing for a crash bug, you'll need to find out the old fashioned way)
