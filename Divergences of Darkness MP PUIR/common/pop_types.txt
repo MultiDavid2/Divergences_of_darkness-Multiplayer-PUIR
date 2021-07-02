@@ -1054,7 +1054,7 @@ assimilation_chance = {
 		}
 	}
 		
-	modifier = { #native "indian" peoples should not assimilate, with the exception of Rohnnst
+	modifier = { #native "indian" peoples should not assimilate, with the exception of Rohnnst whose country is born from interbreeding between native americans and colonists
 		factor = -10000
 		AND = {
 			OR = {
