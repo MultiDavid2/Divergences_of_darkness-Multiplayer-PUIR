@@ -62,6 +62,7 @@ political_decisions = {
 	potential = {
 	OR = { tag = VIN tag = DNG }
 	NOT = { has_country_flag = rohnst_culture }
+	NOT = { OR = { tag = VIN tag = DNG }} #REMOVE LATER
 	}
 	
 	allow = { 
@@ -82,6 +83,7 @@ political_decisions = {
 	potential = {
 	OR = { tag = VIN tag = NBG }
 	NOT = { has_country_flag = iroquois_culture }
+	NOT = { OR = { tag = VIN tag = NBG }} #REMOVE LATER 
 	}
 	
 	allow = { 
@@ -103,6 +105,7 @@ political_decisions = {
 	potential = { 
 	tag = VIN 
 	NOT = { has_country_flag = algonquin_culture }
+	NOT = { tag = VIN } #REMOVE LATER
 	}
 	
 	allow = { 
@@ -124,6 +127,7 @@ political_decisions = {
 	potential = { 
 	OR = { tag = VIN tag = PLA tag = DNG }
 	NOT = { has_country_flag = dakota_culture }
+	NOT = { OR = { tag = VIN tag = PLA tag = DNG }} #REMOVE LATER
 	}
 	
 	allow = { 
@@ -145,6 +149,7 @@ political_decisions = {
 	potential = { 
 	tag = PLA 
 	NOT = { has_country_flag = cherokee_culture }
+	NOT = { tag = PLA } #REMOVE LATER
 	}
 	
 	allow = { 
@@ -166,6 +171,7 @@ political_decisions = {
 	potential = { 
 	tag = DNG 
 	NOT = { has_country_flag = pueblo_culture }
+	NOT = { tag = DNG } #REMOVE LATER
 	}
 	
 	allow = { 
@@ -187,6 +193,7 @@ political_decisions = {
 	potential = { 
 	OR = { tag = LST tag = CLM } 
 	NOT = { has_country_flag = apache_culture }
+	NOT = { OR = { tag = LST tag = CLM }} #REMOVE LATER
 	}
 	
 	allow = { 
