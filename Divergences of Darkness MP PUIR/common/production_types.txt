@@ -572,7 +572,7 @@ small_arms_factory = {
 	template = factory_template
 	input_goods = {        
 		lumber = 12.5	#25
-		steel = 1.5		#14.1		total input+maint = 48.925
+		steel = 1.5		#14.1		total input+maint = 48.925                   
 	}
 	output_goods = small_arms 
 	value = 1.2			#60
@@ -585,6 +585,25 @@ small_arms_factory = {
 		value = 0.1
 	}
 }
+
+army_uniforms_factory = {
+	template = factory_template
+	input_goods = {
+		fabric = 22.5                 
+		dye = 1                          #0.375 cloth per fabric
+	}
+	output_goods = army_uniforms
+	value = 8.5
+	bonus = {
+		trigger = { has_building = fabric_factory }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = dye }
+		value = 0.1
+	}
+}
+	
 
 ############# COMMON FACTORIES
 
@@ -1401,6 +1420,24 @@ artisan_explosives = {
 	}
 	output_goods = explosives 
 	value = 3			#60
+	
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_army_uniforms = {
+	input_goods = {
+		fabric = 45                 
+		dye = 2                          #0.375 cloth per fabric
+	}
+	output_goods = army_uniforms
+	value = 17
 	
 	owner = {
 		poptype = artisan
