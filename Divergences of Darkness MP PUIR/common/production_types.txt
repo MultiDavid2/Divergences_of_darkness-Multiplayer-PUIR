@@ -586,23 +586,23 @@ small_arms_factory = {
 	}
 }
 
-army_uniforms_factory = {
-	template = factory_template
-	input_goods = {
-		fabric = 22.5                 
-		dye = 1                          #0.375 cloth per fabric
-	}
-	output_goods = army_uniforms
-	value = 8.5
-	bonus = {
-		trigger = { has_building = fabric_factory }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = dye }
-		value = 0.1
-	}
-}
+#army_uniforms_factory = {
+	#template = factory_template
+	#input_goods = {
+	#	fabric = 22.5                 
+	#	dye = 1                          #0.375 cloth per fabric
+	#}
+	#output_goods = army_uniforms
+	#value = 8.5
+	#bonus = {
+	#	trigger = { has_building = fabric_factory }
+	#	value = 0.15
+	#}
+	#bonus = {
+	#	trigger = { trade_goods_in_state = dye }
+	#	value = 0.1
+	#}
+#}
 	
 
 ############# COMMON FACTORIES
@@ -1431,23 +1431,23 @@ artisan_explosives = {
 	workforce = 10000
 }
 
-artisan_army_uniforms = {
-	input_goods = {
-		fabric = 45                 
-		dye = 2                          #0.375 cloth per fabric
-	}
-	output_goods = army_uniforms
-	value = 17
+#artisan_army_uniforms = {
+	#input_goods = {
+	#	fabric = 45                 
+	#	dye = 2                          #0.375 cloth per fabric
+	#}
+	#output_goods = army_uniforms
+	#value = 17
 	
-	owner = {
-		poptype = artisan
-		effect = output
-	}
+	#owner = {
+	#	poptype = artisan
+	#	effect = output
+	#}
 	
-	type = artisan
+	#type = artisan
 	
-	workforce = 10000
-}
+	#workforce = 10000
+#}
 
 ############# CHEAP FACTORIES
 
