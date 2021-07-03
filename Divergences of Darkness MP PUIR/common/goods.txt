@@ -229,4 +229,8 @@ consumer_goods = {
 		available_from_start = no
 		color = { 129 63 6 }
 	}
+	army_uniforms = {
+		cost = 5.8
+		color = { 0 0 0 }
+	}
 }
