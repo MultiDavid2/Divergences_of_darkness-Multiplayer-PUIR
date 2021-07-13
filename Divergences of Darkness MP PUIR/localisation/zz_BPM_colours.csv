@@ -16,3 +16,8 @@ BP_TOOL_COLOR_PRUSSIANBLUE;Blue(Prussia);;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BP_TOOL_COLOR_BEIGE;Beige;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BP_TOOL_COLOR_DARKYELLOW;Dark Yellow;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BP_TOOL_COLOR_ORANGEYELLOW;Yellow(Persia);;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BPM_TOOL_BORDER_1;Slim Dashed Border;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BPM_TOOL_BORDER_2;Medium Dashed Border;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BPM_TOOL_BORDER_3;Thick Dashed Border;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BPM_TOOL_BORDER_4;Medium Border;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BPM_TOOL_BORDER_5;Thick Border;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

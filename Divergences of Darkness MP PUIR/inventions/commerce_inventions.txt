@@ -1,8 +1,6 @@
 #stock_exchange
 multitude_of_financial_instruments = {
-	limit = {
-		stock_exchange = 1
-	}
+	limit = { stock_exchange = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -20,9 +18,7 @@ multitude_of_financial_instruments = {
 	}
 }
 insurance_companies = {
-	limit = {
-		stock_exchange = 1
-	}
+	limit = { stock_exchange = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -40,9 +36,7 @@ insurance_companies = {
 	}
 }
 regulated_buying_and_selling_of_stocks = {
-	limit = {
-		stock_exchange = 1
-	}
+	limit = { stock_exchange = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -112,7 +106,6 @@ distribution_channels = {
 	}
 	effect = {
 		factory_cost = -0.01
-		farm_RGO_eff = 0.5
 	}
 }
 #investment_banks
@@ -131,7 +124,8 @@ industrial_rnd_investments = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+
+	increase_research = 0.07
 	}
 }
 industrial_production_investments = {
@@ -149,7 +143,7 @@ industrial_production_investments = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_throughput = 0.02
 	}
 }
 industrial_distribution_investments = {
@@ -167,7 +161,7 @@ industrial_distribution_investments = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.05
 	}
 }
 #bank_inspection_board
@@ -190,13 +184,13 @@ private_bank_monitoring = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		factory_goods_throughput = {
+			paper =  0.05
+		}
 	}
 }
 market_behaviour_monitoring = {
-	limit = {
-		bank_inspection_board = 1
-	}
+	limit = { bank_inspection_board = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -367,7 +361,7 @@ state_bond_monetary_mechanism = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 2 
 	}
 }
 interest_inflation_weapon = {
@@ -389,7 +383,7 @@ interest_inflation_weapon = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		loan_interest = -0.01 
 	}
 }
 #market_determined_exchange_rates
@@ -409,6 +403,7 @@ hyperinflation = {
 	}
 	core_pop_consciousness_modifier = 0.01
 	effect = {
+		loan_interest = -0.01
 		factory_cost = 0.1
 	}
 }
@@ -469,9 +464,7 @@ james_mill = {
 }
 #late_classical_theory
 john_elliot_cairnes = {
-	limit = {
-		late_classical_theory = 1
-	}
+	limit = { late_classical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -489,9 +482,7 @@ john_elliot_cairnes = {
 	}
 }
 robert_torrens = {
-	limit = {
-		late_classical_theory = 1
-	}
+	limit = { late_classical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -509,9 +500,7 @@ robert_torrens = {
 	}
 }
 john_stuart_mill = {
-	limit = {
-		late_classical_theory = 1
-	}
+	limit = { late_classical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -530,44 +519,17 @@ john_stuart_mill = {
 }
 #collectivist_theory
 pierre_joseph_proudhon = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
-			factor = 5
-			nationalvalue = nv_liberty
+			factor = 3
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = socialist
-		}
-		
-		modifier = {
-			factor = 2
-			invention = atheism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = secularization
-		}
-		
-		modifier = {
-			factor = 2
-			invention = authoritarianism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = rationalism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = collectivism
 		}
 	}
 	effect = {
@@ -575,9 +537,7 @@ pierre_joseph_proudhon = {
 	}
 }
 karl_marx = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -586,107 +546,27 @@ karl_marx = {
 			ruling_party_ideology = communist
 		}
 		modifier = {
-			factor = 5
+			factor = 2
 			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1
 			economic_policy = planned_economy
 		}
-		
-		modifier = {
-			factor = 8
-			invention = friedrich_engels
-		}
-		
-		modifier = {
-			factor = 2
-			invention = egalitarianism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = social_justice
-		}
-		
-		modifier = {
-			factor = 2
-			invention = atheism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = secularization
-		}
-		
-		modifier = {
-			factor = 2
-			invention = rationalism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = determinism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = collectivism
-		}
 	}
 	effect = {
 		permanent_prestige = 1 
 	}
+	social_reform_desire = 0.05
 }
 friedrich_engels = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
 		modifier = {
-			factor = 4
+			factor = 2
 			invention = karl_marx
-		}
-		modifier = {
-			factor = 2
-			invention = egalitarianism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = social_justice
-		}
-		
-		modifier = {
-			factor = 2
-			invention = atheism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = rationalism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = secularization
-		}
-		
-		modifier = {
-			factor = 2
-			invention = determinism
-		}
-		
-		modifier = {
-			factor = 2
-			invention = collectivism
-		}
-		
-		modifier = {
-			factor = 5
-			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1
@@ -698,9 +578,7 @@ friedrich_engels = {
 	}
 }
 eduard_bernstein = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -720,15 +598,17 @@ eduard_bernstein = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = {
+			factor = -8
+			NOT = { year = 1875 }
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
 	}
 }
 sidney_webb = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -746,15 +626,18 @@ sidney_webb = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = -7
+			NOT = { year = 1885 }
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
 	}
+	social_reform_desire = 0.05
 }
 karl_kautsky = {
-	limit = {
-		collectivist_theory = 1
-	}
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -770,15 +653,17 @@ karl_kautsky = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = -7
+			NOT = { year = 1880 }
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
 	}
 }
-jean_jaures = {
-	limit = {
-		collectivist_theory = 1
-	}
+jean_jaurès = {
+	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -790,6 +675,10 @@ jean_jaures = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = {
+			factor = -5
+			NOT = { year = 1880 }
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -797,9 +686,7 @@ jean_jaures = {
 }
 #the_historical_theory
 friedrich_list = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -817,9 +704,7 @@ friedrich_list = {
 	}
 }
 wilhelm_roscher = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -837,9 +722,7 @@ wilhelm_roscher = {
 	}
 }
 bruno_hildebrand = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -857,9 +740,7 @@ bruno_hildebrand = {
 	}
 }
 karl_knies = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -877,9 +758,7 @@ karl_knies = {
 	}
 }
 gustav_von_schmoller = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -897,9 +776,7 @@ gustav_von_schmoller = {
 	}
 }
 adolph_wagner = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -917,9 +794,7 @@ adolph_wagner = {
 	}
 }
 william_cunningham = {
-	limit = {
-		the_historical_theory = 1
-	}
+	limit = { the_historical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -937,10 +812,8 @@ william_cunningham = {
 	}
 }
 #neoclassical_theory
-johann_heinrich_von_thunen = {
-	limit = {
-		neoclassical_theory = 1
-	}
+johann_heinrich_von_thünen = {
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -954,13 +827,12 @@ johann_heinrich_von_thunen = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
-leon_walras = {
-	limit = {
-		neoclassical_theory = 1
-	}
+léon_walras = {
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -974,13 +846,12 @@ leon_walras = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 stanley_jevons = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -994,13 +865,12 @@ stanley_jevons = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 carl_menger = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1014,13 +884,12 @@ carl_menger = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 thorstein_veblen = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1034,13 +903,12 @@ thorstein_veblen = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 alfred_marshall = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1054,13 +922,12 @@ alfred_marshall = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 augustin_cournot = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1074,13 +941,12 @@ augustin_cournot = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 jules_dupuit = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1094,13 +960,12 @@ jules_dupuit = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 vilfredo_pareto = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1114,13 +979,12 @@ vilfredo_pareto = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 knut_wicksell = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1134,13 +998,12 @@ knut_wicksell = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 irving_fischer = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1154,13 +1017,12 @@ irving_fischer = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 joseph_schumpeter = {
-	limit = {
-		neoclassical_theory = 1
-	}
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1174,13 +1036,12 @@ joseph_schumpeter = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
-eugen_von_bohm_bawerk = {
-	limit = {
-		neoclassical_theory = 1
-	}
+eugen_von_böhm_bawerk = {
+	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1194,14 +1055,13 @@ eugen_von_bohm_bawerk = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 #keynesian_economics
 john_maynard_keynes = {
-	limit = {
-		keynesian_economics = 1
-	}
+	limit = { keynesian_economics = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1217,13 +1077,12 @@ john_maynard_keynes = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01
 	}
 }
 richard_kahn = {
-	limit = {
-		keynesian_economics = 1
-	}
+	limit = { keynesian_economics = 1 }
 	news = no
 	chance = {
 		base = 3
@@ -1237,13 +1096,12 @@ richard_kahn = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 ludwig_von_mises = {
-	limit = {
-		keynesian_economics = 1
-	}
+	limit = { keynesian_economics = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -1261,13 +1119,12 @@ ludwig_von_mises = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 friedrich_hayek = {
-	limit = {
-		keynesian_economics = 1
-	}
+	limit = { keynesian_economics = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -1281,13 +1138,14 @@ friedrich_hayek = {
 		}
 	}
 	effect = {
-		permanent_prestige = 1 
+		permanent_prestige = 1
+		increase_research = 0.01 
 	}
 }
 #market_structure
 polypoly_structure = {
 	news = no
-	limit = {
+	limit = { 
 		market_structure = 1 
 		NOT = {
 				OR = {
@@ -1313,7 +1171,7 @@ polypoly_structure = {
 }
 oligopoly_structure = {
 	news = no
-	limit = {
+	limit = { 
 		market_structure = 1 
 		NOT = {
 			OR = {
@@ -1339,7 +1197,7 @@ oligopoly_structure = {
 }
 monopoly_structure = {
 	news = no
-	limit = {
+	limit = { 
 		market_structure = 1 
 		NOT = {
 			OR = {
@@ -1419,7 +1277,7 @@ patent = {
 		}
 	}
 	effect = {
-		factory_cost = -0.03
+	increase_research = 0.1
 	}
 }
 trademark = {
@@ -1464,7 +1322,7 @@ anti_trust_laws = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+	increase_research = 0.1
 	}
 }
 financial_regulations = {
@@ -1482,7 +1340,7 @@ financial_regulations = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 3 
 	}
 }
 banking_regulations = {
@@ -1500,7 +1358,7 @@ banking_regulations = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		factory_cost = 0.01 
 	}
 }
 #economic_responsibility
@@ -1519,7 +1377,7 @@ working_board_of_directors = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.02
 	}
 }
 bankruptcy_proceedings = {
@@ -1555,7 +1413,7 @@ annual_report_proceedings = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.02
 	}
 }
 #government_interventionism
@@ -1575,6 +1433,7 @@ priming_the_pump_ = {
 	}
 	effect = {
 		loan_interest = -0.005
+		factory_cost = 0.05
 	}
 }
 mixed_economy = {
@@ -1590,6 +1449,10 @@ mixed_economy = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = {
+			factor = -6
+			government = proletarian_dictatorship
+		}
 	}
 	effect = {
 		loan_interest = -0.005
@@ -1599,18 +1462,19 @@ centralized_economic_planning = {
 	limit = { government_interventionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 0
 		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
+			factor = 50
+			government = fascist_dictatorship
 		}
 		modifier = {
-			factor = 3
-			economic_policy = planned_economy
+			factor = 50
+			government = proletarian_dictatorship
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.2
+		factory_throughput = -0.1
 	}
 }
 autarky = {
@@ -1626,6 +1490,10 @@ autarky = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = {
+			factor = 8
+			ruling_party_ideology = fascist
+		}
 		#modifier = {
 		#	factor = 100
 		#	stupidity = yes
@@ -1636,26 +1504,24 @@ autarky = {
 	}
 }
 import_substitution_industrialization = {
-	limit = {
-		government_interventionism = 1
-	}
+	limit = { government_interventionism = 1 }
 	news = no
 	chance = {
-		base = 0
+		base = 2
 		modifier = {
-			factor = 4
+			factor = 8
 			economic_policy = planned_economy
 		}
 		modifier = {
-			factor = 3
+			factor = 8
 			economic_policy = state_capitalism
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			economic_policy = interventionism
 		}
 		modifier = {
-			factor = 1
+			factor = 3
 			trade_policy = protectionism
 		}
 	}
@@ -1663,30 +1529,6 @@ import_substitution_industrialization = {
 		activate_building = synthetic_oil_factory
 	}
 }
-
-#guild_based_production
-modern_winemaking = {
-	limit = {
-		guild_based_production = 1
-		OR = {
-			NOT = { 
-				has_country_flag = sunni_country 
-				has_country_flag = shiite_country 
-				has_country_flag = ibadi_country 
-			}
-			has_country_flag = secularized_muslim_society
-			has_country_flag = post_colonial_country
-		}
-	}
-	news = no
-	chance = {
-		base = 100
-	}
-	effect = {
-		activate_building = winery
-	}
-}
-
 #organized_factories
 work_classification = {
 	limit = { organized_factories = 1 }
