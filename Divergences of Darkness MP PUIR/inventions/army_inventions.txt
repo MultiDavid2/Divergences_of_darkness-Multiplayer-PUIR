@@ -38,7 +38,7 @@ field_fortifications = {
 		base = 2
 		modifier = {
 			factor = 3
-			interchangeable_parts = 1
+			mechanical_production = 1
 		}
 		modifier = {
 			factor = 2
@@ -73,7 +73,9 @@ field_fortifications = {
 	}
 }
 railroad_transport_groups = {
-	limit = { strategic_mobility = 1 }
+	limit = {
+		strategic_mobility = 1
+	}
 	chance = {
 		base = 0
 		modifier = {
@@ -603,7 +605,7 @@ human_wave_vs_spearhead = {
 		}
 		modifier = {
 			factor = 1
-			pneumatic_and_hydraulics = 1
+			semi_automatization = 1
 		}
 	}
 	effect = {
@@ -686,7 +688,7 @@ flintlock_rifle_armament = {
 
 #muzzle_loaded_rifles
 muzzle_loaded_rifle_armament = {
-	limit = { muzzle_loaded_rifles = 1 }
+	limit = { muzzle_loaded_rifles = 1 invention = flintlock_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -721,7 +723,7 @@ muzzle_loaded_rifle_armament = {
 
 #breech_loaded_rifles
 breech_loaded_rifle_armament = {
-	limit = { breech_loaded_rifles = 1 }
+	limit = { breech_loaded_rifles = 1 invention = muzzle_loaded_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -764,7 +766,7 @@ breech_loaded_rifle_armament = {
 
 #machine_guns
 machine_gun_armament = {
-	limit = { machine_guns = 1 }
+	limit = { machine_guns = 1 invention = breech_loaded_rifle_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -851,7 +853,7 @@ colonial_negotiations = {
 }
 #bolt_action_rifles
 bolt_action_rifle_armament = {
-	limit = { bolt_action_rifles = 1 }
+	limit = { bolt_action_rifles = 1 invention = machine_gun_armament }
 	chance = {
 		base = 5
 		modifier = {
@@ -1311,7 +1313,7 @@ combat_loss_evaluation_schemata = {
 		}
 		modifier = {
 			factor = 2
-			interchangeable_parts = 1
+			mechanical_production = 1
 		}
 	}
 	effect = {
@@ -1506,6 +1508,10 @@ early_interwar_fighters = {
 	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
+		modifier = {
+			factor = -2
+			not = { invention = military_aviation }
+		}
 	}
 	effect = {
 		plane = {
@@ -1583,10 +1589,7 @@ flying_circus_doctrine = {
 	}
 }
 force_substitution_doctrine = {
-	limit = { 
-		aeronautics = 1
-		great_war_experience = 1 
-	}
+	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1610,10 +1613,7 @@ force_substitution_doctrine = {
 	}
 }
 battlefield_destruction_doctrine = {
-	limit = { 
-		aeronautics = 1
-		great_war_experience = 1 
-	}
+	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1638,10 +1638,7 @@ battlefield_destruction_doctrine = {
 	}
 }
 operational_destruction_doctrine = {
-	limit = { 
-		aeronautics = 1
-		great_war_experience = 1 
-	}
+	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1666,10 +1663,7 @@ operational_destruction_doctrine = {
 	}
 }
 strategic_destruction_doctrine = {
-	limit = { 
-		aeronautics = 1
-		great_war_experience = 1 
-	}
+	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
 		modifier = {

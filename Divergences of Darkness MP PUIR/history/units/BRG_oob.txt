@@ -83,64 +83,48 @@ leader = {
 	name = "Tristan Duras"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = secretive
+	background = eccentric_genius
 }
 
 leader = {
 	name = "Guillame de Anvers"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = glory_hound
+	background = aristocrat
 }
 
 leader = {
 	name = "Jean Ferro"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = shirker
+	background = sinner
 }
 
 leader = {
 	name = "Paul Laforgue"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = daring
+	background = unqualified
 }
 
 leader = {
 	name = "Hector Millet"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = dauntless
+	background = school_of_the_bayonet
 }
 
 leader = {
 	name = "Georges Roussel"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Guy Berger"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "André Monami"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = scared
+	background = unqualified
 }
 
 
@@ -148,20 +132,12 @@ leader = {
 	name = "Antoine Villon"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Melchior Delhaize"
-	type = sea
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = expert
+	background = cartographer
 }
 
 army = {
-	name = "Årmêye de Nord"
+	name = "Armée du Nord"
 	location = 381
   regiment = {
 		name= "1. Infantrie de Bourgogne"
@@ -200,7 +176,7 @@ army = {
 	}	            
 }
 army = {
-	name = "Årmêye d'Alsace"
+	name = "Armée d'Alsace"
 	location = 571
   regiment = {
 		name= "1. Infantrie d'Alsace"
@@ -240,7 +216,7 @@ army = {
 }
 
 army = {
-	name = "Årmêye de Lorraine"
+	name = "Armée de Lorraine"
 	location = 411
   regiment = {
 		name= "1. Infantrie de Lorraine"
@@ -280,62 +256,62 @@ army = {
 }
 
 army = {
-	name = "Årmêye de Flande"
+	name = "Armée de Flandres"
 	location = 400
   regiment = {
-		name= "1. Infantrie de Flande"
-		type = infantry
-		home = 380
-	}	
-  regiment = {
-		name= "2. Infantrie de Flande"
-		type = infantry
-		home = 394
-	}	
-  regiment = {
-		name= "3. Infantrie de Flande"
+		name= "1. Infantrie de Flandres"
 		type = infantry
 		home = 381
 	}	
   regiment = {
-		name= "4. Infantrie de Flande"
+		name= "2. Infantrie de Flandres"
 		type = infantry
 		home = 394
 	}	
   regiment = {
-		name= "5. Infantrie de Flande"
+		name= "3. Infantrie de Flandres"
 		type = infantry
-		home = 574
+		home = 381
 	}	
   regiment = {
-		name= "6. Infantrie de Flande"
+		name= "4. Infantrie de Flandres"
 		type = infantry
-		home = 576
+		home = 394
 	}	
   regiment = {
-		name= "7. Infantrie de Flande"
+		name= "5. Infantrie de Flandres"
+		type = infantry
+		home = 581
+	}	
+  regiment = {
+		name= "6. Infantrie de Flandres"
+		type = infantry
+		home = 581
+	}	
+  regiment = {
+		name= "7. Infantrie de Flandres"
 		type = artillery
-		home = 570
+		home = 565
 	}	            
 }
 
 army = {
-	name = "Årmêye de Cologne"
+	name = "Armée de Cologne"
 	location = 575
   regiment = {
 		name= "1. Infantrie du Rhin"
 		type = infantry
-		home = 385
+		home = 581
 	}	
   regiment = {
 		name= "2. Infantrie du Rhin"
 		type = infantry
-		home = 386
+		home = 581
 	}	
   regiment = {
 		name= "3. Infantrie du Rhin"
 		type = infantry
-		home = 394
+		home = 581
 	}	
   regiment = {
 		name= "4. Infantrie du Rhin"
@@ -345,22 +321,22 @@ army = {
   regiment = {
 		name= "5. Infantrie du Rhin"
 		type = infantry
-		home = 395
+		home = 385
 	}	
   regiment = {
 		name= "6. Infantrie du Rhin"
 		type = infantry
-		home = 396
+		home = 394
 	}	
   regiment = {
 		name= "7. Infantrie du Rhin"
 		type = artillery
-		home = 398
+		home = 565
 	}	            
 }
 
 army = {
-	name = "Årmêye do Cap"
+	name = "Armée du Cap"
 	location = 2087
   regiment = {
 		name= "1. Infantrie"
@@ -385,27 +361,27 @@ army = {
   regiment = {
 		name= "2. Cavalerie"
 		type = hussar
-		home = 2087
+		home = 565
 	}         
 }
 
 army = {
-	name = "Årmêye de Java"
+	name = "Armée de Java"
 	location = 1414
   regiment = {
 		name= "1. Infantrie"
 		type = infantry
-		home = 1413
+		home = 1414
 	}	
   regiment = {
 		name= "2. Infantrie"
 		type = infantry
-		home = 1413
+		home = 1414
 	}	
   regiment = {
 		name= "3. Infantrie"
 		type = infantry
-		home = 1413
+		home = 1414
 	}	
   regiment = {
 		name= "4. Infantrie"
@@ -450,7 +426,7 @@ army = {
 }
 
 navy = {
-	name = "Escadre de Flande"
+	name = "Escadre de Flandre"
 	location = 388
 	ship = {
 		name= "Triton"

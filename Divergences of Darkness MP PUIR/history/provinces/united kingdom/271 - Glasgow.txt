@@ -6,22 +6,22 @@ trade_goods = coal
 naval_base = 2 
 life_rating = 35
 state_building = {
-	level = 2
+	level = 1
 	building = steamer_shipyard
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 1
 	building = steel_factory
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 1
 	building = machine_parts_factory
 	upgrade = yes
 }
 state_building = {
-	level = 4
+	level = 2
 	building = lumber_mill
 	upgrade = yes
 }
@@ -33,12 +33,12 @@ state_building = {
 
 1861.1.1 = {
 	state_building = {
-		level = 4
+		level = 2
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 2
 		building = steamer_shipyard
 		upgrade = yes
 	}

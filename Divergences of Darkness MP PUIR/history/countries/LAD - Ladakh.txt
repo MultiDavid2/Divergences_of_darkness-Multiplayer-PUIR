@@ -50,5 +50,5 @@ border_policy = open_borders
 set_country_flag = gelugpa_country
 
 # Inventions
-
-
+#bottling_process = yes
+modern_winemaking = yes

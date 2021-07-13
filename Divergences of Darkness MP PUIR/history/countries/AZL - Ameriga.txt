@@ -50,8 +50,12 @@ upper_house = {
 }
 
 #Inventions
-
-
+#corvettes = yes
+authoritarianism = yes
+hierarchical_order = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 
 # Starting Consciousness

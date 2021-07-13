@@ -1,5 +1,5 @@
 TAI = {
-   value = -150
+   value = -20
    truce_until = "1840.1.1"
 }
 
@@ -7,15 +7,15 @@ leader = {
 	name = "Zheng Jing"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = undisciplined
+	background = hussar_school
 }   
 leader = {
 	name = "Li Zicheng"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = choleric
+	background = sinner
 }
 
 
@@ -23,8 +23,8 @@ leader = {
 	name = "Zheng Keshuang"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = shrinking_violet
+	background = aristocrat
 }
 
 army = {
@@ -58,55 +58,55 @@ army = {
 	regiment = {
 		name= "1st Artillery"
 		type = artillery
-		home = 1611
+		home = 1487
 	}
 	
 	regiment = {
-		name= "1. Hussar"
+		name= "1st hussar"
 		type = hussar
-		home = 1611
+		home = 1487
 	}
 	
 	regiment = {
 		name= "1. Brigade"
 		type = infantry
-		home = 1494
+		home = 1611
 	}
 
 	regiment = {
 		name= "2. Brigade"
 		type = infantry
-		home = 1494
+		home = 1611
 	}
 
 	regiment = {
 		name= "3. Brigade"
 		type = infantry
-		home = 1494
+		home = 1611
 	}
 
 	regiment = {
 		name= "4. Brigade"
 		type = infantry
-		home = 1497
+		home = 1611
 	}
 
 	regiment = {
 		name= "2nd Artillery"
 		type = artillery
-		home = 1497
+		home = 1487
 	}
 	
 	regiment = {
 		name= "2nd hussar"
 		type = hussar
-		home = 1482
+		home = 1487
 	}
 }
 
 navy = {
 	name = "Fleet of the Phoenix Emperor"
-	location = 1482
+	location = 1485
   
   ship = {
 		name= "Shanghai"
@@ -175,6 +175,10 @@ navy = {
 
 }
 
+
+TAI = {
+	value = -150		#relation
+}
 
 MIG = { 
 	value = -150 		#relation

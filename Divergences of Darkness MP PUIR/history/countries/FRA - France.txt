@@ -72,7 +72,7 @@ interchangeable_parts = 1
 high_pressure_steam_engine = 1
 
 # Inventions
-
+#corvettes = yes
 
 # Starting Consciousness
 consciousness = 3

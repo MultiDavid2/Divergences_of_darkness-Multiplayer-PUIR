@@ -1,6 +1,5 @@
 capital = 65
 primary_culture = vinlander
-culture = afro_germanic
 religion = protestant
 government = democracy
 plurality = 0.3
@@ -74,8 +73,12 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-
-
+#corvettes = yes
+authoritarianism = yes
+hierarchical_order = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 
 # Starting Consciousness

@@ -1,4 +1,4 @@
-capital = 706 #Warsaw
+capital = 706 #Krakow
 primary_culture = polish
 culture = lithuanian
 culture = ashkenazi
@@ -73,8 +73,8 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-
-
+#corvettes = yes
+commerce_raiders = yes
 
 # Starting Consciousness
 consciousness = 3

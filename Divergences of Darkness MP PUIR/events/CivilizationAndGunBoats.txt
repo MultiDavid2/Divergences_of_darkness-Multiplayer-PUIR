@@ -3797,7 +3797,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA13350"
 		relation = {
-			who = ARC
+			who = FROM
 			value = 30
 		}
 	}

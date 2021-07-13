@@ -2,28 +2,28 @@ leader = {
 	name = "Nikolay Kurakin"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = genius
+	background = aristocrat
 }
 
 leader = {
 	name = "Alexander Cherenkov"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = heroic
+	background = brilliant_strategist
 }
 
 leader = {
 	name = "Lazar Lenin"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = ballsy
+	background = natural_born_leader
 }
 
 army = {
-	name = "Army Corps of the Infantry"
+	name = "Army Corps of the infantry"
 	location = 1008
 	regiment = {
 		name= "1.1-ya Gvardeiskaya Pekhotnaya Diviziya"
@@ -40,72 +40,72 @@ army = {
 	regiment = {
 		name= "3.1-ya Gvardeiskaya Pekhotnaya Diviziya"
 		type = infantry
-		home = 1009
+		home = 1008
 	}
 
 	regiment = {
 		name= "1.2-ya Gvardeiskaya Pekhotnaya Diviziya"
 		type = infantry
-		home = 1010
+		home = 1008
 	}
 
 	regiment = {
 		name= "2.2-ya Gvardeiskaya Pekhotnaya Diviziya"
 		type = infantry
-		home = 1011
+		home = 1008
 	}
 
 	regiment = {
 		name= "3.2-ya Gvardeiskaya Pekhotnaya Diviziya"
 		type = artillery
-		home = 1012
+		home = 1008
 	}
 
 }
 
 army = {
-	name = "Hussar Corps"
+	name = "infantrys hussar Corps"
 	location = 1010
 	regiment = {
 		name= "1.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1013
+		home = 1008
 	}
 
 	regiment = {
 		name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1014
+		home = 1009
 	}
 
 	regiment = {
 		name= "3.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1015
+		home = 1009
 	}
 
 	regiment = {
 		name= "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = cuirassier
-		home = 1016
+		home = 998
 	}
 
 	regiment = {
 		name= "1.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1017
+		home = 1008
 	}
 
 	regiment = {
 		name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1019
+		home = 1037
 	}
 
 	regiment = {
 		name= "3.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
-		home = 1019
+		home = 1037
 	}
 }
 
@@ -115,13 +115,13 @@ army = {
 	regiment = {
 		name= "1.1-ya Grenaderskaya Diviziya"
 		type = infantry
-		home = 1018
+		home = 1037
 	}
 
 	regiment = {
 		name= "2.1-ya Grenaderskaya Diviziya"
 		type = infantry
-		home = 1021
+		home = 1034
 	}
 
 	regiment = {
@@ -139,26 +139,26 @@ army = {
 	regiment = {
 		name= "2.2-ya Grenaderskaya Diviziya"
 		type = infantry
-		home = 1022
+		home = 1020
 	}
 
 	regiment = {
 		name= "3.2-ya Grenaderskaya Diviziya"
 		type = infantry
-		home = 1025
+		home = 1039
 	}
 
 	
 	regiment = {
 		name= "1.1-ya Kavalerijskaya Diviziya"
 		type = hussar
-		home = 1030
+		home = 1039
 	}
 
 	regiment = {
 		name= "2.2-ya Kavalerijskaya Diviziya"
 		type = hussar
-		home = 1033
+		home = 1008
 	}
 
 

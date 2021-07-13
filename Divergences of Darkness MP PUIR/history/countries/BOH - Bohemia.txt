@@ -51,6 +51,7 @@ upper_house = {
 	communist = 0
 }
 
+precision_work = yes
 
 # Technologies
 post_napoleonic_thought = 1
@@ -83,9 +84,6 @@ basic_chemistry = 1
 high_pressure_steam_engine = 1
 mechanical_production = 1
 puddling_process = 1
-
-#Inventions
-precision_work = yes
 
 1861.1.1 = {
 # Technologies

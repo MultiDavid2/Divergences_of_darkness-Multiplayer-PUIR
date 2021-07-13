@@ -332,7 +332,7 @@ political_decisions = {
 			TUR_803 = { add_core = BUL } #Southern Serbia
 			random_owned = {
 				limit = { owner = { NOT = { has_country_flag = bulgaria_exchange has_country_flag = eastern_rumelia_exchange } } }
-				TUR_819 = { add_core = BUL } #Thrace
+				TUR_860 = { add_core = BUL } #Thrace
 			}
 			860 = { remove_core = BUL }
 		}

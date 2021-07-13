@@ -60,7 +60,6 @@ political_decisions = {
 			add_accepted_culture = georgian
 			add_accepted_culture = armenian
 			add_accepted_culture = azerbaijani
-			add_accepted_culture = dagestani
 			change_tag = TCA
 			any_country = {
 				limit = {

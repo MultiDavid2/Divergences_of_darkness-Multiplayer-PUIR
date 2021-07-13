@@ -596,6 +596,11 @@ country_event = {
 
 	option = {
 		name = "800116.A"
+		remove_country_modifier = freedom_talks
+		add_country_modifier = {
+			name = freedom_talks
+			duration = 365
+		}
 		random_owned = {
 			limit = {
 				is_colonial = no
@@ -610,6 +615,10 @@ country_event = {
 			}
 			state_scope = {
 				any_owned = {
+					add_province_modifier = {
+						name = underground_newspaper
+						duration = 1825
+					}
 					any_pop = {
 						limit = {
 							is_primary_culture = yes
@@ -759,6 +768,10 @@ country_event = {
 
 	option = {
 		name = "8001160.A"
+		add_country_modifier = {
+			name = freedom_talks
+			duration = 365
+		}
 		random_owned = {
 			limit = {
 				is_colonial = no
@@ -929,7 +942,12 @@ country_event = {
 
 	option = {
 		name = "10216.B"
-		prestige = -5	
+		prestige = -5
+		remove_country_modifier = freedom_talks
+		add_country_modifier = {
+			name = growing_unrest
+			duration = 365
+		}		
 		upper_house = {
 			ideology = conservative
 			value = 0.3
@@ -993,6 +1011,10 @@ country_event = {
 		prestige = -10
 		set_country_flag = overthrow_the_monarch
 		remove_country_modifier = freedom_talks
+		add_country_modifier = {
+			name = growing_unrest
+			duration = 1095
+		}
 		capital_scope = {
 			random_pop = {
 				limit = {
@@ -1113,6 +1135,10 @@ country_event = {
 			ideology = conservative
 			value = 0.3
 		}
+		add_country_modifier = {
+			name = revolutionary_society
+			duration = -1
+		}
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -1132,6 +1158,10 @@ country_event = {
 		upper_house = {
 			ideology = reactionary
 			value = 0.3
+		}
+		add_country_modifier = {
+			name = revolutionary_society
+			duration = -1
 		}
 		aristocrats = {
 			limit = {

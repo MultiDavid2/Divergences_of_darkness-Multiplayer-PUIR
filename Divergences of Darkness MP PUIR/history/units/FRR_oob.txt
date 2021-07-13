@@ -2,16 +2,16 @@ leader = {
 	name = "Giancarlo Bartoldi"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = pragmatic
+	background = professor
 }
 
 leader = {
 	name = "Tiziano Tagliani"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = modest
+	background = rags_to_riches
 }
 
 army = {

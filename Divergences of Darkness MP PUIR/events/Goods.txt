@@ -27,7 +27,6 @@ province_event = {
 			province_id = 1070			# Yeniseysk - Russia
 		}
 		not = { trade_goods = precious_metal }
-		not = { has_province_flag = event_good_swap }
 	}
 
 	mean_time_to_happen =  {
@@ -44,7 +43,6 @@ province_event = {
 			name = gold_rush
 			duration = 730
 		}
-		set_province_flag = event_good_swap
 		owner = {
 			random_owned = { 
 				limit = { 
@@ -53,6 +51,7 @@ province_event = {
 						OR = { 
 							capital_scope = { continent = north_america } 
 							capital_scope = { continent = south_america }
+							primary_culture = australian
 						}
 					}
 				}
@@ -86,7 +85,6 @@ province_event = {
 		}
 		not = { trade_goods = precious_metal }
 		not = { trade_goods = oil }
-		NOT = { has_province_flag = event_good_swap }
 	}
 
 	mean_time_to_happen =  {
@@ -111,10 +109,9 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
-		set_province_flag = event_good_swap
 		# life_rating = 5
-		owner = { random_owned = { limit = { province_id = 104 NOT = { life_rating = 39 } }} }
-		owner = { random_owned = { limit = { province_id = 89 NOT = { life_rating = 39 } } life_rating = 5 } }
+		owner = { random_owned = { limit = { province_id = 104 NOT = { life_rating = 39 } } life_rating = 10 } }
+		owner = { random_owned = { limit = { province_id = 89 NOT = { life_rating = 39 } } life_rating = 10 } }
 		owner = { random_owned = { limit = { province_id = 84 NOT = { life_rating = 39 } } life_rating = 5 } }
 		owner = { random_owned = { limit = { province_id = 87 NOT = { life_rating = 39 } } life_rating = 5 } }
 		add_province_modifier = { name = gold_rush duration = 730 }
@@ -127,6 +124,7 @@ province_event = {
 						OR = { 
 							capital_scope = { continent = north_america } 
 							capital_scope = { continent = south_america }
+							primary_culture = australian
 						}
 					}
 				}
@@ -153,11 +151,9 @@ province_event = {
 		}
 		not = { trade_goods = precious_metal }
 		NOT = { year = 1920 }
-		NOT = { has_province_flag = event_good_swap }
 	}
 	
 	fire_only_once = yes
-	#is_triggered_only = yes #REMOVE
 
 	mean_time_to_happen =  {
 		months = 12
@@ -184,7 +180,6 @@ province_event = {
 		owner = { random_owned = { limit = { province_id = 2488 NOT = { trade_goods = precious_metal } } change_province_name = "Cairns" } }
 		trade_goods = precious_metal
 		add_province_modifier = { name = gold_rush duration = 730 }
-		set_province_flag = event_good_swap 
 		# life_rating = 5
 		owner = {
 			random_owned = {
@@ -194,6 +189,7 @@ province_event = {
 						OR = { 
 							capital_scope = { continent = north_america } 
 							capital_scope = { continent = south_america }
+							primary_culture = australian
 						}
 					}
 				}
@@ -211,7 +207,6 @@ province_event = {
 		year = 1886
 		province_id = 2106
 		NOT = { trade_goods = precious_metal }
-		NOT = { has_province_flag = event_good_swap }
 	}
 	
 	fire_only_once = yes
@@ -226,7 +221,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1139"
 		trade_goods = precious_metal
-		set_province_flag = event_good_swap
 		add_province_modifier = {
 			name = gold_rush
 			duration = 5475
@@ -255,7 +249,6 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { has_province_flag = event_good_swap }
 		year = 1874
 		has_country_flag = custers_expedition_sent
 	}
@@ -273,13 +266,13 @@ country_event = {
 					OR = { 
 						capital_scope = { continent = north_america } 
 						capital_scope = { continent = south_america }
+						primary_culture = australian
 					}
 				}
 			}
 			owner = { add_country_modifier = { name = gold_rush_country duration = 730 } }
 		}
 		122 = {
-			set_province_flag = event_good_swap
 			trade_goods = precious_metal
 			add_province_modifier = {
 				name = gold_rush
@@ -303,7 +296,6 @@ province_event = {
 			province_id = 2648		# Yakutsk - Russia
 		}
 		not = { trade_goods = precious_metal }
-		NOT = { has_province_flag = event_good_swap }
 	}
 
 	mean_time_to_happen =  {
@@ -323,17 +315,16 @@ province_event = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
 		add_province_modifier = { name = gold_rush duration = 730 }
-		set_province_flag = event_good_swap
 		owner = {
 			random_owned = {
 				limit = { owner = { owns = 2495 2495 = { life_rating = 15 } } }
-				2495 = { change_province_name = "Oodnadatta" life_rating = +5 }
+				2495 = { change_province_name = "Oodnadatta" life_rating = -5}
 			}
 		}
 		owner = { 
 			random_owned = {
 				limit = { owner = { owns = 2496 2496 = { life_rating = 20 } } }
-				2496 = { change_province_name = "Yalata" life_rating = +5 }
+				2496 = { change_province_name = "Yalata" life_rating = -5}
 			}
 		}
 	}
@@ -357,7 +348,6 @@ province_event = {
 			province_id = 2068			# Salisbury
 		}
 		not = { trade_goods = precious_goods }
-		NOT = { has_province_flag = event_good_swap }
 	}
 
 	mean_time_to_happen =  {
@@ -371,7 +361,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		set_province_flag = event_good_swap 
 		trade_goods = precious_goods
 		# life_rating = 5
 	}
@@ -390,7 +379,6 @@ province_event = {
 			province_id = 2084			# Luderitzbutch/Angra Pequena
 		}
 		not = { trade_goods = precious_goods }
-		NOT = { has_province_flag = event_good_swap }
 	}
 
 	mean_time_to_happen =  {
@@ -407,7 +395,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		set_province_flag = event_good_swap
 		trade_goods = precious_goods
 		# life_rating = 5
 	}
@@ -423,7 +410,6 @@ province_event = {
 	trigger = {
 		year = 1880
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		or = {
 			province_id = 1354
 			province_id = 1364
@@ -488,7 +474,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1107"
-		set_province_flag = event_good_swap
 		trade_goods = rubber
 		# life_rating = 5
 	}
@@ -525,7 +510,6 @@ province_event = {
 			province_id = 2286
 		}
 		not = { trade_goods = rubber }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = edison_light_bulb } }
 			owner = { part_of_sphere = yes sphere_owner = { invention = daimlers_automobile } }
@@ -554,7 +538,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1107"
-		set_province_flag = event_good_swap
 		trade_goods = rubber
 		# life_rating = 5
 	}
@@ -575,7 +558,6 @@ province_event = {
 			province_id = 1205		# Kizil Arvat
 		}
 		not = { trade_goods = oil }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -594,7 +576,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -609,7 +590,6 @@ province_event = {
 		province_id = 1104		# Sheki
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -628,7 +608,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -643,7 +622,6 @@ province_event = {
 		province_id = 1186		# Alma Ata
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -662,7 +640,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -677,7 +654,6 @@ province_event = {
 		province_id = 1202		# Kokand
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		set_province_flag = event_good_swap
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -696,7 +672,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -711,7 +686,6 @@ province_event = {
 		province_id = 1107		# Lankaran
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -730,7 +704,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -745,7 +718,6 @@ province_event = {
 		province_id = 132		# Houston
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -764,9 +736,8 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
-		life_rating = 3
+		life_rating = 5
 	}
 }
 
@@ -779,7 +750,6 @@ province_event = {
 		province_id = 667		# Tirgoviste
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -798,7 +768,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -813,7 +782,6 @@ province_event = {
 		province_id = 672		# Bacau
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -832,7 +800,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -847,7 +814,6 @@ province_event = {
 		province_id = 1168		# Dubai
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -866,7 +832,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -881,7 +846,6 @@ province_event = {
 		province_id = 112		# Cheyenne
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -900,7 +864,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -918,7 +881,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -937,9 +899,8 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
-		life_rating = 3
+		life_rating = 5
 	}
 }
 
@@ -956,7 +917,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -975,7 +935,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -995,7 +954,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1014,7 +972,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1034,7 +991,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1053,7 +1009,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 	}
 }
@@ -1067,7 +1022,6 @@ province_event = {
 		province_id = 1260		# Dibrugarh
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1086,7 +1040,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap 
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1101,7 +1054,6 @@ province_event = {
 		province_id = 1086		# Pogobi
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1120,7 +1072,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1138,7 +1089,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1157,7 +1107,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1172,7 +1121,6 @@ province_event = {
 		province_id = 2173		# Queretaro
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1191,7 +1139,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1211,7 +1158,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1230,7 +1176,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1245,7 +1190,6 @@ province_event = {
 		province_id = 1397		# Sandakan
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1264,7 +1208,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1279,7 +1222,6 @@ province_event = {
 		province_id = 2237		# Trinidad
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1298,7 +1240,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1313,7 +1254,6 @@ province_event = {
 		province_id = 2396		# Rawson
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1332,7 +1272,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1347,7 +1286,6 @@ province_event = {
 		province_id = 1131		# Ahvaz
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1366,7 +1304,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1388,7 +1325,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1407,7 +1343,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap 
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1422,7 +1357,6 @@ province_event = {
 		province_id = 1132		# Abadan
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1441,7 +1375,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1456,7 +1389,6 @@ province_event = {
 		province_id = 26		# Calgary
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1475,7 +1407,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1490,7 +1421,6 @@ province_event = {
 		province_id = 2291		# Piura
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1509,7 +1439,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1527,7 +1456,6 @@ province_event = {
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1546,7 +1474,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1561,7 +1488,6 @@ province_event = {
 		province_id = 928		# Mendeli
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1580,7 +1506,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap
 		trade_goods = oil
 		# life_rate = 5
 	}
@@ -1595,7 +1520,6 @@ province_event = {
 		province_id = 923		# Mosul
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
-		NOT = { has_province_flag = event_good_swap }
 		OR = {
 			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
 			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
@@ -1614,7 +1538,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1109"
-		set_province_flag = event_good_swap 
 		trade_goods = oil
 		# life_rate = 5
 	}

@@ -33,6 +33,7 @@ political_decisions = {
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
 			add_accepted_culture = rheinish 
+			add_accepted_culture = pomeranian
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -144,9 +145,11 @@ political_decisions = {
 		add_accepted_culture = czech 
 		add_accepted_culture = north_german 
 		add_accepted_culture = south_german 
+		add_accepted_culture = pomeranian
 		capital = 564
 		prestige = 50 
 		564 = {
+				life_rating = 5
 			}
 		}
 	
@@ -155,10 +158,11 @@ political_decisions = {
 	form_elbian_confederation = { 
 	
 	potential = { 
-		tag = BOH
+	tag = BOH 
 	}
 		
 	allow = { 
+	OR = {
 				AND = {
 					HOL = {
 						all_core = {
@@ -212,6 +216,8 @@ political_decisions = {
 							}
 						}
 					}
+				}
+				AND = {
 					HAN = {
 						all_core = {
 							OR = {
@@ -342,7 +348,8 @@ political_decisions = {
 							}
 						}
 					}
-				}
+			}
+		}
 	}
 	
 	effect = { 
@@ -377,6 +384,7 @@ political_decisions = {
 			}
 		change_tag = CAE
 		add_accepted_culture = north_german
+		add_accepted_culture = pomeranian
 		}
 	ai_will_do = { 
 	factor = 1 

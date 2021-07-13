@@ -15,24 +15,16 @@ leader = {
 	name = "Leif Torstensson"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Knud Rosenkrantz"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = imaginative
+	background = sinner
 }
 
 leader = {
 	name = "Hugo Welfer"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rebellious
+	background = sad_sack
 }
 
 army = {
@@ -47,7 +39,7 @@ army = {
 	regiment = {
 		name= "2.1st Division"
 		type = infantry
-		home = 61
+		home = 58
 	}
 
 	regiment = {
@@ -59,7 +51,7 @@ army = {
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
-		home = 66
+		home = 70
 	}
 }
 army = {
@@ -86,7 +78,7 @@ army = {
 
 navy = {
 	name = "Fleet of Vinland"
-	location = 71
+	location = 77
 
 
 	ship = {

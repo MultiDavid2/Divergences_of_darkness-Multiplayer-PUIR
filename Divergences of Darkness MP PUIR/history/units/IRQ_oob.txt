@@ -2,16 +2,16 @@ leader = {
 	name = "Faisal I"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = unruly
+	background = aristocrat
 }
 
 leader = {
 	name = "Nuri as-Said"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = inept
+	background = renowned_adventurer
 }
 
 army = {
@@ -85,3 +85,34 @@ army = {
 		home = 1117
 	}	
 }
+
+navy = {
+	name = "Victorious Fleet"
+	location = 935
+	ship = {
+		name= "Basra"
+		type = manowar
+	}
+
+	ship = {
+		name= "Cairo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mecca"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

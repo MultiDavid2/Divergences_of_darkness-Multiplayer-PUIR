@@ -610,7 +610,6 @@ country_event = {
 	title = "JAP22.T"
 	desc = "JAP22.D"
 	
-	
 	trigger = { 
 	tag = SCA 
 	owns = 1462

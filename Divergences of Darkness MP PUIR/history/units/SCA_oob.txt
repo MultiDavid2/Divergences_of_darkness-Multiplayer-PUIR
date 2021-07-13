@@ -21,6 +21,11 @@ LIT = {
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 100
 }
+RUT = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
 
 VIN = {
 	value = 100		#relation
@@ -57,96 +62,64 @@ leader = {
 	name = "Lars Lund"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = impulsive
+	background = old_school
 }
 
 leader = {
 	name = "Olaf Grunwald"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = reserved
+	background = war_college
 }
 
 leader = {
 	name = "Ulf Lindhart"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = careful
+	background = engineer
 }
 
 leader = {
 	name = "Viggo Stensgaard"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = openminded
+	background = colonial_recruit
 }
 
 leader = {
 	name = "Ulrich Thorsen"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Vermund Helgesen"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Sigger Holst"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = romantic
+	background = professor
 }
 
 leader = {
 	name = "Erik Blom"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = lackluster
+	background = powerful_friends
 }
 
 leader = {
 	name = "Christian Knuth"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = genius
+	background = uncommonly_young
 }
 
 leader = {
 	name = "Vilhelm Ingels"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Kornelius Mikkelsen"
-	type = sea
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Brynjolf Knutsen"
-	type = sea
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = inept
+	background = pawn
 }
 
 army = {
@@ -173,7 +146,7 @@ army = {
 	regiment = {
 		name= "4.1. Infanteridivision"
 		type = artillery
-		home = 530
+		home = 544
 	}
 
 	regiment = {
@@ -197,13 +170,13 @@ army = {
 	regiment = {
 		name= "2.1. Kavalleridivision"
 		type = hussar
-		home = 545
+		home = 544
 	}
 
 	regiment = {
 		name= "3.1. Kavalleridivision"
 		type = hussar
-		home = 547
+		home = 544
 	}
 
 }
@@ -314,37 +287,37 @@ army = {
 }
 
 army = {
-	name = "Army of the East Indies"
+	name = "Army of the Eastern Indies"
 	location = 1433
 	regiment = {
 		name= "1.1. Infanteridivision"
 		type = infantry
-		home = 369
+		home = 1907
 	}
 
 	regiment = {
 		name= "2.1. Infanteridivision"
 		type = infantry
-		home = 548
+		home = 1291
 	}
 
 	regiment = {
 		name= "3.1. Infanteridivision"
 		type = infantry
-		home = 548
+		home = 1291
 	}
 
 
 	regiment = {
 		name= "2.1. Kavalleridivision"
 		type = hussar
-		home = 372
+		home = 1291
 	}
 
 }
 
 army = {
-	name = "Finnish Jäggers"
+	name = "Finnish infantry"
 	location = 343
 	regiment = {
 		name= "1.1. Infanteridivision"
@@ -366,7 +339,7 @@ army = {
 }
 
 army = {
-	name = "Scottish Garrison"
+	name = "Scottish infantry"
 	location = 269
 	regiment = {
 		name= "1.1. Infanteridivision"

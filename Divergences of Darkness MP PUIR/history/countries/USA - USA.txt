@@ -90,8 +90,10 @@ interchangeable_parts = 1
 steamers = 1
 
 #Inventions
-
-
+#corvettes = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 
 # Starting Consciousness

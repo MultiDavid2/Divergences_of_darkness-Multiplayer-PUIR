@@ -81,8 +81,10 @@ steamers = 1
 experimental_railroad = 1
 
 #Inventions
-
-
+#corvettes = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 1861.1.1 = {
 # Technologies

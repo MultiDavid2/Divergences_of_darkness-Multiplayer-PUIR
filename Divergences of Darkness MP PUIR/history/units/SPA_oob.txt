@@ -27,8 +27,8 @@ leader = {
 	name = "Francisco Aguirre"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = gallant
+	background = poet
 }
 
 
@@ -36,8 +36,8 @@ leader = {
 	name = "Julio Segura"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = irresponsible
+	background = ambitious_careerist
 }
 
 
@@ -45,48 +45,17 @@ leader = {
 	name = "Luis Atanes"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = quixotic
+	background = amateur
 }
 
-leader = {
-	name = "Gonzalo Ordóñez"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Henrique Valcárcel"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Diego Prada"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Xelmirio de Santiago"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
 
 leader = {
 	name = "Pablo Elcano"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = impetuous
+	background = expert_raider
 }
 
 
@@ -94,8 +63,8 @@ leader = {
 	name = "Salvador Pizarro"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = tactful
+	background = elder_statesman
 }
 
 
@@ -103,8 +72,8 @@ leader = {
 	name = "Ignacio Vega"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = deeply_religious
+	background = drillmaster
 }
 
 #Army
@@ -120,7 +89,7 @@ army = {
 	regiment = {
 		name= "2. Granaderos del Rey"
 		type = infantry
-		home = 475
+		home = 474
 	}     
 	
 	regiment = {
@@ -137,7 +106,7 @@ army = {
 }
   
 army = {
-	name = "Ejército Colombiano" 
+	name = "Ejército Colombian" 
 	location = 2183 
 
 	regiment = {
@@ -149,25 +118,25 @@ army = {
 	regiment = {
 		name= "2. Brigada de Infantería"
 		type = infantry
-		home = 478
+		home = 477
 	}
 
 	regiment = {
 		name= "3. Brigada de Infantería"
 		type = artillery
-		home = 479
+		home = 477
 	}        
 
 	regiment = {
-		name= "3. Infantería Real"
+		name= "3. infantryia Real"
 		type = infantry
-		home = 516
+		home = 474
 	}   
 
 	regiment = {
 		name= "1. Granaderos del Rey"
 		type = hussar
-		home = 515
+		home = 518
 	}
   
 	regiment = {
@@ -178,25 +147,25 @@ army = {
 }
 
 army = {
-	name = "Ejército de Rabat"
+	name = "Ejército del Rabat"
 	location = 1685
 	
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
-		home = 514
+		home = 487
 	}
 
 	regiment = {
 		name= "1. Brigada de Artillería"
 		type = infantry
-		home = 513
+		home = 487
 	}
 	
 	regiment = {
 		name= "5. Brigada de Infantería"
 		type = infantry
-		home = 512
+		home = 487
 	}
   
 
@@ -213,7 +182,7 @@ army = {
 	regiment = {
 		name= "1. Granaderos del Rey"
 		type = infantry
-		home = 510
+		home = 525
 	}
 
 	regiment = {
@@ -231,43 +200,43 @@ army = {
 	regiment = {
 		name= "1. Brigada de Infantería 'El Ramillete'"
 		type = infantry
-		home = 485
+		home = 484
 	}
 
 	regiment = {
 		name= "2. Brigada de Infantería"
 		type = infantry
-		home = 486
+		home = 512
 	}
 
 	regiment = {
 		name= "3. Brigada de Infantería"
 		type = artillery
-		home = 487
+		home = 512
 	}
 
 	regiment = {
 		name= "1. Granaderos del Rey"
 		type = hussar
-		home = 487
+		home = 513
 	}
 
 	regiment = {
 		name= "2. Granaderos del Rey"
 		type = dragoon
-		home = 488
+		home = 513
 	}
 
 	regiment = {
 		name= "3. Granaderos del Rey"
 		type = dragoon
-		home = 489
+		home = 487
 	}
 }
 
 army = { 
 
-	name = "Ejercito de Andagoya" 
+	name = "Ejercito del Angoya" 
 	location = 2204 
 
 
@@ -275,7 +244,7 @@ army = {
 	regiment = {
 		name= "1. Brigada de Infantería"
 		type = infantry
-		home = 489
+		home = 521
 	}
 
 		regiment = {
@@ -285,13 +254,13 @@ army = {
 	}
 }
 army = {
-	name = "Ejército de la Habana"
+	name = "Ejército del Habana"
 	location = 132
 
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
-		home = 521
+		home = 1683
 	}
 
 	regiment = {
@@ -320,7 +289,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Rangún"
+	name = "Ejército del Rangoon"
 	location = 1330
 	
 	regiment = {
@@ -573,7 +542,7 @@ navy = {
 }
 
 navy = {
-	name = "Armada de la Habana"
+	name = "Armada del Habana"
 	location = 2209
 
 	ship = {
@@ -718,7 +687,7 @@ navy = {
 }
 
 navy = {
-	name = "Armada de las Indias"
+	name = "Armada del India"
 	location = 1303
 	
 	ship = {

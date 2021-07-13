@@ -1,3 +1,4 @@
+
 ###### Greek Nationalism and Council of Athens #######
 	
 
@@ -25,6 +26,7 @@ country_event = { ## The council of Athens : Secession
 					province_id = 842
 					province_id = 839
 					province_id = 845 #Cyclades
+					region = TUR_832 #Thessalia
 					region = GRE_837 #Attica
 				}
 			}
@@ -90,11 +92,12 @@ country_event = { ## The council of Athens : Autonomy
 					province_id = 841
 					province_id = 842
 					province_id = 839
+					region = TUR_832 #Thessalia
 					region = GRE_837 #Attica
 				}
 			}
 			secede_province = GRE
-	}
+		}
 	create_vassal = GRE
 	prestige = -5 
 	}
@@ -119,7 +122,7 @@ country_event = { ## Failure of Home Rule
 	option = { 
 	name = "100606.A" 
 	set_country_flag = greek_rebellion
-		any_owned = {
+	any_owned = {
 			limit = {
 				OR = {
 					province_id = 840
@@ -127,49 +130,50 @@ country_event = { ## Failure of Home Rule
 					province_id = 842
 					province_id = 839
 					province_id = 845 #Cyclades
+					region = TUR_832 #Thessalia
 					region = GRE_837 #Attica
 				}
 			}
 			secede_province = GRE
 		}
+		any_pop = {
+			limit = {
+				culture = greek
+			}
+			militancy = 2
+		}
+		any_pop = {
+			limit = {
+				culture = greek
+				location = {
+					is_core = GRE
+				}
+			}
+			militancy = 4
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				capital_scope = { continent = europe }
+			}
+			leave_alliance = VEN
+			}
+		GRE = {
+			capital = 834
+			government = presidential_dictatorship
 			any_pop = {
 				limit = {
 					culture = greek
 				}
-				militancy = 2
-			}
-			any_pop = {
-				limit = {
-					culture = greek
-					location = {
-						is_core = GRE
-					}
-				}
-				militancy = 4
-			}
-			any_country = {
-				limit = {
-					is_greater_power = yes
-					capital_scope = { continent = europe }
-				}
-				leave_alliance = VEN
-				}
-			GRE = {
-				capital = 834
-				government = presidential_dictatorship
-				any_pop = {
-					limit = {
-						culture = greek
-					}
-					militancy = -8
-					}
-				}
-			war = {
-				target = GRE
-				attacker_goal = {
-					casus_belli = annex_core_country
+				militancy = -8
 				}
 			}
+		war = {
+			target = GRE
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+		}
 	}
 }
 
@@ -230,6 +234,7 @@ country_event = { ## Failure of the Pireans
 					province_id = 842
 					province_id = 839
 					province_id = 845 #Cyclades
+					region = TUR_832 #Thessalia
 					region = GRE_837 #Attica
 				}
 			}
@@ -293,6 +298,7 @@ country_event = { ## No majority
 	any_owned = {
 			limit = {
 				OR = {
+					region = TUR_832 #Thessalia
 					region = GRE_837 #Attica
 				}
 			}
@@ -637,6 +643,12 @@ country_event = {
 	political_reform = population_equal_weight
 	political_reform = yes_meeting
 	political_reform = free_press
+	any_owned = {
+			limit = {
+				region = TUR_832 #Thessalia
+			}
+			secede_province = MAC 
+		}
 	}
 }
 
@@ -653,13 +665,21 @@ country_event = {
 	name = "106046.A" 
 	set_country_flag = new_alexandros
 	prestige = 10 
-		war = {
-			target = GRE
-			attacker_goal = {
-					casus_belli = annex_core_country
+	war = {
+		target = GRE
+		attacker_goal = {
+				casus_belli = annex_core_country
+			}
+		defender_goal = { 
+				casus_belli = annex_core_country
 				}
-			defender_goal = { 
-					casus_belli = annex_core_country
+		}
+	GRE = { 
+		any_owned = {
+				limit = {
+					region = TUR_832 #Thessalia
+				}
+				secede_province = MAC 
 			}
 		}
 	}
@@ -1559,7 +1579,6 @@ country_event = {
 	picture = "orthodox_revival"
 	
 	fire_only_once = yes 
-	
 	
 	trigger = { 
 	OR = { 

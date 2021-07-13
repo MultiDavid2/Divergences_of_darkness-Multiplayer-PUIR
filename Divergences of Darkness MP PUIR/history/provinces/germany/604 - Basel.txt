@@ -3,10 +3,10 @@ controller = SWI
 add_core = SWI
 add_core = GER
 trade_goods = fruit
-life_rating = 40
+life_rating = 32
 fort = 1
 state_building = {
-	level = 4
+	level = 2
 	building = steel_factory
 	upgrade = yes
 }
@@ -15,7 +15,7 @@ state_building = {
 	railroad = 1
 
 	state_building = {
-		level = 2
+		level = 1
 		building = fabric_factory
 		upgrade = yes
  	}

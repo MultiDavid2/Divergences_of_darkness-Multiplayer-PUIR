@@ -2,13 +2,13 @@ leader = {
 	name = "Taibugid Khan"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = disillusioned
+	background = exranker
 }
 
 army = {
 	name = "Army of the Khan"
-	location = 1059
+	location = 1062
 	regiment = {
 		name= "1st Tatars"
 		type = infantry
