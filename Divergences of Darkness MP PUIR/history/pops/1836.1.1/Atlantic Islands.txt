@@ -80,13 +80,13 @@
     soldiers = {
         culture = beornian
         religion = protestant
-        size = 100
+        size = 25
     }
 
     farmers = {
         culture = beornian
         religion = protestant
-        size = 200
+        size = 50
     }
 }
 #South Georgia (60/15 POPS)
@@ -94,6 +94,6 @@
     farmers = {
         culture = beornian
         religion = protestant
-        size = 60
+        size = 15
     }
 }

@@ -2,16 +2,16 @@ leader = {
 	name = "Tahmasp Afsharid"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = diligent
+	background = military_theoretician
 }
 
 leader = {
 	name = "Adil Artuqid"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = inspiring
+	background = megalomaniac
 }
 
 army = {
@@ -55,7 +55,7 @@ army = {
 }
 
 army = {
-	location = 1150
+	location = 1149
 	name = "Turkmen Cavalry"
 
 	regiment = {

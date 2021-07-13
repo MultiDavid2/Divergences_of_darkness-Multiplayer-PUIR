@@ -1,21 +1,43 @@
+#Modern Sail Ships
+modern_sail_ships = {
+	limit = { post_nelsonian_thought = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = 10
+			alphabetic_flag_signaling = 1
+		}
+	}
+	effect = {
+		clipper_transport = { maximum_speed = 1 }
+		frigate = {
+			hull = 1
+			gun_power = 1
+			maximum_speed = 1
+		}
+		manowar = {
+			hull = 1
+			gun_power = 2
+			maximum_speed = 1
+		}
+	}
+}
+
 
 #torpedo attacks
-#torpedo_attacks = {
-#	limit = { main_armament = 1 }
-#	chance = {
-#		base = 0
-#		modifier = {
-#			factor = 2
-#			invention = protected_cruisers		}
-#		modifier = {
-#			factor = 8
-#			invention = self_propelled_torpedoes
-#		}
-#	}
-#	effect = {
-#		cruiser = { torpedo_attack = 4 }
-#	}
-#}
+torpedo_attacks = {
+	limit = { main_armament = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = protected_cruisers
+		}
+	}
+	effect = {
+		cruiser = { torpedo_attack = 8 }
+	}
+}
 
 #battleship_column_doctrine
 long_range_fire_tactic = {
@@ -71,16 +93,7 @@ sealane_hunters = {
 		}
 	}
 	effect = {
-		manowar = {
-			maximum_speed = 1
-		}
-		ironclad = {
-			maximum_speed = 1
-		}
-		battleship = {
-			maximum_speed = 1
-		}
-		dreadnought = {
+		navy_base = {
 			maximum_speed = 1
 		}
 	}
@@ -95,13 +108,7 @@ fast_ship_killer = {
 		}
 	}
 	effect = {
-		frigate = {
-			maximum_speed = 1
-		}
-		commerce_raider = {
-			maximum_speed = 1
-		}
-		cruiser = {
+		navy_base = {
 			maximum_speed = 1
 		}
 	}
@@ -145,54 +152,33 @@ standard_raider_group_doctrine = {
 		}
 	}
 	effect = {
-		monitor = {
-			maximum_speed = 1
-		}
-		clipper_transport = {
-			maximum_speed = 1
-		}
-		steam_transport = {
+		navy_base = {
 			maximum_speed = 1
 		}
 	}
 }
 #blue_and_brown_water_schools
 blue_water_school = {
-	limit = { 
-		blue_and_brown_water_schools = 1
-		NOT = { invention = brown_water_school } 
-	}
+	limit = { blue_and_brown_water_schools = 1 }
 	chance = {
 		base = 2
 		modifier = {
-			factor = 2
+			factor = 1
 			state_n_government = 1
 		}
 		modifier = {
-			factor = 8
+			factor = 2
 			colonial_nation = yes
 		}
 	}
 	effect = {
-		ironclad = {
-			build_time = -10 
-		}
-		battleship = {
-			build_time = -10 
-		}
-		dreadnought = {
-			build_time = -10 
-		}
-		steam_transport = {
+		navy_base = {
 			build_time = -10 
 		}
 	}
 }
 brown_water_school = {
-	limit = { 
-		blue_and_brown_water_schools = 1 
-		NOT = { invention = blue_water_school }
-	}
+	limit = { blue_and_brown_water_schools = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -203,29 +189,16 @@ brown_water_school = {
 			factor = 2
 			naval_statistics = 1
 		}
-		modifier = {
-			factor = 6
-			colonial_nation = no
-		}
 	}
 	effect = {
-		monitor = {
-			build_time = -10 
-		}
-		cruiser = {
-			build_time = -10 
-		}
-		steam_transport = {
+		navy_base = {
 			build_time = -10 
 		}
 	}
 }
 #high_sea_battle_fleet
 offensive_attitude = {
-	limit = { 
-		high_sea_battle_fleet = 1
-		NOT = { invention = defensive_attitude } 
-	}
+	limit = { high_sea_battle_fleet = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -240,31 +213,22 @@ offensive_attitude = {
 			factor = 1
 			naval_decision_making = 1
 		}
-		modifier = {
-			factor = 80
-			invention = blue_water_school
-		}
 	}
 	effect = {
-		monitor = {
-			gun_power = 2
+		navy_base = {
+			gun_power = 1
 		}
-		cruiser = {
-			gun_power = 2
+		clipper_transport = {
+			gun_power = -1
 		}
-		battleship = {
-			gun_power = 2
+		steam_transport = {
+			gun_power = -1
 		}
-		dreadnought = {
-			gun_power = 2
-		}	
+		
 	}
 }
 defensive_attitude = {
-	limit = { 
-		high_sea_battle_fleet = 1
-		NOT = { invention = offensive_attitude } 
-	}
+	limit = { high_sea_battle_fleet = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -275,23 +239,16 @@ defensive_attitude = {
 			factor = 2
 			invention = armour_piercing_projectiles
 		}
-		modifier = {
-			factor = 80
-			invention = brown_water_school
-		}
 	}
 	effect = {
-		monitor = {
-			hull = 2
-		}
 		cruiser = {
-			hull = 2
+			hull = 5
 		}
 		battleship = {
-			hull = 2
+			hull = 5
 		}
 		dreadnought = {
-			hull = 2
+			hull = 5
 		}
 	
 	}
@@ -311,8 +268,14 @@ decisive_firepower_doctrine = {
 		}
 	}
 	effect = {
-		dreadnought = {
-			gun_power = 2
+		navy_base = {
+			gun_power = 1
+		}
+		clipper_transport = {
+			gun_power = -1
+		}
+		steam_transport = {
+			gun_power = -1
 		}		
 	}
 }
@@ -330,14 +293,14 @@ naval_firepower_doctrine = {
 		}
 	}
 	effect = {
-		steam_transport = {
+		navy_base = {
 			gun_power = 1
 		}
-		cruiser = {
-			gun_power = 2
+		clipper_transport = {
+			gun_power = -1
 		}
-		dreadnought = {
-			gun_power = 2
+		steam_transport = {
+			gun_power = -1
 		}		
 	}
 }
@@ -357,19 +320,14 @@ naval_firepower_doctrine = {
 #	effect = {
 #	}
 #}
-convoy_sailing = {
-	limit = { modern_naval_doctrine = 1 }
-	chance = {
-		base = 6
-	}
-	effect = {
-		steam_transport = {
-			maximum_speed = 2
-			gun_power = 1
-			hull = 1
-		}
-	}
-}
+#convoy_sailing = {
+#	limit = { modern_naval_doctrine = 1 }
+#	chance = {
+#		base = 6
+#	}
+#	effect = {
+#	}
+#}
 #integrated_naval_doctrine = {
 #	limit = { modern_naval_doctrine = 1 }
 #	chance = {
@@ -405,19 +363,46 @@ building_station_shipyards = {
 		base = 2
 		modifier = {
 			factor = 2
-			clipper_design = 1
+			puddling = 1
 		}
 		modifier = {
 			factor = 1
 			naval_design_bureaus = 1
 		}
+		modifier = {
+			factor = -6
+			NOT = { civilized = yes }
+		}
 	}
 	effect = {
-		factory_goods_output = {
+		factory_goods_throughput = {
 			clipper_convoy = 0.10
 		}
 	}
 }
+
+clipper_shipyard_construction = {
+	limit = { clipper_design = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			piston_steam_engine = 1
+		}
+		modifier = {
+			factor = 1
+			naval_design_bureaus = 1
+		}
+		modifier = {
+			factor = -6
+			NOT = { civilized = yes }
+		}
+	}
+	effect = {
+		activate_building = clipper_shipyard 
+	}
+}
+
 #corvettes = {
 #	limit = { clipper_design = 1 }
 #	chance = {
@@ -433,16 +418,20 @@ mechanized_fishing_vessels = {
 		base = 2
 		modifier = {
 			factor = 2
-			high_pressure_steam_engine = 1
+			interchangeable_parts = 1
 		}
 		modifier = {
 			factor = 2
 			invention = work_specialization
 		}
+		modifier = {
+			factor = -10
+			civilized = no
+		}
 	}
 	effect = {
 		rgo_goods_output = {
-			fish = 0.25
+			fish = 0.5
 		}
 	}
 }
@@ -452,15 +441,21 @@ steamer_automatic_construction_plants = {
 		base = 2
 		modifier = {
 			factor = 2
-			steamers = 1
+			semi_automatization = 1
+			
 		}
 		modifier = {
 			factor = 2
 			invention = building_station_shipyards
 		}
+		
+		modifier = {
+			factor = -10
+			civilized = no
+		}
 	}
 	effect = {
-		factory_goods_output = {
+		factory_goods_throughput = {
 			steamer_convoy = 0.10
 		}
 	}
@@ -471,11 +466,11 @@ steamer_transports = {
 		base = 5
 		modifier = {
 			factor = 2
-			interchangeable_parts = 1
+			mechanical_production = 1
 		}
 		modifier = {
 			factor = 1
-			clean_coal = 1
+			hot_blast = 1
 		}
 	}
 	effect = {
@@ -485,68 +480,57 @@ steamer_transports = {
 commerce_raiders = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 10
+		base = 5
 		modifier = {
-			factor = 10
+			factor = 1
 			fire_control_systems = 1
 		}
 		modifier = {
-			factor = 25
+			factor = 3
 			raider_group_doctrine = 1
-		}
-		modifier = {
-			factor = 10
-			invention = enemy_plotting_cards
-		}
-		modifier = {
-			factor = 10
-			invention = naval_strike_success_criterium
-		}
-		modifier = {
-			factor = 15
-			invention = independent_command
-		}
-		modifier = {
-			factor = 15
-			invention = steam_auxiliaries
-		}
-		modifier = {
-			factor = 5
-			invention = steamer_automatic_construction_plants
 		}
 	}
 	effect = {
-		activate_unit = commerce_raider 
+		activate_unit = commerce_raider
 	}
 }
+
+steamer_shipyard_construction = {
+	limit = { steamers = 1 }
+	chance = {
+		base = 5
+		modifier = {
+			factor = 1
+			semi_automatization = 1
+		}
+		modifier = {
+			factor = 3
+			raider_group_doctrine = 1
+		}
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = steamer_shipyard
+	}
+}
+
 #iron_steamers
 ironclads = {
-	limit = { iron_steamers = 1 }
+	limit = {
+		iron_steamers = 1
+	}
 	chance = {
-		base = 1
+		base = 5
 		modifier = {
-			factor = 4
+			factor = 2
 			invention = monitors
 		}
 		modifier = {
-			factor = 20
-			invention = armour_piercing_projectiles
-		}
-		modifier = {
-			factor = 15
-			invention = armour_piercing_exploding_projectiles
-		}
-		modifier = {
-			factor = 30
-			invention = armoured_turrets
-		}
-		modifier = {
-			factor = 20
-			invention = rifled_guns
-		}
-		modifier = {
-			factor = 10
-			naval_decision_making = 1
+			factor = 2
+			invention = torpedo_boats
 		}
 	}
 	effect = {
@@ -554,32 +538,18 @@ ironclads = {
 	}
 }
 monitors = {
-	limit = { iron_steamers = 1 }
+	limit = {
+		iron_steamers = 1
+	}
 	chance = {
-		base = 1
+		base = 5
 		modifier = {
-			factor = 4
+			factor = 2
 			invention = ironclads
 		}
 		modifier = {
-			factor = 20
-			invention = armour_piercing_projectiles
-		}
-		modifier = {
-			factor = 15
-			invention = armour_piercing_exploding_projectiles
-		}
-		modifier = {
-			factor = 30
-			invention = armoured_turrets
-		}
-		modifier = {
-			factor = 20
-			invention = rifled_guns
-		}
-		modifier = {
-			factor = 10
-			naval_decision_making = 1
+			factor = 2
+			invention = torpedo_boats
 		}
 	}
 	effect = {
@@ -589,23 +559,15 @@ monitors = {
 torpedo_boats = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 1
+		base = 4
 		modifier = {
-			factor = 59
-			invention = self_propelled_torpedoes
+			factor = 2
+			invention = ironclads
 		}
 		modifier = {
-			factor = 20
-			invention = torpedo_tactics
-		}
-		modifier = {
-			factor = 10
-			invention = torpedo_training_school
-		}
-		modifier = {
-			factor = 10
-			naval_decision_making = 1
-		}
+			factor = 2
+			invention = monitors
+		}		
 	}
 	effect = {
 		commerce_raider = {
@@ -616,44 +578,18 @@ torpedo_boats = {
 }
 #steel_steamers
 protected_cruisers = {
-	limit = { steel_steamers = 1 }
+	limit = {
+		steel_steamers = 1
+	}
 	chance = {
-		base = 1
+		base = 3
 		modifier = {
 			factor = 2
-			cheap_steel = 1
+			invention = ironclads
 		}
 		modifier = {
 			factor = 2
-			advanced_metallurgy = 1
-		}
-		modifier = {
-			factor = 20
-			invention = cruiser_gun_casemates
-		}
-		modifier = {
-			factor = 10
-			invention = bomb_guns
-		}
-		modifier = {
-			factor = 10
-			invention = quick_firing_guns
-		}
-		modifier = {
-			factor = 20
-			invention = self_propelled_torpedoes
-		}
-		modifier = {
-			factor = 15
-			invention = triple_expansion_engine
-		}
-		modifier = {
-			factor = 10
-			invention = quadruple_expansion
-		}
-		modifier = {
-			factor = 10
-			naval_risk_management = 1
+			bessemer_process = 1
 		}
 	}
 	effect = {
@@ -685,116 +621,65 @@ protected_cruisers = {
 #	}
 #}
 pre_dreadnought = {
-	limit = { steel_steamers = 1 }
-	chance = {
-		base = 1
-		modifier = {
-			factor = 2
-			cheap_steel = 1
-		}
-		modifier = {
-			factor = 2
-			advanced_metallurgy = 1
-		}
-		modifier = {
-			factor = 20
-			invention = heavy_caliber_guns
-		}
-		modifier = {
-			factor = 10
-			invention = harvey_steel_armour
-		}
-		modifier = {
-			factor = 20
-			invention = krupp_steel_armour
-		}
-		modifier = {
-			factor = 5
-			invention = 8in_secondary_guns
-		}
-		modifier = {
-			factor = 5
-			invention = 9in_secondary_guns
-		}
-		modifier = {
-			factor = 15
-			invention = triple_expansion_engine
-		}
-		modifier = {
-			factor = 10
-			invention = quadruple_expansion
-		}
-		modifier = {
-			factor = 10
-			naval_risk_management = 1
-		}
+	limit = {
+		steel_steamers = 1
 	}
-	effect = {
-		activate_unit = battleship 
-	}
-}
-#steam_turbine_ships
-dreadnoughts = {
-	limit = { steam_turbine_ships = 1 }
-	chance = {
-		base = 1
-		modifier = {
-			factor = 4
-			electric_furnace = 1
-		}
-		modifier = {
-			factor = 20
-			invention = krupp_steel_armour
-		}
-		modifier = {
-			factor = 5
-			invention = heavy_armour_plates
-		}
-		modifier = {
-			factor = 5
-			invention = large_hull_form
-		}
-		modifier = {
-			factor = 5
-			invention = gun_hydraulics
-		}
-		modifier = {
-			factor = 30
-			invention = geared_turbine_propulsion
-		}
-		modifier = {
-			factor = 20
-			invention = 13in_main_battery
-		}
-		modifier = {
-			factor = 5
-			invention = ap_capped_shell
-		}
-		modifier = {
-			factor = 5
-			naval_nco_training = 1
-		}
-	}
-	effect = {
-		activate_unit = dreadnought 
-	}
-}
-light_cruisers = {
-	limit = { steam_turbine_ships = 1 }
 	chance = {
 		base = 5
 		modifier = {
 			factor = 2
 			invention = ironclads
 		}
-	}
-	effect = {
-		cruiser = {
-			hull = 1
-			gun_power = 1	
+		modifier = {
+			factor = 1
+			bessemer_process = 1
+		}
+		modifier = {
+			factor = 1
+			main_armament = 1
 		}
 	}
+	effect = {
+		ironclad = {
+			hull = 1
+			gun_power = 1
+			maximum_speed = 1
+		}
+		activate_unit = battleship 
+	}
 }
+#steam_turbine_ships
+dreadnoughts = {
+	limit = {
+		steam_turbine_ships = 1
+	}
+	chance = {
+		base = 5
+		modifier = {
+			factor = 2
+			invention = pre_dreadnought
+		}
+		modifier = {
+			factor = 2
+			naval_logistics = 1
+		}
+	}
+	effect = {
+		activate_unit = dreadnought 
+	}
+}
+#light_cruisers = {
+#	limit = { steam_turbine_ships = 1 }
+#	chance = {
+#		base = 5
+#		modifier = {
+#			factor = 2
+#			invention = ironclads
+#		}
+#	}
+#	effect = {
+#	}
+#}
 #battlecruisers = {
 #	limit = { steam_turbine_ships = 1 }
 #	chance = {
@@ -859,10 +744,8 @@ advanced_cruisers = {
 	}
 	effect = {
 		cruiser = {
-			hull = 3
-			gun_power = 2
-			maximum_speed = 1
-			supply_consumption = 0.05
+			hull = 1
+			gun_power = 1
 		} 
 	}
 }
@@ -885,10 +768,7 @@ modern_cruisers = {
 	}
 	effect = {
 		cruiser = {
-			hull = 3
-			gun_power = 2
 			maximum_speed = 1
-			supply_consumption = 0.05
 		}  
 	}
 }
@@ -922,14 +802,13 @@ advanced_battleships = {
 		}
 	}
 	effect = {
-		#battleship = {
-		#	hull = 1
-		#	gun_power = 1
-		#}
+		battleship = {
+			hull = 1
+			gun_power = 1
+		}
 		dreadnought = {
-			maximum_speed = 1
-			hull = 5
-			gun_power = 2
+			hull = 1
+			gun_power = 1
 		} 
 	}
 }
@@ -951,13 +830,11 @@ modern_battleships = {
 		}
 	}
 	effect = {
-		#battleship = {
-		#	maximum_speed = 1
-		#} 
+		battleship = {
+			maximum_speed = 1
+		} 
 		dreadnought = {
 			maximum_speed = 1
-			hull = 5
-			gun_power = 2
 		} 
 	}
 }
@@ -1024,7 +901,7 @@ optical_rangefinders = {
 		base = 2
 		modifier = {
 			factor = 1
-			interchangeable_parts = 1
+			mechanical_production = 1
 		}
 		modifier = {
 			factor = 2
@@ -1068,15 +945,14 @@ gyrostabilized_fire_control = {
 		}		
 	}
 }
-torpedo_gyroscope = {
-	limit = { fire_control_systems = 1 }
-	chance = {
-		base = 6
-	}
-	effect = {
-		shared_prestige = 10
-	}
-}
+#torpedo_gyroscope = {
+#	limit = { fire_control_systems = 1 }
+#	chance = {
+#		base = 6
+#	}
+#	effect = {
+#	}
+#}
 #weapon_platforms
 #sea_mine_equipment = {
 #	limit = { weapon_platforms = 1 }
@@ -1086,65 +962,18 @@ torpedo_gyroscope = {
 #	effect = { 
 #	}
 #}
-rifled_guns = {
-	limit = { weapon_platforms = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = precision_work
-		}
-		modifier = {
-			factor = 1
-			pneumatic_and_hydraulics = 1
-		}
-	}
-	effect = {
-		ironclad = {
-			gun_power = 2
-		}
-		monitor = {
-			gun_power = 1
-		}
-		cruiser = {
-			gun_power = 1
-		}
-		battleship = {
-			gun_power = 1
-		}
-		dreadnought = {
-			gun_power = 1
-		}		
-	}
-}
-self_propelled_torpedoes = {
-	limit = { 
-		weapon_platforms = 1
-		year = 1860 
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 10
-			invention = torpedo_gyroscope
-		}
-		modifier = {
-			factor = 10
-			war = yes
-			any_neighbor_country = {
-				invention = self_propelled_torpedoes
-			}
-		}
-		modifier = {
-			factor = -1
-			NOT = { year = 1860 }
-		}
-	}
-	effect = {
-		cruiser = { torpedo_attack = 3 }
-		shared_prestige = 20
-	}
-}
+#self_propelled_torpedoes = {
+#	limit = { weapon_platforms = 1 }
+#	chance = {
+#		base = 5
+#		modifier = {
+#			factor = 2
+#			invention = torpedo_gyroscope
+#		}
+#	}
+#	effect = {
+#	}
+#}
 armour_piercing_projectiles = {
 	limit = { weapon_platforms = 1 }
 	chance = {
@@ -1180,7 +1009,7 @@ armour_piercing_exploding_projectiles = {
 		}
 		modifier = {
 			factor = 1
-			cheap_iron = 1
+			puddling = 1
 		}
 	}
 	effect = {
@@ -1206,33 +1035,13 @@ armoured_turrets = {
 		}
 		modifier = {
 			factor = 2
-			invention = monitors
-		}
-		modifier = {
-			factor = 4
-			cheap_iron = 1
+			puddling = 1
 		}
 	}
 	effect = {
-		monitor = {
+		navy_base = {
 			hull = 1
-		}
-		ironclad = {
-			hull = 1
-		}
-		battleship = {
-			hull = 1
-		}
-		dreadnought = {
-			hull = 1
-		}
-		commerce_raider = {
-			hull = 1
-		}
-		cruiser = {
-			hull = 1
-		}
-
+		} 
 	}
 }
 #main_armament
@@ -1250,20 +1059,39 @@ bomb_guns = {
 		}
 	}
 	effect = {
-		ironclad = {
+		navy_base = {
 			gun_power = 1
 		}
-		monitor = {
+		clipper_transport = {
+			gun_power = -1
+		}
+		steam_transport = {
+			gun_power = -1
+		}		
+	}
+}
+rifled_guns = {
+	limit = { main_armament = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = precision_work
+		}
+		modifier = {
+			factor = 1
+			semi_automatization = 1
+		}
+	}
+	effect = {
+		navy_base = {
 			gun_power = 1
 		}
-		cruiser = {
-			gun_power = 1
+		clipper_transport = {
+			gun_power = -1
 		}
-		battleship = {
-			gun_power = 1
-		}
-		dreadnought = {
-			gun_power = 1
+		steam_transport = {
+			gun_power = -1
 		}		
 	}
 }
@@ -1276,60 +1104,45 @@ quick_firing_guns = {
 			invention = rifled_guns
 		}
 		modifier = {
-			factor = 2
-			invention = self_propelled_torpedoes
-		}
-		modifier = {
 			factor = 1
-			pneumatic_and_hydraulics = 1
-		}
-		modifier = {
-			factor = 13
-			year = 1890
+			semi_automatization = 1
 		}
 	}
 	effect = {
-		monitor = {
-			hull = 1
+		navy_base = {
+			gun_power = 1
 		}
-		cruiser = {
-			hull = 3
+		clipper_transport = {
+			gun_power = -1
 		}
+		steam_transport = {
+			gun_power = -1
+		}		
+	}
+}
+armoured_citadels = {
+	limit = { main_armament = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = armoured_turrets
+		}
+		modifier = {
+			factor = 1
+			bessemer_process = 1
+		}
+	}
+	effect = {
 		battleship = {
 			hull = 2
 		}
 		dreadnought = {
-			hull = 3
-		}		
+			hull = 2
+		}
+	
 	}
 }
-#armoured_citadels = {
-#	limit = { main_armament = 1 }
-#	chance = {
-#		base = 2
-#		modifier = {
-#			factor = 2
-#			invention = armoured_turrets
-#		}
-#		modifier = {
-#			factor = 1
-#			cheap_steel = 1
-#		}
-#		modifier = {
-#			factor = -5
-#			NOT = { year = 1880 }
-#		}
-#	}
-#	effect = {
-#		battleship = {
-#			hull = 2
-#		}
-#		dreadnought = {
-#			hull = 2
-#		}
-#	
-#	}
-#}
 heavy_caliber_guns = {
 	limit = { main_armament = 1 }
 	chance = {
@@ -1339,13 +1152,13 @@ heavy_caliber_guns = {
 			invention = rifled_guns
 		}
 		modifier = {
-			factor = 6
+			factor = 2
 			steel_breech_loaded_artillery = 1
 		}
 	}
 	effect = {
 		battleship = {
-			gun_power = 1
+			gun_power = 2
 		}
 		dreadnought = {
 			gun_power = 2
@@ -1367,7 +1180,7 @@ on_board_recon_aircraft = {
 		}
 	}
 	effect = {
-		dreadnought = {
+		navy_base = {
 			default_organisation = 5
 		}
 	}
@@ -1387,7 +1200,7 @@ gun_hydraulics = {
 	}
 	effect = {
 		battleship = {
-			gun_power = 1
+			gun_power = 2
 		}
 		dreadnought = {
 			gun_power = 2
@@ -1400,7 +1213,7 @@ heavy_armour_plates = {
 		base = 2
 		modifier = {
 			factor = 2
-			cheap_steel = 1
+			bessemer_process = 1
 		}
 		modifier = {
 			factor = 1
@@ -1413,7 +1226,7 @@ heavy_armour_plates = {
 	}
 	effect = {
 		dreadnought = {
-			hull = 4
+			hull = 2
 		} 
 	}
 }
@@ -1431,12 +1244,9 @@ large_hull_form = {
 		}
 	}
 	effect = {
-		battleship = {
+		navy_base = {
 			hull = 1
-		}
-		dreadnought = {
-			hull = 1
-		}
+		} 
 	}
 }
 #modern_naval_design
@@ -1478,7 +1288,7 @@ advanced_fire_control = {
 		}
 		cruiser = {
 			gun_power = 2
-			torpedo_attack = 2
+			torpedo_attack = 4
 		}
 	}
 }
@@ -1492,7 +1302,7 @@ advanced_fire_control = {
 		}
 		modifier = {
 			factor = 2
-			cheap_steel = 1
+			bessemer_process = 1
 		}
 		modifier = {
 			factor = 1
@@ -1501,7 +1311,7 @@ advanced_fire_control = {
 	}
 	effect = {
 		dreadnought = {
-			gun_power = 4
+			gun_power = 2
 		}
 	}
 }
@@ -1643,7 +1453,7 @@ underway_refueling = {
 	}
 	effect = {
 		navy_base = {
-			supply_consumption = -0.15
+			default_organisation = 1
 		}
 	}
 }
@@ -1663,7 +1473,7 @@ ammunition_conservation_system = {
 	}
 	effect = {
 		navy_base = {
-			supply_consumption = -0.15
+			default_organisation = 1
 		}
 	}
 }
@@ -1683,7 +1493,7 @@ radio_telegraphy = {
 	}
 	effect = {
 		navy_base = {
-			default_organisation = 3
+			default_organisation = 1
 		}
 	}
 }
@@ -1722,7 +1532,9 @@ military_political_decision_making = {
 		}
 	}
 	effect = {
-		max_national_focus = 1
+		navy_base = {
+			default_organisation = 1
+		}
 	}
 }
 
@@ -1741,7 +1553,7 @@ local_military_government = {
 	}
 	effect = {
 		navy_base = {
-			default_organisation = 2
+			default_organisation = 1
 		}
 	}
 }

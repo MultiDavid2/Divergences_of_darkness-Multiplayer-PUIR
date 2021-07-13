@@ -2,16 +2,16 @@ leader = {
 	name = "Rama VII"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = pompous
+	background = warmonger
 }
 
 leader = {
 	name = "Surayud Chulanont"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = humanitarian
+	background = powerful_friends
 }
 
 army = {

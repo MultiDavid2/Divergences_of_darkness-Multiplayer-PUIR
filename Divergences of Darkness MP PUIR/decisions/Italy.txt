@@ -397,6 +397,7 @@ political_decisions = {
 		set_global_flag = ponte_venice
 		prestige = 10
 		729 = {
+				life_rating = 3
 				add_province_modifier = {
 				    	name = gateway_to_harbor
 						duration = 2500
@@ -430,6 +431,7 @@ political_decisions = {
 		prestige = 20 
 		set_global_flag = ven_building
 		729 = {
+				life_rating = 5
 			}
 		}
 	}
@@ -444,7 +446,7 @@ political_decisions = {
 		}
 		
 		allow = { 
-			steamers = 1
+		invention = steamer_shipyard_construction
 		}
 		
 		effect = { 
@@ -497,7 +499,7 @@ political_decisions = {
 		potential = { 
 			primary_culture = venetian
 			NOT = { has_country_flag = greek_integration }
-			OR = {
+			OR {
 			owns = 834
 			owns = 839
 			owns = 831

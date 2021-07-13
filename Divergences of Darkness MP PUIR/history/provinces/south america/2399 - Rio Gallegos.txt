@@ -1,5 +1,5 @@
 
-trade_goods = coal
+trade_goods = wool
 terrain = steppe
 life_rating = 15
 colonial = 1

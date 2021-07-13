@@ -2,16 +2,16 @@ leader = {
 	name = "Pakubuwono III"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = energetic
+	background = turncoat
 }
 
 leader = {
 	name = "Ki Ageng Sela"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = independent
+	background = colonial_recruit
 }
 
 army = {

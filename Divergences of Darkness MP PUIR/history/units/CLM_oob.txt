@@ -17,48 +17,32 @@ leader = {
 	name = "Juan Manuel Santos"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = madman
+	background = ambitious_careerist
 }
 
 leader = {
 	name = "Angelino Garzón"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = wretched
+	background = architect
 }
 
 leader = {
 	name = "Francisco de Miranda"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = unforgiving
+	background = armchair_general
 }
 
 leader = {
-	name = "José Manuel Portález"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Marcos Aragonés"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Miguel de Lugo"
+	name = "Alonso de Lugo"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = pisspoor
+	background = drillmaster
 }
 
 army = {
@@ -119,7 +103,7 @@ army = {
 	regiment = {
 		name= "1. División de Infantería"
 		type = infantry
-		home = 2174
+		home = 2172
 	}
 
 	regiment = {
@@ -143,36 +127,36 @@ army = {
 	regiment = {
 		name= "2. División de Caballería"
 		type = hussar
-		home = 2175
+		home = 2172
 	}
 
 	regiment = {
 		name= "3. División de Caballería"
 		type = hussar
-		home = 2176
+		home = 2172
 	}
 
 }
 
 army = {
 	name = "Ejército del Norte"
-	location = 138
+	location = 2148
 	regiment = {
 		name= "1.Division Cos"
 		type = infantry
-		home = 2176
+		home = 2172
 	}
 
 	regiment = {
 		name= "2.Division Cos"
 		type = infantry
-		home = 2177
+		home = 2164
 	}
 
 	regiment = {
 		name= "3.Division Cos"
 		type = infantry
-		home = 2168
+		home = 2164
 	}
 	
 	regiment = {
@@ -190,7 +174,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Oajaca"
+	name = "Activo Oajaca"
 	location = 2177
 	regiment = {
 		name= "1.Oajaca y Tlaxcala"

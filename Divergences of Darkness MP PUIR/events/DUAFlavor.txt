@@ -1628,7 +1628,7 @@ country_event = { ##The Anglois Path
 	name = anglois_dilemma
 	duration = 15000
 	}
-	SIK = {	
+	RAP = {	
 			set_variable = {
 				which = ENL_revolt
 				value = 1
@@ -1660,13 +1660,13 @@ country_event = { ##The Glorious Revolution
 	has_country_flag = ENL_revolted
 			}
 		}
-	SIK = { 
+	RAP = { 
 	check_variable = {
 				which = ENL_revolt
 				value = 8
 				}
 			}
-	NOT = { SIK = { 
+	NOT = { RAP = { 
 	check_variable = {
 				which = OCC_revolt
 				value = 5
@@ -1781,7 +1781,7 @@ country_event = { ##The Glorious Revolution -reconquest
 	duration = 2000 
 		}
 	}
-	SIK = { 
+	RAP = { 
 	change_variable = {
 				which = Anglois_ACC
 				value = 1
@@ -1812,7 +1812,7 @@ country_event = { ##The Glorious Revolution -fail
 	option = { 
 	name = "650243.A"
 	set_country_flag = ENL_revolt_win
-	SIK = { 
+	RAP = { 
 	change_variable = {
 				which = Anglois_ACC
 				value = -1
@@ -1869,7 +1869,7 @@ country_event = { ##The Midi Revolution -reconquest
 				move_pop = 2432
 			}
 			
-	SIK = { 
+	RAP = { 
 	change_variable = {
 				which = Anglois_ACC
 				value = 1
@@ -1900,7 +1900,7 @@ country_event = { ##The Midi Revolution -fail
 	option = { 
 	name = "650245.A"
 	set_country_flag = OCC_revolt_win
-	SIK = { 
+	RAP = { 
 	change_variable = {
 				which = Anglois_ACC
 				value = -5
@@ -1925,13 +1925,13 @@ country_event = { ##The Midi Revolution
 	has_country_flag = OCC_revolted
 			}
 		}
-	SIK = { 
+	RAP = { 
 	check_variable = {
 				which = OCC_revolt
 				value = 8
 				}
 			}
-	NOT = { SIK = { 
+	NOT = { RAP = { 
 	check_variable = {
 				which = ENL_revolt
 				value = 5
@@ -1981,7 +1981,7 @@ country_event = { ##The Total Revolution
 	has_country_flag = Anglois_accepted
 			}
 		}
-	SIK = { 
+	RAP = { 
 	check_variable = {
 				which = OCC_revolt
 				value = 5
@@ -2117,13 +2117,13 @@ country_event = { ##The Anglois success
 	has_country_flag = Anglois_accepted
 			}
 		}
-	SIK = { 
+	RAP = { 
 	check_variable = {
 				which = Anglois_ACC
 				value = 8
 				}
 			}
-	NOT = { SIK = { 
+	NOT = { RAP = { 
 	check_variable = {
 				which = OCC_revolt
 				value = 5
@@ -2235,7 +2235,7 @@ country_event = {
 	consciousness = 2 
 	}
 	set_country_flag = patron
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -2274,7 +2274,7 @@ country_event = {
 	consciousness = 2 
 	}
 	set_country_flag = patron
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = -1
@@ -2314,7 +2314,7 @@ country_event = {
 	consciousness = 2 
 	}
 	set_country_flag = patron
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -2399,7 +2399,7 @@ country_event = {
 				duration = 2000
 			}
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -2452,7 +2452,7 @@ country_event = {
 		}
 	}
 	public_meetings = no_meeting 
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 2
@@ -2507,7 +2507,7 @@ country_event = { #Publication of "Histoire de la France depuis ses origines"
 		}
 	prestige = 10 
 	set_country_flag = guizot_book
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -2543,7 +2543,7 @@ country_event = { #Publication of "Histoire de la France depuis ses origines"
 		}
 	prestige = -15
 	set_country_flag = guizot_book
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = -1
@@ -2583,7 +2583,7 @@ country_event = { #Publication of "Saxon Poetry"
 	option = { 
 	name = "650253.A"
 	set_country_flag = saxon_poetry
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -2598,7 +2598,7 @@ country_event = { #Publication of "Saxon Poetry"
 	option = { 
 	name = "650253.B"
 	set_country_flag = saxon_poetry
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -2638,7 +2638,7 @@ country_event = { #The Great Travel of the Dauphin
 	name = "650254.A"
 	set_country_flag = travel_dauphin
 	set_country_flag = travel_FRA
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -2654,7 +2654,7 @@ country_event = { #The Great Travel of the Dauphin
 	name = "650254.B"
 	set_country_flag = travel_dauphin
 	set_country_flag = travel_ENL
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = -1
@@ -2669,7 +2669,7 @@ country_event = { #The Great Travel of the Dauphin
 	option = { 
 	name = "650254.C"
 	set_country_flag = travel_dauphin
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -2866,7 +2866,7 @@ country_event = { #The 'Immortals'
 	option = { 
 	name = "650256.A"
 	set_country_flag = academy
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -2881,7 +2881,7 @@ country_event = { #The 'Immortals'
 	option = { 
 	name = "650256.B"
 	set_country_flag = academy
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -2896,7 +2896,7 @@ country_event = { #The 'Immortals'
 	option = { 
 	name = "650256.C"
 	set_country_flag = academy
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -2942,7 +2942,7 @@ country_event = { #Celebration of the German Revolution
 	name = "650257.A"
 	set_country_flag = celebration
 	relation = { who = BOH value = -100 }
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -2958,7 +2958,7 @@ country_event = { #Celebration of the German Revolution
 	name = "650257.B"
 	set_country_flag = celebration
 	relation = { who = BOH value = 50 }
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -3008,7 +3008,7 @@ country_event = { #Springtime of Nations
 	militancy = 1 
 	consciousness = 4
 	}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -3049,7 +3049,7 @@ country_event = { #Springtime of Nations
 	option = { 
 	name = "650259.A"
 	set_country_flag = springtime_DUA_end
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 1
@@ -3087,7 +3087,7 @@ country_event = { #Anglois resilience -1855
 	option = { 
 	name = "650260.A"
 	set_country_flag = DUA_1855
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 1
@@ -3125,7 +3125,7 @@ country_event = { #Anglois resilience -1860
 	option = { 
 	name = "650261.A"
 	set_country_flag = DUA_1860
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 2
@@ -3163,7 +3163,7 @@ country_event = { #Conquest of Provence
 	option = { 
 	name = "650262.A"
 	set_country_flag = PRV_conquest
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 1
@@ -3200,7 +3200,7 @@ country_event = { #Conquest of Bourgogne
 	option = { 
 	name = "650263.A"
 	set_country_flag = BRG_conquest
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -3237,7 +3237,7 @@ country_event = { #Conquest of Calais
 	option = { 
 	name = "650264.A"
 	set_country_flag = Calais_conquest
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -3288,7 +3288,7 @@ country_event = { #Northern Border secured
 	option = { 
 	name = "650265.A"
 	set_country_flag = noerth_border
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = -1
@@ -3307,6 +3307,7 @@ country_event = { #Anglois failure -1855
 	
 	trigger = { 
 	tag = DUA
+    year = 1936	
 	has_country_flag = dual_integration 
 	OR = { exists = OCC 
 	exists = FRA 
@@ -3330,13 +3331,13 @@ country_event = { #Anglois failure -1855
 	option = { 
 	name = "650266.A"
 	set_country_flag = DUA_1855
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
 			}
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -3355,6 +3356,7 @@ country_event = { #Anglois failure -1860
 	
 	trigger = { 
 	tag = DUA 
+	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -3377,13 +3379,13 @@ country_event = { #Anglois failure -1860
 	option = { 
 	name = "650267.A"
 	set_country_flag = DUA_1860
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 2
 			}
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 2
@@ -3432,7 +3434,7 @@ country_event = { #Scottish subversion
 	option = { 
 	name = "650268.A"
 	set_country_flag = scottish_subversion
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 1
@@ -3451,6 +3453,7 @@ country_event = { #Anglois failure -1865
 	
 	trigger = { 
 	tag = DUA 
+	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -3473,13 +3476,13 @@ country_event = { #Anglois failure -1865
 	option = { 
 	name = "650270.A"
 	set_country_flag = DUA_1865
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 3
 			}
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 3
@@ -3498,6 +3501,7 @@ country_event = { #Anglois failure -1870
 	
 	trigger = { 
 	tag = DUA 
+	year = 1936
 	has_country_flag = dual_integration 
 	OR = { 
 	exists = OCC 
@@ -3519,13 +3523,13 @@ country_event = { #Anglois failure -1870
 	option = { 
 	name = "650271.A"
 	set_country_flag = DUA_1870
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 4
 			}
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = ENL_revolt 
 				value = 4
@@ -3563,7 +3567,7 @@ country_event = { #Valois subversion
 	option = { 
 	name = "650269.A"
 	set_country_flag = valois_subversion
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -3601,7 +3605,7 @@ country_event = { #Anglois resilience -1865
 	option = { 
 	name = "650272.A"
 	set_country_flag = DUA_1865
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 3
@@ -3638,7 +3642,7 @@ country_event = { #Anglois resilience -1870
 	option = { 
 	name = "650273.A"
 	set_country_flag = DUA_1870
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = Anglois_ACC 
 				value = 4
@@ -3688,7 +3692,7 @@ country_event = { #Death of the Dauphin, Orléans
 			ideology = liberal
 		}
 	}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -3744,7 +3748,7 @@ country_event = { #Death of the Dauphin, Liverpool
 			ideology = liberal
 		}
 	}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -3832,7 +3836,7 @@ country_event = {
 			}
 			militancy = -3
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 1
@@ -3897,7 +3901,7 @@ country_event = {
 			}
 			militancy = -1
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = 2
@@ -3958,7 +3962,7 @@ country_event = {
 			}
 			militancy = -1
 		}
-	SIK = {
+	RAP = {
 			change_variable = {
 				which = OCC_revolt 
 				value = -1
@@ -4398,7 +4402,7 @@ country_event = {  # Give England cores if DUA has suceeded and someone else own
 				province_id = 304		
 			}
 			owned_by = THIS
-			NOT = { is_core = ENL }		
+			NOT = { is_ core = ENL }		
 		}
 	
 	add_core = ENL
@@ -4503,7 +4507,7 @@ country_event = {  # Remove England cores if DUA owns it and has suceeded
 				province_id = 304		
 			}
 			owned_by = THIS
-			is_core = ENL		
+			is_ core = ENL		
 		}
 	
 	remove_core = ENL
@@ -4622,7 +4626,7 @@ country_event = {  # Give France cores if DUA has suceeded and someone else owns
 				province_id = 2570		
 			}
 			owned_by = THIS
-			NOT = { is_core = FRA }		
+			NOT = { is_ core = FRA }		
 		}
 	
 	add_core = FRA
@@ -4741,7 +4745,7 @@ country_event = {  # Remove France cores if DUA has suceeded and owns it
 				province_id = 2570		
 			}
 			owned_by = THIS
-			is_core = FRA		
+			is_ core = FRA		
 		}
 	
 	remove_core = FRA

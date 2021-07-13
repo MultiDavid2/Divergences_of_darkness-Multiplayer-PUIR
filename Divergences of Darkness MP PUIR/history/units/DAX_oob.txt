@@ -2,16 +2,16 @@ leader = {
 	name = "Huang Rui-Song"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = maladroit
+	background = exranker
 }
 
 leader = {
 	name = "Chiang Ching-kuo"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = bastard
+	background = clerk
 }
 
 army = {

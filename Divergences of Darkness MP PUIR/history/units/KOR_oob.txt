@@ -2,95 +2,71 @@ leader = {
 	name = "Wi Man"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = quixotic
+	background = ethnic
 }
 
 leader = {
 	name = "Hyeokgeose Geoseogan"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Kwon Hyong"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Bak Jip"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Kim Shinjong"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = hellbent
+	background = state_ideologue
 }
 
 army = {
 	name = "Joseon Army"
 	location = 1624
 	regiment = {
-		name= "1.Royal Infantry"
+		name= "1.Royal infantry"
 		type = infantry
 		home = 1624
 	}
 
 	regiment = {
-		name= "2. Royal Infantry"
+		name= "2. Royal infantry"
 		type = infantry
-		home = 1625
+		home = 1624
 	}
 
 	regiment = {
-		name= "3. Royal Infantry"
+		name= "3. Royal infantry"
 		type = infantry
 		home = 1635
 	}
   
   regiment = {
-		name= "1. Cavalry"
+		name= "1. cavalry"
 		type = hussar
-		home = 1636
+		home = 1624
 	}
 
 	regiment = {
-		name= "1. Artillery"
+		name= "1. artillery"
 		type = artillery
-		home = 1637
+		home = 1624
 	}
   
 	regiment = {
-		name= "1. Infantry"
+		name= "1. infantry"
 		type = infantry
-		home = 1619
+		home = 1635
 	}   
 	regiment = {
-		name= "2. Infantry"
+		name= "2. infantry"
 		type = infantry
 		home = 1620
 	}
 	regiment = {
-		name= "3. Infantry"
+		name= "3. infantry"
 		type = infantry
-		home = 1621
+		home = 1620
 	}
 
 	regiment = {
-		name= "1. Hussar"
+		name= "1. hussar"
 		type = hussar
-		home = 1622
+		home = 1635
 	}
 
 }

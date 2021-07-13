@@ -2,32 +2,8 @@ leader = {
 	name = "Ahmad ibn Ibrihim al-Ghazi"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Mahamud Afrah"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Naleye Adeer"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Dalmar Aduk"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = resourceful
+	background = war_college
 }
 
 army = {

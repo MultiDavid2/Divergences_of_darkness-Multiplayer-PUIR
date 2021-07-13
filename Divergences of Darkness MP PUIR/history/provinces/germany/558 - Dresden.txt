@@ -6,23 +6,23 @@ add_core = GER
 trade_goods = coal
 life_rating = 40
 state_building = {
-	level = 2
+	level = 1
 	building = fabric_factory
 	upgrade = yes
 }
 state_building = {
-	level = 4 
+	level = 2 
 	building = regular_clothes_factory
 	upgrade = yes
 }
 state_building = {
-	level = 4 
+	level = 2 
 	building = furniture_factory
 	upgrade = yes
 }
 
 state_building = {
-	level = 4 
+	level = 2 
 	building = liquor_distillery
 	upgrade = yes
 }

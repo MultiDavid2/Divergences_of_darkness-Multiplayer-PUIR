@@ -4,7 +4,7 @@ add_core = NBG
 trade_goods = iron
 life_rating = 35
 state_building = {
-	level = 4 
+	level = 2 
 	building = steel_factory
 	upgrade = yes
 }

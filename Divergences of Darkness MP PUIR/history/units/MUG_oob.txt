@@ -2,24 +2,24 @@ leader = {
 	name = "Aurangzeb Alamgir"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = gallant
+	background = medical_man
 }
 
 leader = {
 	name = "Sher Shah Suri"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = cool_minded
+	background = artillerist
 }
 
 leader = {
 	name = "Bahadur Suri"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = secretive
+	background = uncommonly_young
 }
 
 army = {
@@ -27,19 +27,19 @@ army = {
 	location = 1236
 	regiment = {
 		name= "1.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1236
 	}
 
 	regiment = {
 		name= "2.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1236
 	}
 
 	regiment = {
 		name= "3.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1236
 	}
 
@@ -81,7 +81,7 @@ army = {
 
 	regiment = {
 		name= "7.Delhi Contingent"
-		type = artillery
+		type = cavalry
 		home = 1236
 	}
 }
@@ -91,19 +91,19 @@ army = {
 	location = 1243
 	regiment = {
 		name= "1.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1270
 	}
 
 	regiment = {
 		name= "2.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1270
 	}
 
 	regiment = {
 		name= "3.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1270
 	}
 
@@ -155,19 +155,19 @@ army = {
 	location = 1276
 	regiment = {
 		name= "1.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1275
 	}
 
 	regiment = {
 		name= "2.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1275
 	}
 
 	regiment = {
 		name= "3.infantry Horse"
-		type = hussar
+		type = cavalry
 		home = 1275
 	}
 
@@ -238,13 +238,13 @@ army = {
 
 	regiment = {
 		name= "4.Orissa Contingent"
-		type = artillery
+		type = cavalry
 		home = 1242
 	}
 
 	regiment = {
 		name= "5.Orissa Contingent"
-		type = artillery
+		type = cavalry
 		home = 1242
 	}
 }
@@ -273,13 +273,13 @@ army = {
 
 	regiment = {
 		name= "4.Bengali Contingent"
-		type = artillery
+		type = cavalry
 		home = 1252
 	}
 
 	regiment = {
 		name= "5.Bengali Contingent"
-		type = artillery
+		type = cavalry
 		home = 1252
 	}
 }

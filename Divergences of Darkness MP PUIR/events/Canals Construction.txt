@@ -716,7 +716,7 @@ country_event = {
 		relation = { who = FROM value = 100 }
 		FROM = { diplomatic_influence = { who = THIS value = 400 } }
 		any_country = {
-			limit = { is_greater_power = yes }
+			limit = { NOT = { tag = FROM } is_greater_power = yes }
 			diplomatic_influence = { who = THIS value = -50 }
 		}
 	}

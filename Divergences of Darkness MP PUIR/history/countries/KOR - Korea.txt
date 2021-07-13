@@ -75,8 +75,8 @@ consciousness = 0
 nonstate_consciousness = 0
 
 # Inventions
-
-
+#bottling_process = yes
+modern_winemaking = yes
 
 oob = "KOR_oob.txt"
 1861.1.1 = {

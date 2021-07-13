@@ -1,6 +1,5 @@
 capital = 1102
 primary_culture = azerbaijani
-culture = dagestani
 religion = shiite
 government = absolute_monarchy
 plurality = 25.0

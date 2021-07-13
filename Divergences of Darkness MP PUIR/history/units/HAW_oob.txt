@@ -2,8 +2,8 @@ leader = {
 	name = "Kamehameha II"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = careless
+	background = generals_aide
 }
 
 army = {

@@ -38,6 +38,7 @@ political_decisions = {
 						province_id = 16
 						province_id = 17
 						province_id = 2629
+						province_id = 18
 						province_id = 2597
 						province_id = 2598
 						province_id = 2599
@@ -74,8 +75,8 @@ political_decisions = {
 				PLA = { all_core = { add_core = ARC	} }
 				NBG = { all_core = { add_core = ARC	} }
 				VIN = { all_core = { remove_core = VIN	} }
-			add_accepted_culture = afro_frankish
-			change_tag = ARC
+        
+        change_tag = ARC
 			  any_country = {
 				limit = {
 					OR = {
@@ -248,6 +249,7 @@ political_decisions = {
 						province_id = 2599
 						province_id = 7
 						province_id = 6
+						province_id = 18
 						province_id = 3
 						province_id = 2630
 						province_id = 2
@@ -652,6 +654,7 @@ political_decisions = {
 						province_id = 2599
 						province_id = 7
 						province_id = 6
+						province_id = 18
 						province_id = 3
 						province_id = 2630
 						province_id = 2

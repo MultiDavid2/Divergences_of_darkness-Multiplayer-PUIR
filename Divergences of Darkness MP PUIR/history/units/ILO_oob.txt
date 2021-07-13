@@ -2,8 +2,8 @@ leader = {
 	name = "Ibrahim Kolapo"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = inefficient
+	background = amateur
 }
 
 army = {

@@ -49,8 +49,8 @@ set_country_flag = protestant_country
 
 
 # Inventions
-
-
+#bottling_process = yes
+modern_winemaking = yes
 
 # Starting Consciousness
 consciousness = 0

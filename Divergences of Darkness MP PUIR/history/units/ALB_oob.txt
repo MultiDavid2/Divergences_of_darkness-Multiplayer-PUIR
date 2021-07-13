@@ -2,16 +2,16 @@ leader = {
 	name = "Gjon Buzuku"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = cool_minded
+	background = ethnic
 }
 
 leader = {
 	name = "Bamir Berisha"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = bastard
+	background = aristocrat
 }
 
 army = {
@@ -25,6 +25,6 @@ army = {
 	regiment = {
 		name= "2. Redif Bursa"
 		type = infantry
-		home = 850
+		home = 853
 	}
 }

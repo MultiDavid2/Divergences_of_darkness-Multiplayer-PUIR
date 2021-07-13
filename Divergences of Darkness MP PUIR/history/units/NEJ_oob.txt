@@ -2,8 +2,8 @@ leader = {
 	name = "Mohammed ibn Saud"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = intuitive 
+	background = aristocrat
 }
 
 army = {
@@ -51,12 +51,12 @@ army = {
 	regiment = {
 		name= "1. 'Ateba"
 		type = infantry
-		home = 1157
+		home = 1158
 	}
 
 	regiment = {
 		name= "2. 'Ateba"
 		type = infantry
-		home = 1160
+		home = 1163
 	}
 }

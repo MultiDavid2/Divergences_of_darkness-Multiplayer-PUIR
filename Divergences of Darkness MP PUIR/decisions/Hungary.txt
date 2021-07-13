@@ -69,66 +69,6 @@ political_decisions = {
 	
 	}
 	
-	romanian_compromise = {
-		picture = embrace_minority
-		potential = {
-			tag = HUN
-			ROM = {
-				exists = no 
-			}
-			NOT = { accepted_culture = romanian }
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-			war = no
-			
-			ROM = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = { 
-							OR = { 
-								vassal_of = THIS 
-								in_sphere = THIS
-							}
-						}
-					}
-				}
-			}
-		}
-		
-		effect = {
-			add_accepted_culture = romanian
-			WAL = {
-				limit = {
-					exists = yes
-				}
-				HUN = { inherit = WAL }
-			}
-			SIE = {
-				limit = {
-					exists = yes
-				}
-				HUN = { inherit = SIE }
-			}
-			MOL = {
-				limit = {
-					exists = yes
-				}
-				HUN = { inherit = MOL }
-			}
-			ROM = {
-				all_core = {
-					add_core = HUN
-				}
-			}
-			all_core = {
-				remove_core = ROM
-				remove_core = SIE
-			}
-		}		
-	}
-	
 	croatian_compromise = {
 		picture = embrace_minority
 		potential = {
@@ -158,7 +98,7 @@ political_decisions = {
 			add_accepted_culture = croat
 			random_owned = {
 				limit = {
-					owner = { political_reform = primary_culture_only }
+					owner = { minorities_reform = primary_culture_only }
 				}
 				owner = { political_reform = culture_voting_only }
 			}

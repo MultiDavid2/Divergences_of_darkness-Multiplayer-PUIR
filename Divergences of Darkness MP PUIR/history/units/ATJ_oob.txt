@@ -2,8 +2,8 @@ leader = {
 	name = "Irwandi Yusuf"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = romantic
+	background = cavalry_school
 }
 
 army = {

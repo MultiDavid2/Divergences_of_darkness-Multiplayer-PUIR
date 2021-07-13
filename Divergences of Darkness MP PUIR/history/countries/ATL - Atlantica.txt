@@ -74,8 +74,12 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-
-
+#corvettes = yes
+authoritarianism = yes
+hierarchical_order = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
 
 # Starting Consciousness

@@ -2,16 +2,8 @@ leader = {
 	name = "Al-Husayn ibn Mahmud"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "Uthman ibn Ishaq"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = aggressive
+	background = uncommonly_young
 }
 
 army = {
@@ -32,13 +24,13 @@ army = {
 	regiment = {
 		name= "3.Askäris"
 		type = infantry
-		home = 1728
+		home = 1727
 	}
 
 	regiment = {
 		name= "4.Askäris"
 		type = hussar
-		home = 1728
+		home = 1727
 	}
 }
 
@@ -48,19 +40,19 @@ army = {
 	regiment = {
 		name= "1.Askäris"
 		type = infantry
-		home = 1729
+		home = 1731
 	}
 
 	regiment = {
 		name= "2.Askäris"
 		type = infantry
-		home = 1730
+		home = 1731
 	}
 
 	regiment = {
 		name= "3.Askäris"
 		type = infantry
-		home = 1730
+		home = 1731
 	}
 
 	regiment = {

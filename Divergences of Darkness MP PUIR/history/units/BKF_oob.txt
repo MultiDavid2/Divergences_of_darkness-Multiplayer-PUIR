@@ -2,56 +2,56 @@ leader = {
 	name = "Ashikaga Satouji"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = energetic
+	background = religious_fanatic
 }
 
 leader = {
 	name = "Takeda Nobuyoshi"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = brash
+	background = ambitious_careerist
 }
 
 leader = {
 	name = "Asakura Yoshikage"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = relentless
+	background = son_of_hero
 }
 
 leader = {
 	name = "Chosokabe Chikanao"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = impetuous
+	background = rags_to_riches
 }
 
 leader = {
 	name = "Date Tadamune"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = cool_minded
+	background = clueless
 }
 
 leader = {
 	name = "Oda Nobunari"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = secretive
+	background = wounded_veteran
 }
 
 leader = {
 	name = "Mineichi Koga"
 	type = sea
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = disciplined
+	background = questionable_loyalties
 }
 
 army = {

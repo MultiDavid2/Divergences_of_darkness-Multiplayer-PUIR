@@ -2,16 +2,16 @@ leader = {
 	name = "Alexandar Kostadin"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = keen
+	background = brilliant_strategist
 }
 
 leader = {
 	name = "Gjerasim Avram"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = tyrant
+	background = natural_born_leader
 }
 
 
@@ -33,7 +33,7 @@ army = {
 	regiment = {
 		name= "3. Taxiarchia Pezikou"
 		type = infantry
-		home = 807
+		home = 806
 	}
 
 	regiment = {
@@ -45,19 +45,19 @@ army = {
 	regiment = {
 		name= "5. Taxiarchia Pezikou"
 		type = infantry
-		home = 821
+		home = 819
 	}
 
 	regiment = {
 		name= "6. Taxiarchia Pezikou"
 		type = hussar
-		home = 805
+		home = 819
 	}
 
 	regiment = {
 		name= "7. Taxiarchia Pezikou"
 		type = hussar
-		home = 822
+		home = 806
 	}
 
 }

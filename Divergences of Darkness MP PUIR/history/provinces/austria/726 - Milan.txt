@@ -3,10 +3,10 @@ controller = LOM
 add_core = LOM
 add_core = ITA
 trade_goods = iron
-life_rating = 40
+life_rating = 45
 fort = 1
 state_building = {
-	level = 2
+	level = 1
 	building = fabric_factory
 	upgrade = yes
 }
@@ -16,12 +16,12 @@ state_building = {
 }
 1861.1.1 = { 
 	state_building = {
-	level = 2
+	level = 1
 	building = steel_factory
 	upgrade = yes
 	}
 	state_building = {
-	level = 2
+	level = 1
 	building = luxury_clothes_factory
 	upgrade = yes
 	}

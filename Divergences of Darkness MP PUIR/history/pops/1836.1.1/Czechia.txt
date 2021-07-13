@@ -887,26 +887,26 @@
 	}
 
 	clergymen = {
-		culture = czech
+		culture = polish
 		religion = catholic
 		size = 150 
 	}
 
 	artisans = {
-		culture = czech
+		culture = polish
 		religion = catholic
 		size = 700
 	}
 
 	soldiers = {
-		culture = czech
+		culture = polish
 		religion = catholic
 		size= 150
 
 	}
 
 	farmers = {
-		culture = czech
+		culture = polish
 		religion = catholic
 		size = 22650 
 	}

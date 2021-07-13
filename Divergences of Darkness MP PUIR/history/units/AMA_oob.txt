@@ -1,58 +1,41 @@
 #Sphere of Influence
 
 #Army
-
-leader = {
-	name = "Philippe-Joseph Deville"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
-leader = {
-	name = "André Wangermée"
-	type = land
-	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
-}
-
 army = {
 	name = "Army of France Antartique"
 	location = 2436
 	regiment = {
-		name= "1.1. Hussar"
+		name= "1.1. hussar"
 		type = hussar
 		home = 2437
 	}
 
 	regiment = {
-		name= "2.1. Hussar"
+		name= "2.1. hussar"
 		type = hussar
 		home = 2424
 	}
 
 	regiment = {
-		name= "3.1. Hussar"
+		name= "3.1. hussar"
 		type = hussar
 		home = 2435
 	}
 
 	regiment = {
-		name= "1.3. Infantry"
+		name= "1.3. infantry"
 		type = infantry
 		home = 2421
 	}
 
 	regiment = {
-		name= "2.3. Infantry"
+		name= "2.3. infantry"
 		type = infantry
 		home = 2437
 	}
 
 	regiment = {
-		name= "3.3. Infantry"
+		name= "3.3. infantry"
 		type = infantry
 		home = 2435
 	}
@@ -63,25 +46,25 @@ army = {
 	location = 2410
 
 	regiment = {
-		name= "1.3. Infantry"
+		name= "1.3. infantry"
 		type = infantry
 		home = 2424
 	}
 
 	regiment = {
-		name= "2.3. Infantry"
+		name= "2.3. infantry"
 		type = infantry
 		home = 2435
 	}
 
 	regiment = {
-		name= "3.3. Infantry"
+		name= "3.3. infantry"
 		type = infantry
 		home = 2449
 	}
 
 	regiment = {
-		name= "4.3. Infantry"
+		name= "4.3. infantry"
 		type = infantry
 		home = 2424
 	}
