@@ -3,5 +3,5 @@ controller = TAI
 add_core = TAI
 add_core = DAX
 add_core = CHI
-trade_goods = tea
+trade_goods = wool
 life_rating = 32

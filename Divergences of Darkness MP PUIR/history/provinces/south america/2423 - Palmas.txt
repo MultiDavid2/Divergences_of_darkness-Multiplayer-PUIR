@@ -3,5 +3,5 @@ controller = AMA
 add_core = AMA
 add_core = TAP
 add_core = EQN
-trade_goods = fruit
+trade_goods = iron
 life_rating = 25
