@@ -1,3 +1,8 @@
+MON = { value = -100 }
+WAL = { value = -100 }
+HUN = { value = -100 }
+CRO = { value = -100 }
+
 TUN = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
@@ -39,60 +44,60 @@ leader = {
 	name = "Nazan Girik"
 	type = land
 	date = 1836.1.1
-	personality = vicious
-	background = warmonger
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Demet Hassan"
 	type = land
 	date = 1836.1.1
-	personality = lazy
-	background = toady
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Nur Yener"
 	type = land
 	date = 1836.1.1
-	personality = brave
-	background = unqualified
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Mehmet Ekren"
 	type = land
 	date = 1836.1.1
-	personality = charismatic
-	background = religious_fanatic
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Aziz Ibn Isa"
 	type = land
 	date = 1836.1.1
-	personality = skilled
-	background = ethnic
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Abdel el-Akkad"
 	type = land
 	date = 1836.1.1
-	personality = bastard
-	background = mercenary
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Piri Barbarossa"
 	type = sea
 	date = 1836.1.1
-	personality = ruthless
-	background = expert_raider
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
-	name = "Imperial infantrys"
+	name = "Imperial Guard"
 	location = 860
 	regiment = {
 		name= "1. Bostancy-yy Hassa"
@@ -103,7 +108,7 @@ army = {
 	regiment = {
 		name= "2. Bostancy-yy Hassa"
 		type = infantry
-		home = 803
+		home = 833
 	}
 
 	regiment = {
@@ -133,7 +138,7 @@ army = {
 	regiment = {
 		name= "6. Piyade Tümeni"
 		type = infantry
-		home = 810
+		home = 811
 	}
 
 	regiment = {
@@ -151,13 +156,13 @@ army = {
 	regiment = {
 		name= "1. Redif Trabzon"
 		type = infantry
-		home = 794
+		home = 795
 	}
 
 	regiment = {
 		name= "2. Redif Trabzon"
 		type = infantry
-		home = 803
+		home = 811
 	}
 
 	regiment = {
@@ -174,13 +179,13 @@ army = {
 	regiment = {
 		name= "4. Sipahis"
 		type = hussar
-		home = 823
+		home = 812
 	}
 
 	regiment = {
 		name= "5. Sipahis"
 		type = hussar
-		home = 860
+		home = 812
 	}
 
 	regiment = {
@@ -196,7 +201,7 @@ army = {
 	regiment = {
 		name= "12. Piyade Tümeni"
 		type = infantry
-		home = 884
+		home = 883
 	}
 
 	regiment = {
@@ -220,7 +225,7 @@ army = {
 	regiment = {
 		name= "3. Redif Halab"
 		type = infantry
-		home = 884
+		home = 882
 	}
 }
 
@@ -230,7 +235,7 @@ army = {
 	regiment = {
 		name= "12. Piyade Tümeni"
 		type = infantry
-		home = 876
+		home = 870
 	}
 
 	regiment = {
@@ -242,19 +247,19 @@ army = {
 	regiment = {
 		name= "1. Redif Halab"
 		type = infantry
-		home = 876
+		home = 877
 	}
 
 	regiment = {
 		name= "2. Redif Halab"
 		type = infantry
-		home = 884
+		home = 878
 	}
 }
 
 navy = {
 	name = "Ottoman Navy"
-	location = 844
+	location = 860
 	ship = {
 		name= "Masudiya"
 		type = manowar

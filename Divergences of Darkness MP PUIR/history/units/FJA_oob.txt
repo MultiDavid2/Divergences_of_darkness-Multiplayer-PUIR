@@ -2,8 +2,8 @@ leader = {
 	name = "Bubakar Biro"
 	type = land
 	date = 1836.1.1
-	personality = active_p
-	background = son_of_hero
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

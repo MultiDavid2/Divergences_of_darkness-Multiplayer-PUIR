@@ -2,16 +2,16 @@ leader = {
 	name = "Marthanda Varma"
 	type = land
 	date = 1836.1.1
-	personality = irresponsible
-	background = yesman
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Chithra Thirunal"
 	type = sea
 	date = 1836.1.1
-	personality = relentless
-	background = unfulfilled_potential
+	personality = defence_1.1
+	background = attack_1.1
 }
 army = {
 	name = "Army of the Maharaja of Travancore"

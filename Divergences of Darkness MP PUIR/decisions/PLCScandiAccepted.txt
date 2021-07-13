@@ -96,7 +96,7 @@ baltic_cultures = {
 		effect = {
 			prestige = 20
 			set_country_flag = north_integration
-			add_accepted_culture = pomeranian
+			add_accepted_culture = north_german
 			any_pop = {
 				limit = {
 					culture = scandinavian
@@ -110,7 +110,7 @@ baltic_cultures = {
 			}
 			any_pop = {
 				limit = {
-					culture = pomeranian
+					culture = north_german
 				}
 				consciousness = -1
 				militancy = -3

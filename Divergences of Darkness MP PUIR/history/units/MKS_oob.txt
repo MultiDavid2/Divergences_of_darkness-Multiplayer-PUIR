@@ -2,8 +2,8 @@ leader = {
 	name = "Supomo Guntur"
 	type = land
 	date = 1836.1.1
-	personality = glory_hound
-	background = school_of_firepower
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

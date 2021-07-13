@@ -47,80 +47,104 @@ leader = {
 	name = "Andrew Wright"
 	type = land
 	date = 1836.1.1
-	personality = audacious
-	background = nationalist
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Antonin Adjani"
 	type = land
 	date = 1836.1.1
-	personality = soldierly
-	background = war_college
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Jean-Pierre Bonnaire"
 	type = land
 	date = 1836.1.1
-	personality = charismatic
-	background = aristocrat
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Charles Casta"
 	type = land
 	date = 1836.1.1
-	personality = paranoid
-	background = disgraced
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Marcel Seigner"
 	type = land
 	date = 1836.1.1
-	personality = calm
-	background = old_school
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Henri Garnier"
 	type = land
 	date = 1836.1.1
-	personality = humanitarian
-	background = gifted_administrator
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Pierre Breton"
 	type = land
 	date = 1836.1.1
-	personality = harsh_disciplinarian
-	background = hated
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Albèrt Bellamy"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Léan Dubosc"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Rémin Turgot"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Charles Diderot"
 	type = sea
 	date = 1836.1.1
-	personality = lilylivered
-	background = sycophant
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Jules Char"
 	type = sea
 	date = 1836.1.1
-	personality = forgiving
-	background = intellectual
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Jon Drake"
 	type = sea
 	date = 1836.1.1
-	personality = madman
-	background = questionable_loyalties
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
@@ -269,7 +293,7 @@ army = {
 	regiment = {
 		name= "3.Cavalerie régulière"
 		type = hussar
-		home = 420
+		home = 421
 	}
 
 	regiment = {
@@ -458,7 +482,7 @@ army = {
 	regiment = {
 		name= "4.11ème Division d'Infanterie"
 		type = hussar
-		home = 254
+		home = 255
 	}
 
 

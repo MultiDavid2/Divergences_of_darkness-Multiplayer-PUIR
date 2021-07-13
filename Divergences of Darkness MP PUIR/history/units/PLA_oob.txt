@@ -2,16 +2,32 @@ leader = {
 	name = "Pierre Duchesne"
 	type = land
 	date = 1836.1.1
-	personality = arrogant
-	background = ethnic
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Roland Claudric"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Lucas Rodrigue"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Samuel de Champlain"
 	type = sea
 	date = 1836.1.1
-	personality = gregarious
-	background = inventor
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

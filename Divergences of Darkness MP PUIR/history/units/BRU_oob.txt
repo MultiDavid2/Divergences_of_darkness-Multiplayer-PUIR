@@ -2,8 +2,8 @@ leader = {
 	name = "Hassanal Bolkiah"
 	type = land
 	date = 1836.1.1
-	personality = shrinking_violet
-	background = cavalry_school
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

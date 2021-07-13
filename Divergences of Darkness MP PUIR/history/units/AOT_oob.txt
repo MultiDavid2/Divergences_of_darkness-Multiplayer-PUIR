@@ -2,8 +2,8 @@ leader = {
 	name = "Apirana Ngata"
 	type = land
 	date = 1836.1.1
-	personality = aggressive
-	background = wounded_veteran
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

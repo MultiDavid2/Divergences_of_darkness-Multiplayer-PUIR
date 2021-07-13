@@ -1,0 +1,809 @@
+country_event = {
+	
+	id = 777700 # Spain
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		FRA = {	ai = no }
+		tag = SPA
+		482 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		482 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777701 # Dual Monarchy
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		DUA = {	ai = no }
+		tag = DUA
+		436 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		436 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777702 # Muscovy
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		MUS = {	ai = no }
+		tag = MUS
+		1033 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1033 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777703 # Burgundy
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		BRG = {	ai = no }
+		tag = BRG
+		375 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		375 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777704 # Bohemia
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		BOH = {	ai = no }
+		tag = BOH
+		689 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		689 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777705 # Austria
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		AUS = {	ai = no }
+		tag = AUS
+		621 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		621 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777706 # Bavaria
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		BAV = {	ai = no }
+		tag = BAV
+		601 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		601 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777707 # Savoy
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		SVY = {	ai = no }
+		tag = SVY
+		723 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		723 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777708 # Venice
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		VEN = {	ai = no }
+		tag = VEN
+		734 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		734 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777709 # Etruria
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		TUS = {	ai = no }
+		tag = TUS
+		748 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		748 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777710 # Hungary
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		HUN = {	ai = no }
+		tag = HUN
+		650 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		650 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777711 # Polish-Lithuanian Commonwealth
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		PLC = {	ai = no }
+		tag = PLC
+		709 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		709 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777712 # Ottoman Empire
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		TUR = {	ai = no }
+		tag = TUR
+		868 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		868 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777713 # Muscovy
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		MUS = {	ai = no }
+		tag = MUS
+		1033 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1033 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777714 # Egypt
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		EGY = {	ai = no }
+		tag = EGY
+		1765 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1765 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777715 # Ethiopia
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		ETH = {	ai = no }
+		tag = ETH
+		1852 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1852 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777716 # Leeuwin
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		LWE = {	ai = no }
+		tag = LWE
+		2558 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		2558 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777717 # Iraq
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		IRQ = {	ai = no }
+		tag = IRQ
+		927 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		927 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777718 # Teheran
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		QAJ = {	ai = no }
+		tag = QAJ
+		1129 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1129 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777719 # Qing Empire
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		QNG = {	ai = no }
+		tag = QNG
+		1570 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1570 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777720 # Plantagenia
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		PLA = {	ai = no }
+		tag = PLA
+		188 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		188 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777721 # Vinland
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		VIN = {	ai = no }
+		tag = VIN
+		67 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		67 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777722 # Belgian Confederation
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		NBG = {	ai = no }
+		tag = NBG
+		242 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		242 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777723 # Tawantinsuyu
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		INC = {	ai = no }
+		tag = INC
+		2368 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		2368 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777724 # Lotharingia
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		LOT = {	ai = no }
+		tag = LOT
+		2345 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		2345 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777725 # Amazonie
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		AMA = {	ai = no }
+		tag = AMA
+		2427 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		2427 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}
+
+country_event = {
+	
+	id = 777726 # Mughal Empire
+
+	trigger = {
+		year = 1836
+		NOT = { year = 1880 }
+		MUG = {	ai = no }
+		tag = MUG
+		1273 = { NOT = { trade_goods = precious_metal } }
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		1273 = { 
+			trade_goods = precious_metal
+			clr_province_flag = farm
+			set_province_flag = mine
+		}
+	}
+}

@@ -61,13 +61,12 @@ political_decisions = {
 	picture = Rohnst_decision
 	potential = {
 	OR = { tag = VIN tag = DNG }
-	has_country_flag = native_integration
 	NOT = { has_country_flag = rohnst_culture }
+	NOT = { OR = { tag = VIN tag = DNG }} #REMOVE LATER
 	}
 	
 	allow = { 
 	owns = 30 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -83,13 +82,12 @@ political_decisions = {
 	
 	potential = {
 	OR = { tag = VIN tag = NBG }
-	has_country_flag = native_integration
 	NOT = { has_country_flag = iroquois_culture }
+	NOT = { OR = { tag = VIN tag = NBG }} #REMOVE LATER 
 	}
 	
 	allow = { 
 	IRO = { all_core = { owned_by = THIS } } 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -106,13 +104,12 @@ political_decisions = {
 	
 	potential = { 
 	tag = VIN 
-	has_country_flag = native_integration
 	NOT = { has_country_flag = algonquin_culture }
+	NOT = { tag = VIN } #REMOVE LATER
 	}
 	
 	allow = { 
 	ANI = { all_core = { owned_by = THIS } } 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -129,13 +126,12 @@ political_decisions = {
 	
 	potential = { 
 	OR = { tag = VIN tag = PLA tag = DNG }
-	has_country_flag = native_integration
 	NOT = { has_country_flag = dakota_culture }
+	NOT = { OR = { tag = VIN tag = PLA tag = DNG }} #REMOVE LATER
 	}
 	
 	allow = { 
 	OCE = { any_core = { owned_by = THIS } } 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -152,13 +148,12 @@ political_decisions = {
 	
 	potential = { 
 	tag = PLA 
-	has_country_flag = native_integration
 	NOT = { has_country_flag = cherokee_culture }
+	NOT = { tag = PLA } #REMOVE LATER
 	}
 	
 	allow = { 
 	CHE = { all_core = { owned_by = THIS } } 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -175,14 +170,13 @@ political_decisions = {
 	
 	potential = { 
 	tag = DNG 
-	has_country_flag = native_integration
 	NOT = { has_country_flag = pueblo_culture }
+	NOT = { tag = DNG } #REMOVE LATER
 	}
 	
 	allow = { 
 	owns = 95 
 	owns = 97 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 
@@ -198,13 +192,12 @@ political_decisions = {
 	
 	potential = { 
 	OR = { tag = LST tag = CLM } 
-	has_country_flag = native_integration
 	NOT = { has_country_flag = apache_culture }
+	NOT = { OR = { tag = LST tag = CLM }} #REMOVE LATER
 	}
 	
 	allow = { 
 	DIN = { all_core = { owned_by = THIS } } 
-	NOT = { has_country_modifier = native_integration }
 	}
 	
 	effect = { 

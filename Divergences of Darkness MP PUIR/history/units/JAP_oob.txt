@@ -2,72 +2,80 @@ leader = {
 	name = "No-miya Uehara"
 	type = land
 	date = 1836.1.1
-	personality = aggressive
-	background = rising_star
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Saigo Takamori"
 	type = land
 	date = 1836.1.1
-	personality = cruel
-	background = disgraced
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Hisaichi Terauchi"
 	type = land
 	date = 1836.1.1
-	personality = imaginative
-	background = member_of_elite
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Hajime Sugiyama"
 	type = land
 	date = 1836.1.1
-	personality = calm
-	background = nationalist
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Kawamura Kageaki"
 	type = land
 	date = 1836.1.1
-	personality = earnest
-	background = corrupt
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Takeda Nobuyoshi"
 	type = land
 	date = 1836.1.1
-	personality = brash
-	background = ambitious_careerist
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Asakura Yoshikage"
 	type = land
 	date = 1836.1.1
-	personality = relentless
-	background = son_of_hero
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Shunroku Hata"
 	type = land
 	date = 1836.1.1
-	personality = decisive
-	background = war_college
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Osami Nagano"
 	type = sea
 	date = 1836.1.1
-	personality = lilylivered
-	background = elderly
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Sumiyoshi Kawamura"
+	type = sea
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
@@ -99,29 +107,29 @@ army = {
 	regiment = {
 		name= "5.Kyoto"
 		type = infantry
-		home = 1655
+		home = 1657
 	}
 
 	regiment = {
 		name= "1.hussar"
 		type = hussar
-		home = 1619
+		home = 1658
 	}
 	regiment = {
 		name= "2.hussar"
 		type = cuirassier
-		home = 1655
+		home = 1659
 	}
 
 	regiment = {
 		name= "1.Artillery"
 		type = artillery
-		home = 1655
+		home = 1660
 	}
   regiment = {
 		name= "1.Nagoya"
 		type = infantry
-		home = 1675
+		home = 1660
 	}
 
 	regiment = {
@@ -144,7 +152,7 @@ army = {
 	regiment = {
 		name= "2.hussar"
 		type = hussar
-		home = 1675
+		home = 1661
 	}
 }
 
@@ -166,24 +174,24 @@ army = {
 	regiment = {
 		name= "3.Wakayama"
 		type = infantry
-		home = 1640
+		home = 1641
 	}
 	regiment = {
 		name= "1.hussar"
 		type = hussar
-		home = 1619
+		home = 1642
 	}
 
 	regiment = {
 		name= "2.hussar"
 		type = hussar
-		home = 1649
+		home = 1642
 	} 
   
 	regiment = {
 		name= "1.artillery"
 		type = hussar
-		home = 1649
+		home = 1643
 	}
 
 }
@@ -194,54 +202,54 @@ army = {
 	regiment = {
 		name= "1.Taegu"
 		type = infantry
-		home = 1633
+		home = 1645
 	}
 
 	regiment = {
 		name= "2.Taegu"
 		type = infantry
-		home = 1633
+		home = 1645
 	}
   	regiment = {
 		name= "1.hussar"
 		type = hussar
-		home = 1675
+		home = 1646
 	}
 
 	regiment = {
 		name= "2.hussar"
 		type = hussar
-		home = 1675
+		home = 1648
 	}   
   
 	regiment = {
 		name= "1.Haeju"
 		type = infantry
-		home = 1627
+		home = 1649
 	}
 
 	regiment = {
 		name= "3.Haeju"
 		type = hussar
-		home = 1640
+		home = 1649
 	}
   
   regiment = {
 		name= "1.Akita"
 		type = infantry
-		home = 1672
+		home = 1649
 	}
 
 	regiment = {
 		name= "2.Akita"
 		type = infantry
-		home = 1672
+		home = 1649
 	}
 
 	regiment = {
 		name= "1.hussar"
 		type = hussar
-		home = 1672
+		home = 1650
 	}
 
 }
@@ -252,25 +260,25 @@ army = {
 	regiment = {
 		name= "1.Yamaguchi"
 		type = infantry
-		home = 1660
+		home = 1651
 	}
 
 	regiment = {
 		name= "2.Yamaguchi"
 		type = infantry
-		home = 1660
+		home = 1652
 	}
 
 	regiment = {
 		name= "3.Yamaguchi"
 		type = infantry
-		home = 1660
+		home = 1652
 	}
 
 	regiment = {
 		name= "4.Yamaguchi"
 		type = infantry
-		home = 1660
+		home = 1653
 	}
 
 }

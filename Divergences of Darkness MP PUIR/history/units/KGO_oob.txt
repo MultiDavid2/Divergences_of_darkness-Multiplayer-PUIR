@@ -2,8 +2,8 @@ leader = {
 	name = "Lukeni Lua"
 	type = land
 	date = 1836.1.1
-	personality = stouthearted
-	background = wounded_veteran
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

@@ -380,3 +380,426 @@ country_event = {
 	}  
 
 }  
+
+#SPHERELING MONTHLY GRANTS DOD PUIR
+country_event = {
+
+	is_triggered_only = yes
+	id = 900015
+	title = "Our sphereling, $FROMCOUNTRY$ Requests Aid"
+	desc = "Our sphereling, $FROMCOUNTRY$ has asked we give them a grant. How much should we give?"
+	allow_multiple_instances = yes
+	option = {
+		name = "Our money is better spent at home."
+		FROM = { country_event = { id = 100010 days = 0 } }
+	
+	}
+	option = {
+		name = "Thousands of Pounds"
+		
+		FROM = { country_event = { id = 900023 days = 0 } set_country_flag = waiting_for_response }
+		country_event = { id = 900016 days = 0 }
+		ai_chance = { factor = 100 } 
+	}
+	
+	option = {
+		name = "Tens of Thousands of Pounds"
+		
+		FROM = { country_event = { id = 900022 days = 0 } set_country_flag = waiting_for_response }
+		country_event = { id = 900017 days = 0 }
+	}
+	
+	option = {
+		name = "Hundreds of Thousands of Pounds"
+		
+		FROM = { country_event = { id = 900021 days = 0 } set_country_flag = waiting_for_response }
+		country_event = { id = 900018 days = 0 }
+	}
+}
+
+country_event = {
+	id = 900018
+	title = "Choose Aid for $FROMCOUNTRY$"
+	desc = "How much money would you like to give to Sphereling $FROMCOUNTRY$ per month (hundreds of thousands)?"
+	allow_multiple_instances = yes	
+	is_triggered_only = yes
+	option = {
+		name = "0 pounds"
+	}
+	option = {
+		name = "100000 pounds"
+		ai_chance = {factor = 100}
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant100000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "200000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant200000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "300000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant300000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "400000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant400000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "500000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant500000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "600000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant600000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "700000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant700000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "800000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant800000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "900000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant900000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+}
+
+country_event = {
+	id = 900017
+	title = "Choose Aid for $FROMCOUNTRY$"
+	desc = "How much money would you like to give to Sphereling $FROMCOUNTRY$ (tens of thousands)?"
+	allow_multiple_instances = yes	
+	is_triggered_only = yes
+	option = {
+		name = "0 pounds"
+	}
+	option = {
+		name = "10000 pounds"
+		ai_chance = {factor = 100}
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant10000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "20000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant20000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "30000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant30000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "40000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant40000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "50000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant50000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "60000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant60000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "70000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant70000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "80000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant80000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "90000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant90000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+}
+
+country_event = {
+	is_triggered_only = yes
+	id = 900016
+	title = "Choose Aid for $FROMCOUNTRY$"
+	desc = "How much money would you like to give to Sphereling $FROMCOUNTRY$ (thousands)?"
+	allow_multiple_instances = yes	
+	option = {
+		name = "0 pounds"
+	}
+	option = {
+		name = "1000 pounds"
+		ai_chance = { factor = 100 }
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 1 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant1000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "2000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant2000
+			clr_country_flag = waiting_for_response
+		}
+	}
+	option = {
+		name = "3000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant3000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "4000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant4000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "5000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant5000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "6000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant6000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "7000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant7000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "8000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant8000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+	option = {
+		name = "9000 pounds"
+		set_country_flag = needs_to_pay_grant
+		country_event = { id = 900019 days = 0 }
+		any_country = {
+			limit = {
+				has_country_flag = waiting_for_response
+				in_sphere = THIS
+			}
+			set_country_flag = grant9000
+			clr_country_flag = waiting_for_response
+		}
+	}  
+}

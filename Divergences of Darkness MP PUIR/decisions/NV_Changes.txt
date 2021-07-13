@@ -4,15 +4,10 @@ political_decisions = {
 		alert = yes
 		picture = national_value
 		potential = {
-			nationalvalue = nv_tradition
 			NOT = {	has_country_flag = nv_change }
 		}
 		
 		allow = {
-		OR = {
-		civilization_progress = 0.5
-		civilized = yes
-		}
 			NOT = {	has_country_modifier = national_confusion }
 			war = no
 			NOT = { num_of_revolts = 1 }
@@ -26,8 +21,8 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				OR = {
-					is_culture_group = chinese
-					substate_of = QNG
+					is_culture_group = east_asian
+					substate_of = CHI
 				}
 			}
 		}
@@ -46,12 +41,53 @@ political_decisions = {
 		
 		ai_will_do = { factor = 0 }
 	}
+	
+	switch_to_education = {
+		picture = switch_to_education
+		potential = {
+			NOT = { nationalvalue = nv_education }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_education
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
 
 	switch_to_order = {
 		picture = switch_to_order
 		potential = {
-			nationalvalue = nv_tradition
-			NOT = { has_country_flag = switched_nv }
+			NOT = { nationalvalue = nv_order }
+			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
@@ -72,7 +108,7 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 3
 				}
 				scaled_militancy = {
 					ideology = conservative
@@ -91,8 +127,8 @@ political_decisions = {
 	switch_to_production = {
 		picture = switch_to_productivity
 		potential = {
-			nationalvalue = nv_tradition
-			NOT = { has_country_flag = switched_nv }
+			NOT = { nationalvalue = nv_productivity }
+			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
@@ -113,7 +149,7 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 3
 				}
 				scaled_militancy = {
 					ideology = conservative
@@ -132,8 +168,8 @@ political_decisions = {
 	switch_to_autocracy = {
 		picture = switch_to_autocracy
 		potential = {
-			nationalvalue = nv_tradition
-			NOT = { has_country_flag = switched_nv }
+			NOT = { nationalvalue = nv_autocracy }
+			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
@@ -153,7 +189,7 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 3
 				}
 				scaled_militancy = {
 					ideology = conservative
@@ -172,8 +208,8 @@ political_decisions = {
 	switch_to_equality = {
 		picture = switch_to_equality
 		potential = {
-			nationalvalue = nv_tradition
-			NOT = { has_country_flag = switched_nv }
+			NOT = { nationalvalue = nv_equality }
+			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
@@ -194,7 +230,7 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 3
 				}
 				scaled_militancy = {
 					ideology = conservative
@@ -213,8 +249,8 @@ political_decisions = {
 	switch_to_liberty = {
 		picture = switch_to_liberty
 		potential = {
-			nationalvalue = nv_tradition
-			NOT = { has_country_flag = switched_nv }
+			NOT = { nationalvalue = nv_liberty }
+			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
@@ -235,7 +271,7 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 3
 				}
 				scaled_militancy = {
 					ideology = conservative

@@ -397,10 +397,10 @@ treaty_port = {
 
 drained_marsh = {
 	farm_rgo_size = 0.25
-	farm_rgo_eff = 0.2
+	farm_rgo_eff = 0.5
 	mine_rgo_size = 0.25
-	mine_rgo_eff = 0.2
-	movement_cost = -0.2
+	mine_rgo_eff = 0.3
+	movement_cost = -0.4
 	icon = 19
 }
 
@@ -631,6 +631,21 @@ bad_badboy = {
 	icon = 8
 }
 
+badboymod = {
+	global_population_growth = -0.005
+	research_points_modifier = -1.0
+	global_immigrant_attract = -4.0
+	diplomatic_points_modifier = -1.0
+	org_regain = -0.2
+    land_organisation = -0.2
+    naval_organisation = -0.2
+    factory_throughput = -0.5
+    RGO_throughput = -0.5
+    prestige = -0.2
+    war_exhaustion = 2
+	icon = 17
+}
+
 the_big_ben = {
 	local_factory_output = 0.01
 	immigrant_attract = 0.25
@@ -753,7 +768,7 @@ foreign_claims = {
 
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
-	population_growth = 0.001
+	population_growth = 0.005
 	icon = 19
 }
 
@@ -854,11 +869,8 @@ global_liberal_agitation = {
 }
 
 potato_blight = {
-	farm_RGO_eff = -0.5
-	pop_militancy_modifier = 0.05
-	pop_consciousness_modifier = 0.1
-	immigrant_push = 0.50
-	population_growth = -0.005
+	population_growth = -0.02
+	pop_militancy_modifier = 0.01
 	icon = 20
 }
 
@@ -902,7 +914,7 @@ missionary_activity = {
 }
 
 western_influences = {
-	global_pop_militancy_modifier = 0.1
+	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.1
 	research_points_modifier = 0.2
 	icon = 10
@@ -919,8 +931,8 @@ uncivilized_isolationism = {
 }
 
 western_presence = {
-	pop_consciousness_modifier = 0.1
-	research_points_modifier = 0.02
+	pop_militancy_modifier = 0.1
+	research_points_modifier = 0.01
 	icon = 9
 }
 
@@ -954,8 +966,7 @@ silk_famine = {
 #}
 
 naval_school = {
-	navy_tech_research_bonus = 0.05
-	leadership_modifier = 0.01
+	research_points_modifier = 0.01
 	icon = 17
 }
 
@@ -1161,19 +1172,19 @@ extraterritoriality_granted = {
 
 military_reform = {
 	leadership_modifier = 0.2
-	global_pop_militancy_modifier = 0.02
+	pop_militancy_modifier = 0.03
 	icon = 18
 }
 
 educational_reform = {
-	research_points_modifier = 0.10
-	global_pop_consciousness_modifier = 0.01
+	research_points_modifier = 0.05
+	pop_militancy_modifier = 0.02
 	icon = 5
 }
 
 legation_quarter = {
+	diplomatic_points_modifier = 0.07
 	pop_militancy_modifier = 0.03
-	research_points_modifier = 0.05
 	icon = 8
 }
 
@@ -1341,7 +1352,7 @@ silk_famine = {
 }
 
 blood_and_iron_mine = {
-	mine_rgo_eff = 0.5
+	mine_rgo_eff = 1.25
 	pop_militancy_modifier = 0.01
 	icon = 14
 }
@@ -1536,39 +1547,40 @@ witwatersrand_gold_rush = {
 	icon = 11
 }
 
-##### RGO Spread Events #####
-local_tractors = {
-	farm_RGO_eff = 0.45
-	icon = 13
-}
-
-local_nitroglycerin_and_machine_tools = {
-	mine_RGO_eff = 0.5
-	mine_RGO_size = 0.5
-	icon = 13
-}
-
-local_distribution_channels_und_electricity = {
-	farm_RGO_eff = 0.5
-	mine_RGO_eff = 0.5
-	local_factory_throughput = 0.05
+##### RGO Spread Events (modified to become national modifiers) #####
+country_tractors = {
+	rgo_output = 0.3
 	icon = 11
 }
 
-#local_electricity = {
-#	mine_RGO_eff = 0.5
-#	local_factory_throughput = 0.05
-#	icon = 13
-#}
+country_electricity = {
+	rgo_output = 0.3
+	factory_throughput = 0.05
+	icon = 11
+}
 
-switched_production = {
-	local_RGO_throughput = -0.05
-	icon = 14
+country_nitroglycerin = {
+	rgo_output = 0.3
+	icon = 11
+}
+
+country_distribution_channels = {
+	rgo_output = 0.3
+	icon = 11
+}
+
+country_machine_tools = {
+	rgo_output = 0.3
+	factory_throughput = 0.05
+	icon = 11
 }
 
 ##### Diseases & Famines #####
 pandemic_influenza = {
-	global_population_growth = -0.01
+	global_population_growth = -0.007
+	tax_efficiency = -0.05
+	factory_throughput = -0.3
+	rgo_output = -0.3
 	global_pop_consciousness_modifier = 0.1
 	icon = 18
 }
@@ -2665,4 +2677,32 @@ purge = {
 	global_population_growth = -0.01
 	prestige = -0.1
 	icon = 15
+}
+
+### RGO Change ###
+switched_production = {
+	local_RGO_output = -0.50
+	icon = 14
+}
+
+rgo_changed = {
+	icon = 12
+}
+
+craftsmen_fix_cooldown = {
+	icon = 12
+}
+
+bureaucrats_fix_cooldown = {
+	icon = 12
+}
+
+migration_factor_reduced = {
+    icon = 14
+	immigrant_push = -100
+}
+
+timber_employment_fix = {
+    local_RGO_throughput = -0.95
+    icon = 14
 }

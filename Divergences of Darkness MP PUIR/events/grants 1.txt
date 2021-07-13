@@ -25,8 +25,6 @@ country_event = {
 		
 			limit = {
 			
-	            NOT = { has_country_modifier = bad_debter }		
-			
 				has_country_flag = will_give_grants
 			
 				ai = no
@@ -157,4 +155,592 @@ country_event = {
 	}
 
 }
+######################################DOD PUIR MONTHLY GRANTS###############################################
+country_event = {
+	id = 900014
+	title = "Spherelord Monetary Aid Requested"
+	desc = "We have requested aid from our Spherelord. We can only hope they respond kindly."
 
+	is_triggered_only = yes	
+	
+	allow_multiple_instances = yes	
+	
+	option = {
+	
+		name = "It is out of our hands."
+
+		sphere_owner = {
+			limit = {
+				has_country_flag = will_give_grants
+				ai = no
+				is_greater_power = yes #redundant, but just in case
+			}
+			country_event = { id = 900015 days = 0 }
+		}
+		ai_chance = { factor = 100 } 
+	}
+
+}	
+	
+	
+country_event = { #spherelord scope
+	id = 900019 
+	title = "Assigning Monthly Grants to Spherelings"
+	desc = "Monthly Grant payment to the Spherelings, all Spherelings which you owe monthly grants to, will be paid by this event. This event triggers 30 days after you click the option."
+	
+	is_triggered_only = yes 
+	
+	allow_multiple_instances = yes 
+	
+	option = {
+		name = "Pay up."
+		random_owned = { #if you are not a GP, you should not be paying monthly grants to spherelings
+			limit = {
+				owner = {
+					NOT = {
+						is_greater_power = yes
+					}
+				}
+			}
+			owner = { clr_country_flag = needs_to_pay_grant }
+		}
+		any_country = { #any country not in a sphere, but with the monthly grant flags, need to lose them.
+			limit = {
+				OR = { 
+					has_country_flag = grant1000
+					has_country_flag = grant2000
+					has_country_flag = grant3000
+					has_country_flag = grant4000
+					has_country_flag = grant5000
+					has_country_flag = grant6000
+					has_country_flag = grant7000
+					has_country_flag = grant8000
+					has_country_flag = grant9000
+					has_country_flag = grant10000
+					has_country_flag = grant20000
+					has_country_flag = grant30000
+					has_country_flag = grant40000
+					has_country_flag = grant50000
+					has_country_flag = grant60000
+					has_country_flag = grant70000
+					has_country_flag = grant80000
+					has_country_flag = grant90000
+					has_country_flag = grant100000
+					has_country_flag = grant200000
+					has_country_flag = grant300000
+					has_country_flag = grant400000
+					has_country_flag = grant500000
+					has_country_flag = grant600000
+					has_country_flag = grant700000
+					has_country_flag = grant800000
+					has_country_flag = grant900000
+				}
+				part_of_sphere = no
+			}
+			clr_country_flag = grant1000
+			clr_country_flag = grant2000
+			clr_country_flag = grant3000
+			clr_country_flag = grant4000
+			clr_country_flag = grant5000
+			clr_country_flag = grant6000
+			clr_country_flag = grant7000
+			clr_country_flag = grant8000
+			clr_country_flag = grant9000
+			clr_country_flag = grant10000
+			clr_country_flag = grant20000
+			clr_country_flag = grant30000
+			clr_country_flag = grant40000
+			clr_country_flag = grant50000
+			clr_country_flag = grant60000
+			clr_country_flag = grant70000
+			clr_country_flag = grant80000
+			clr_country_flag = grant90000
+			clr_country_flag = grant100000
+			clr_country_flag = grant200000
+			clr_country_flag = grant300000
+			clr_country_flag = grant400000
+			clr_country_flag = grant500000
+			clr_country_flag = grant600000
+			clr_country_flag = grant700000
+			clr_country_flag = grant800000
+			clr_country_flag = grant900000
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					AND = { 
+						has_country_flag = needs_to_pay_grant
+						is_greater_power = yes
+					}
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant1000
+					}
+				}
+				treasury = 1000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -1000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant2000
+					}
+				}
+				treasury = 2000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -2000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant3000
+					}
+				}
+				treasury = 3000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -3000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant4000
+					}
+				}
+				treasury = 4000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -4000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant5000
+					}
+				}
+				treasury = 5000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -5000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant6000
+					}
+				}
+				treasury = 6000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -6000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant7000
+					}
+				}
+				treasury = 7000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -7000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant8000
+					}
+				}
+				treasury = 8000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -8000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant9000
+					}
+				}
+				treasury = 9000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -9000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant10000
+					}
+				}
+				treasury = 10000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -10000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant20000
+					}
+				}
+				treasury = 20000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -20000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant30000
+					}
+				}
+				treasury = 30000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -30000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant40000
+					}
+				}
+				treasury = 40000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -40000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant50000
+					}
+				}
+				treasury = 50000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -50000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant60000
+					}
+				}
+				treasury = 60000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -60000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant70000
+					}
+				}
+				treasury = 70000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -70000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant80000
+					}
+				}
+				treasury = 80000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -80000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant90000
+					}
+				}
+				treasury = 90000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -90000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant100000
+					}
+				}
+				treasury = 100000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -100000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant200000
+					}
+				}
+				treasury = 200000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -200000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant300000
+					}
+				}
+				treasury = 300000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -300000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant400000
+					}
+				}
+				treasury = 400000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -400000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant500000
+					}
+				}
+				treasury = 500000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -500000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant600000
+					}
+				}
+				treasury = 600000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -600000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant700000
+					}
+				}
+				treasury = 700000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -700000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant800000
+					}
+				}
+				treasury = 800000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -800000
+				}
+			}
+			any_country = {
+				limit = { 
+					AND = { 
+						in_sphere = THIS
+						has_country_flag = grant900000
+					}
+				}
+				treasury = 900000
+				any_country = {
+					limit = {
+						tag = THIS
+					}
+					treasury = -900000
+				}
+			}
+			owner = {
+				country_event = { 
+					id = 900019 
+					days = 30 
+				}
+			}
+		}
+	}
+}
+
+country_event = { #warning event for spherelings when spherelord cancels all monthly grants
+	id = 900020
+	title = "Cancelation of on-going Monthly Grants"
+	desc = "This was caused by either the Spherelord canceling them, or the Sphereling canceling theirs."
+	
+	is_triggered_only = yes 
+	
+	allow_multiple_instances = yes 
+	
+	option = {
+		name = "No more payments, for now."
+	}
+}
+
+country_event = {
+	id = 900021
+	title = "Your Spherelord is granting you a monthly aid"
+	desc = "Your Spherelord will be giving you a monthly grant on the order of hundreds of thousands of pounds."
+	
+	is_triggered_only = yes 
+	
+	allow_multiple_instances = yes 
+	
+	option = {
+		name = "Great!"
+	}
+}
+
+country_event = {
+	id = 900022
+	title = "Your Spherelord is granting you a monthly aid"
+	desc = "Your Spherelord will be giving you a monthly grant on the order of tens of thousands of pounds."
+	
+	is_triggered_only = yes 
+	
+	allow_multiple_instances = yes 
+	
+	option = {
+		name = "Great!"
+	}
+}
+
+country_event = {
+	id = 900023
+	title = "Your Spherelord is granting you a monthly aid"
+	desc = "Your Spherelord will be giving you a monthly grant on the order of thousands of pounds."
+	
+	is_triggered_only = yes 
+	
+	allow_multiple_instances = yes 
+	
+	option = {
+		name = "Great!"
+	}
+}

@@ -2,8 +2,8 @@ leader = {
 	name = "Tu'i Tonga Laufilitonga"
 	type = land
 	date = 1836.1.1
-	personality = apathetic
-	background = school_of_offense
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
