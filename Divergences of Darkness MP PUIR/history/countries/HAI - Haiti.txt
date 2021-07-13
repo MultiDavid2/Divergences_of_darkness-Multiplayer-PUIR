@@ -56,8 +56,8 @@ schools = unciv_tech_school
 # Technologies
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 #Starting Consciousness
 consciousness = 2

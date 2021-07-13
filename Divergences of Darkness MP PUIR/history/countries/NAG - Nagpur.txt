@@ -55,8 +55,8 @@ foreign_officers = yes_foreign_officers
 flintlock_rifles = 1
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 # Starting Consciousness
 consciousness = 0
@@ -75,7 +75,7 @@ oob = "NAG_oob.txt"
 	flintlock_rifles = 1
 
 	# Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 }

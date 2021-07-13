@@ -59,8 +59,8 @@ govt_flag = {
 admin_reform = yes_admin_reform
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 # Starting Consciousness
 consciousness = 0

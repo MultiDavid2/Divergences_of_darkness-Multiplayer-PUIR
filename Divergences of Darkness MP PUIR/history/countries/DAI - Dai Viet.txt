@@ -54,8 +54,8 @@ foreign_officers = yes_foregin_officers
 flintlock_rifles = 1
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 # Starting Consciousness
 consciousness = 3
@@ -81,7 +81,7 @@ oob = "DAI_oob.txt"
 	post_napoleonic_thought = 1
 
 	# Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 }

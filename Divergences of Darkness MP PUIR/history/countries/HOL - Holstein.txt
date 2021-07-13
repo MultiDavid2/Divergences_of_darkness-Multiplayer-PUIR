@@ -1,6 +1,5 @@
 capital = 369
 primary_culture = north_german
-culture = pomeranian
 culture = scandinavian
 religion = protestant
 government = absolute_monarchy

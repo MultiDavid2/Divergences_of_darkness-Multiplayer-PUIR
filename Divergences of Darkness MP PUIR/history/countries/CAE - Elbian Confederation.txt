@@ -1,6 +1,5 @@
 capital = 625
 primary_culture = czech
-culture = pomeranian
 culture = north_german 
 religion = catholic
 government = absolute_monarchy

@@ -52,8 +52,8 @@ upper_house = {
 # Technologies
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 # Starting Consciousness
 consciousness = 0
