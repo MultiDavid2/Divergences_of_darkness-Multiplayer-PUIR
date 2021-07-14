@@ -397,10 +397,10 @@ treaty_port = {
 
 drained_marsh = {
 	farm_rgo_size = 0.25
-	farm_rgo_eff = 0.2
+	farm_rgo_eff = 0.5
 	mine_rgo_size = 0.25
-	mine_rgo_eff = 0.2
-	movement_cost = -0.2
+	mine_rgo_eff = 0.3
+	movement_cost = -0.4
 	icon = 19
 }
 
@@ -631,6 +631,21 @@ bad_badboy = {
 	icon = 8
 }
 
+badboymod = {
+	global_population_growth = -0.005
+	research_points_modifier = -1.0
+	global_immigrant_attract = -4.0
+	diplomatic_points_modifier = -1.0
+	org_regain = -0.2
+    land_organisation = -0.2
+    naval_organisation = -0.2
+    factory_throughput = -0.5
+    RGO_throughput = -0.5
+    prestige = -0.2
+    war_exhaustion = 2
+	icon = 17
+}
+
 the_big_ben = {
 	local_factory_output = 0.01
 	immigrant_attract = 0.25
@@ -753,7 +768,7 @@ foreign_claims = {
 
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
-	population_growth = 0.001
+	population_growth = 0.005
 	icon = 19
 }
 
@@ -854,11 +869,8 @@ global_liberal_agitation = {
 }
 
 potato_blight = {
-	farm_RGO_eff = -0.5
-	pop_militancy_modifier = 0.05
-	pop_consciousness_modifier = 0.1
-	immigrant_push = 0.50
-	population_growth = -0.005
+	population_growth = -0.02
+	pop_militancy_modifier = 0.01
 	icon = 20
 }
 
@@ -902,7 +914,7 @@ missionary_activity = {
 }
 
 western_influences = {
-	global_pop_militancy_modifier = 0.1
+	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.1
 	research_points_modifier = 0.2
 	icon = 10
@@ -919,8 +931,8 @@ uncivilized_isolationism = {
 }
 
 western_presence = {
-	pop_consciousness_modifier = 0.1
-	research_points_modifier = 0.02
+	pop_militancy_modifier = 0.1
+	research_points_modifier = 0.01
 	icon = 9
 }
 
@@ -954,8 +966,7 @@ silk_famine = {
 #}
 
 naval_school = {
-	navy_tech_research_bonus = 0.05
-	leadership_modifier = 0.01
+	research_points_modifier = 0.01
 	icon = 17
 }
 
@@ -1161,19 +1172,19 @@ extraterritoriality_granted = {
 
 military_reform = {
 	leadership_modifier = 0.2
-	global_pop_militancy_modifier = 0.02
+	pop_militancy_modifier = 0.03
 	icon = 18
 }
 
 educational_reform = {
-	research_points_modifier = 0.10
-	global_pop_consciousness_modifier = 0.01
+	research_points_modifier = 0.05
+	pop_militancy_modifier = 0.02
 	icon = 5
 }
 
 legation_quarter = {
+	diplomatic_points_modifier = 0.07
 	pop_militancy_modifier = 0.03
-	research_points_modifier = 0.05
 	icon = 8
 }
 
@@ -1341,7 +1352,7 @@ silk_famine = {
 }
 
 blood_and_iron_mine = {
-	mine_rgo_eff = 0.5
+	mine_rgo_eff = 1.25
 	pop_militancy_modifier = 0.01
 	icon = 14
 }
