@@ -1,92 +1,3 @@
-rail_focus = { #Now called Colonial Policy
-	colonial_immigration = {
-		immigrant_attract = 2.0
-		pop_militancy_modifier = 0.02
-		icon = 2
-		limit = {
-			is_colonial = yes
-		}
-	}
-	
-	encourage_agriculture = {
-		farm_rgo_eff = 0.5
-		pop_militancy_modifier = 0.01
-		icon = 3
-		limit = {
-			is_colonial = yes
-			is_overseas = yes
-			NOT = { has_province_modifier = treaty_port }
-			NOT = { province_id = 1755 }
-			NOT = { province_id = 1723 }
-			NOT = {
-				trade_goods = coal
-				trade_goods = iron
-				trade_goods = oil
-				trade_goods = precious_metal
-				trade_goods = sulphur
-			}
-		}
-	}
-	
-	encourage_mining = {
-		mine_rgo_eff = 0.5
-		pop_militancy_modifier = 0.01
-		icon = 4
-		limit = {
-			is_colonial = yes
-			is_overseas = yes
-			NOT = { has_province_modifier = treaty_port }
-			NOT = { province_id = 1755 }
-			NOT = { province_id = 1723 }
-			OR = {
-				trade_goods = coal
-				trade_goods = iron
-				trade_goods = oil
-				trade_goods = precious_metal
-				trade_goods = sulphur
-			}
-		}
-	}
-	
-	encourage_business = {
-		local_RGO_throughput = 0.5
-		immigrant_attract = 0.25
-		icon = 5
-		limit = {
-			is_colonial = yes
-			is_overseas = yes
-			OR = {
-				has_province_modifier = treaty_port
-				province_id = 1755
-				province_id = 1723
-			}
-			OR = {
-				NOT = { any_neighbor_province = { owned_by = THIS } }
-				any_neighbor_province = { has_province_modifier = treaty_port }
-			}
-		}
-	}
-	
-	militancy_appeasement = {
-		pop_militancy_modifier = -0.5
-		local_RGO_throughput = -0.1
-		icon = 6
-		limit = {
-			is_colonial = yes
-			is_overseas = yes
-		}
-	}
-	
-	consciousness_appeasement = {
-		pop_consciousness_modifier = -0.5
-		icon = 7
-		limit = {
-			is_colonial = yes
-			is_overseas = yes
-		}
-	}
-}
-
 immigration_focus = {
 	immigration = {
 		immigrant_attract = 0.2 #increases attractiveness to immigrants by 50 %
@@ -113,6 +24,15 @@ immigration_focus = {
 			is_colonial = no
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { state_scope = { any_owned_province = { NOT = { is_core = THIS } } } }
+		}
+	}
+	
+	assimilation_focus =
+	{
+		assimilation_rate = 5.0  
+		icon = 8
+		limit = { 
+			nationalvalue = nv_equality 
 		}
 	}
 }
