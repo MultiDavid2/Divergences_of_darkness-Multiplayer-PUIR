@@ -2,24 +2,24 @@ leader = {
 	name = "Kalowai Khan"
 	type = land
 	date = 1836.1.1
-	personality = stalwart
-	background = debutante
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Pir Muhammad"
 	type = land
 	date = 1836.1.1
-	personality = intuitive 
-	background = aristocrat
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Temür Öljeytü"
 	type = land
 	date = 1836.1.1
-	personality = vicious
-	background = unqualified
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

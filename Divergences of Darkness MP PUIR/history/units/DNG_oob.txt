@@ -14,8 +14,8 @@ leader = {
 	name = "Wang Yangming"
 	type = land
 	date = 1836.1.1
-	personality = madman
-	background = university_educated
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

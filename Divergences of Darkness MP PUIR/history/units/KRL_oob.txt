@@ -2,16 +2,16 @@ leader = {
 	name = "Wilhelm IV"
 	type = land
 	date = 1836.1.1
-	personality = harsh_disciplinarian
-	background = railroad_man
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Fridrich von Riga"
 	type = sea
 	date = 1836.1.1
-	personality = calm
-	background = university_educated
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

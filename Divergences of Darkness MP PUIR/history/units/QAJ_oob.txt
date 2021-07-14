@@ -2,16 +2,16 @@ leader = {
 	name = "Sadeq Larijani"
 	type = land
 	date = 1836.1.1
-	personality = bigoted
-	background = hated
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Hasan Basri"
 	type = land
 	date = 1836.1.1
-	personality = inspiring
-	background = megalomaniac
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

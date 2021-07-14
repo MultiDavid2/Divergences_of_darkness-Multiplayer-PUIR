@@ -1572,11 +1572,6 @@ local_distribution_channels_und_electricity = {
 #	icon = 13
 #}
 
-switched_production = {
-	local_RGO_throughput = -0.05
-	icon = 14
-}
-
 ##### Diseases & Famines #####
 pandemic_influenza = {
 	global_population_growth = -0.01
@@ -2676,4 +2671,32 @@ purge = {
 	global_population_growth = -0.01
 	prestige = -0.1
 	icon = 15
+}
+
+### RGO Change ###
+switched_production = {
+	local_RGO_output = -0.50
+	icon = 14
+}
+
+rgo_changed = {
+	icon = 12
+}
+
+craftsmen_fix_cooldown = {
+	icon = 12
+}
+
+bureaucrats_fix_cooldown = {
+	icon = 12
+}
+
+migration_factor_reduced = {
+    icon = 14
+	immigrant_push = -100
+}
+
+timber_employment_fix = {
+    local_RGO_throughput = -0.95
+    icon = 14
 }

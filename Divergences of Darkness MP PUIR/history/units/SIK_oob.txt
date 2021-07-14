@@ -1,5 +1,5 @@
 leader = {
-	name = "Ahtahkakoop"
+	name = "Madhu Sood"
 	type = land
 	date = 1836.1.1
 	personality = defence_1.1
@@ -7,12 +7,11 @@ leader = {
 }
 
 army = {
-	name = "1st Rhonnst Army"
-	location = 30
-	
+	name = "Army of the Chogyal of Sikkim"
+	location = 1328
 	regiment = {
-		name = "1.Rhonnst"
+		name= "1st Gurkha"
 		type = irinfantry
-		home = 30
+		home = 1328
 	}
 }

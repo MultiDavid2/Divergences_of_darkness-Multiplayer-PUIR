@@ -45,40 +45,56 @@ leader = {
 	name = "Josep Serna"
 	type = land
 	date = 1836.1.1
-	personality = energetic
-	background = unfulfilled_potential
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Ramon Oller"
 	type = land
 	date = 1836.1.1
-	personality = timid
-	background = university_educated
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
-	name = "Antonio Verga"
+	name = "Antoni de Berga"
 	type = land
 	date = 1836.1.1
-	personality = rebellious
-	background = cavalry_school
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Berenguer de Narbona"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Carles Montaner"
 	type = sea
 	date = 1836.1.1
-	personality = resourceful
-	background = rags_to_riches
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Giuseppe Settimo"
 	type = sea
 	date = 1836.1.1
-	personality = indecisive
-	background = diplomat
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Rafael de Bricfeus"
+	type = sea
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 #Army
@@ -216,7 +232,7 @@ army = {
 	regiment = {
 		name= "8. Brigada de Infanteria"
 		type = infantry
-		home = 1703
+		home = 1704
 	}
 
 	regiment = {
@@ -234,13 +250,13 @@ army = {
 	regiment = {
 		name= "11. Brigada de Infanteria"
 		type = infantry
-		home = 763
+		home = 1705
 	}
 	
 	regiment = {
 		name= "12. Brigada de Infanteria"
 		type = infantry
-		home = 763
+		home = 1700
 	}
 }
 
@@ -324,7 +340,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Buonaparte"
+		name = "Prades"
 		type = frigate
 	}
 	
@@ -379,7 +395,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Illa de Liberta"
+		name = "Cap de Roses"
 		type = frigate
 	}
 	
@@ -399,7 +415,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Alvarez"
+		name = "Ferrer"
 		type = frigate
 	}
 	
@@ -494,7 +510,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Herkules"
+		name = "Hèrcules"
 		type = manowar
 	}
 	
@@ -529,7 +545,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Pyrrenea"
+		name = "Pirineus"
 		type = manowar
 	}
 	
@@ -554,7 +570,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Alexandrea"
+		name = "Alexandra"
 		type = frigate
 	}
 	
@@ -574,7 +590,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Torejador"
+		name = "Mart"
 		type = frigate
 	}
 	
@@ -594,12 +610,12 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nomine"
+		name = "Girona"
 		type = frigate
 	}
 	
 	ship = {
-		name = "Tartàrea"
+		name = "Tartària"
 		type = frigate
 	}
 	
