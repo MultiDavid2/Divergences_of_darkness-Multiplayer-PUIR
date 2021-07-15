@@ -85,9 +85,8 @@ late_classical_theory = 1
 market_structure = 1
 
 # Inventions
-#corvettes = yes
-commerce_raiders = yes
-precision_work = yes
+
+
 
 1861.1.1 = {
 # Technologies
@@ -147,85 +146,5 @@ precision_work = yes
 	early_railroad = 1
 
 #Inventions
-	ironclads = yes
-	monitors = yes
-	precision_work = yes
-	multitude_of_financial_instruments = yes
-	insurance_companies = yes
-	regulated_buying_and_selling_of_stocks = yes
-	silver_standard = yes
-	decimal_monetary_system = yes
-	double_standard = yes
-	fixed_intramonetary_exchange_rates = yes
-	john_ramsay_mcculloch = yes
-	nassau_william_sr = yes
-	james_mill = yes
-	john_elliot_cairnes = yes
-	robert_torrens = yes
-	john_stuart_mill = yes
-	polypoly_structure = yes
-	oligopoly_structure = yes
-	monopoly_structure = yes
-	sharp_n_roberts_power_loom = yes
-	dobby_loom = yes
-	northrop_power_loom = yes
-	mechanical_saw = yes
-	mechanical_precision_saw = yes
-	hussey_n_mccormicks_reaping_machine = yes
-	pitts_threshing_machine = yes
-	mechanized_slaughtering_block = yes
-	ammunition_production = yes
-	small_arms_production = yes
-	explosives_production = yes
-	artillery_production = yes
-	long_range_fire_tactic = yes
-	speedy_maneuvering_tactic = yes
-	building_station_shipyards = yes
-	mechanized_fishing_vessels = yes
-	steamer_automatic_construction_plants = yes
-	steamer_transports = yes
-	commerce_raiders = yes
-	academic_training = yes
-	combat_station_training = yes
-	societal_status = yes
-	combat_medicine = yes
-	vaccination = yes
-	chemotherapy = yes
-	genetics_heredity = yes
-	gyrostabilized_fire_control = yes
-	optical_rangefinders = yes
-	prophylaxis_against_malaria = yes
-	pressure_chambers_for_thorax_surgery = yes
-	clinical_thermometers_and_binaural_stethoscopes = yes
-	aerial_bacteria_and_antiseptic_principle = yes
-	field_fortifications = yes
-	signal_detachments = yes
-	proto_existentialism = yes
-	railroad_transport_groups = yes
-	trademark = yes
-	patent = yes
-	joint_stock_company = yes
-	field_training = yes
-	armour_piercing_exploding_projectiles = yes
-	army_societal_status = yes
-	hegelian_idealism = yes
-	armoured_turrets = yes
-	nitroglycerin = yes
-	artificial_fertilizers = yes
-	limited_partnership_company = yes
-	army_academic_training = yes
-	chemical_wood_pulp_process = yes
-	rubber_vulcanization = yes
-	staff_command_support = yes
-	catalytic_fermentative_process = yes
-	flexible_firepower = yes
-	liquidation_of_assets = yes
-	synchronized_heavy_support = yes
-	armour_piercing_projectiles = yes
-	pit_coal = yes
-	coke = yes
-	advanced_ore_roasting_processes = yes
-	advanced_ore_grinding_processes = yes
-	advanced_ore_smelting_processes = yes
-	bessemer_steel = yes
+	
 }

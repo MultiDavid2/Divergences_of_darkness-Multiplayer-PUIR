@@ -55,8 +55,8 @@ foreign_training = yes_foreign_training
 flintlock_rifles = 1
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 # Starting Consciousness
 consciousness = 0

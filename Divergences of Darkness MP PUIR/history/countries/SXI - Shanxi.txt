@@ -50,5 +50,5 @@ border_policy = closed_borders
 set_country_flag = mahayana_country
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+

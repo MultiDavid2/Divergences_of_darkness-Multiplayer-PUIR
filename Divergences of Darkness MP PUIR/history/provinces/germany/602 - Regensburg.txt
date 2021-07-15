@@ -5,7 +5,7 @@ add_core = GER
 trade_goods = coal
 life_rating = 40
 state_building = {
-	level = 2 
+	level = 4 
 	building = canned_food_factory
 	upgrade = yes
 }

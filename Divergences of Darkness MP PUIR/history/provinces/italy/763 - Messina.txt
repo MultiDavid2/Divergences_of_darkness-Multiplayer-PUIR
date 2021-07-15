@@ -6,7 +6,7 @@ add_core = SIC
 trade_goods = sulphur
 life_rating = 40
 #state_building = {
-#	level = 1
+#	level = 2
 #	building = winery
 #	upgrade = yes
 #}

@@ -95,7 +95,7 @@ flintlock_rifles = 1
 post_nelsonian_thought = 1
 
 # Inventions
-#bottling_process = yes
-modern_winemaking = yes
+
+
 
 }
