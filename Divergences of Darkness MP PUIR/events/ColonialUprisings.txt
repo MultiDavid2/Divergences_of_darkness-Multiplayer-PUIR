@@ -1218,6 +1218,7 @@ province_event = {
 	title = "EVTNAME14660"
 	desc = "EVTDESC14660"
 	
+	
 	trigger = {
 		year = 1860
 		NOT = { has_country_modifier = recent_safari }

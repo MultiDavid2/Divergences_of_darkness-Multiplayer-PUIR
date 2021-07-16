@@ -9,7 +9,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA124100"
 		relation = {
-			who = FROM
+			who = ARI
 			value = -200
 		}
 		FROM = {
@@ -78,6 +78,7 @@ country_event = {
 	title = "ARI.1.T"
 	desc = "ARI.1.D"
 	picture = "ARA_TUN"
+	
 	
 	trigger = { 
 	OR = { 

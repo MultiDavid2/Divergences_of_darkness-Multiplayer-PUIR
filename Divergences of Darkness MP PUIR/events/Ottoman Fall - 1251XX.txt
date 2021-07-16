@@ -239,9 +239,6 @@ country_event = {
 		TUR_806 = {
 			remove_core = THIS
 		}
-		TUR_832 = {
-			remove_core = THIS
-		}
 		GRE_837 = {
 			remove_core = THIS
 		}
@@ -322,9 +319,6 @@ country_event = {
 			remove_core = THIS
 		}
 		TUR_806 = {
-			remove_core = THIS
-		}
-		TUR_832 = {
 			remove_core = THIS
 		}
 		GRE_837 = {
@@ -1173,7 +1167,6 @@ country_event = {
 		any_owned = {
 			limit = {
 				OR = { 
-				region = TUR_860 
 				region = TUR_869
 				region = TUR_881
 				region = TUR_873
@@ -1259,8 +1252,7 @@ country_event = {
 			}	
 	any_owned = {
 			limit = {
-				OR = { 
-				region = TUR_860 
+				OR = {  
 				region = TUR_869
 				region = TUR_881
 				region = TUR_873
