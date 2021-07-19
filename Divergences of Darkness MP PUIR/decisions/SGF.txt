@@ -61,6 +61,7 @@ political_decisions = {
 			primary_culture = south_german
 			add_accepted_culture = north_german
 			add_accepted_culture = rheinish 
+			add_accepted_culture = pomeranian
 			prestige = 10
 			any_country = {
 				limit = {
@@ -118,6 +119,7 @@ political_decisions = {
 			AUS_612 = {
 				add_core = SGF
 			}
+			change_tag = SGF
 		}
 		ai_will_do = {
 			factor = 1

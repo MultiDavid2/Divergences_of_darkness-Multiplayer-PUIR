@@ -1,0 +1,61 @@
+province_event = { 
+
+		id = 145960
+		title = "EVTNAME145960"
+		desc = "EVTDESC145960"
+		
+		trigger = { 
+			owner = {
+				NOT = { is_culture_group = chinese }	
+			}
+			is_core = CHI
+			trade_goods = precious_metal
+		}
+		
+		mean_time_to_happen = { 
+		days = 1
+		}
+		
+		immediate = {
+			trade_goods = tea
+			set_global_flag = china_gold
+		}
+		
+		option = { 
+		name = "EVTOPTA145960"
+				
+		}
+}
+
+
+
+province_event = { 
+
+		id = 145961
+		title = "EVTNAME145961"
+		desc = "EVTDESC145961"
+		
+		trigger = { 
+			has_global_flag = china_gold
+			is_core = CHI
+			trade_goods = tea
+			total_pops = 700000
+			owner = {
+				is_culture_group = chinese
+			}
+		}
+		
+		mean_time_to_happen = { 
+		days = 1
+		}
+		immediate = {
+			trade_goods = precious_metal
+			clr_global_flag = china_gold
+		}
+		
+		option = { 
+		name = "EVTOPTA145961"
+
+				
+		}
+}

@@ -1574,10 +1574,7 @@ local_distribution_channels_und_electricity = {
 
 ##### Diseases & Famines #####
 pandemic_influenza = {
-	global_population_growth = -0.007
-	tax_efficiency = -0.05
-	factory_throughput = -0.3
-	rgo_output = -0.3
+	global_population_growth = -0.01
 	global_pop_consciousness_modifier = 0.1
 	icon = 18
 }
