@@ -117,12 +117,6 @@ political_decisions = {
 				RUS_1184 = {
 					add_core = RUS
 				}
-				RUS_2685 = {
-					add_core = RUS
-				}
-				RUS_1065 = {
-					add_core = RUS
-				}
 				RUS_1064 = {
 					add_core = RUS
 				}

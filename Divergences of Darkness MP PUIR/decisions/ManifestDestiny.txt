@@ -517,7 +517,7 @@ political_decisions = {
 	
 	potential = { 
 	OR = { tag = VIN tag = ARC }
-	year = 1860 
+	year = 1860
 	2596 = { empty = yes }
 	9 = { empty = yes }
 	11 = { empty = yes}
